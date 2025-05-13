@@ -21,20 +21,20 @@ jobs:
 
       - name: Sync Clash repository
         run: |
-          # 确保 clash 目录存在
+          # 创建临时目录
+          TEMP_DIR=$(mktemp -d)
+          
+          # 克隆到临时目录
+          git clone https://github.com/liandu2024/clash.git "$TEMP_DIR"
+          
+          # 确保目标目录存在
           mkdir -p clash
           
-          # 如果 clash/.git 不存在，执行完整克隆
-          if [ ! -d "clash/.git" ]; then
-            rm -rf clash
-            git clone https://github.com/liandu2024/clash.git clash
-          else
-            # 如果已存在，则更新
-            cd clash
-            git fetch origin
-            git reset --hard origin/main
-            cd ..
-          fi
+          # 复制文件，排除 .git 目录
+          rsync -av --delete --exclude='.git' "$TEMP_DIR/" clash/
+          
+          # 清理临时目录
+          rm -rf "$TEMP_DIR"
           
       - name: Commit changes
         run: |
