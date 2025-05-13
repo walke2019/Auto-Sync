@@ -1,0 +1,34 @@
+name: 'Sync Clash Repository'
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天午夜运行
+  workflow_dispatch:      # 允许手动触发
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Sync Clash repository
+        run: |
+          mkdir -p clash
+          cd clash
+          if [ -z "$(ls -A)" ]; then
+            git clone https://github.com/liandu2024/clash.git .
+          else
+            git remote set-url origin https://github.com/liandu2024/clash.git
+            git fetch origin
+            git reset --hard origin/main
+          fi
+          
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add clash
+          git commit -m "chore: sync clash repository" || echo "No changes to commit"
+          git push 
