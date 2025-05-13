@@ -1,4 +1,4 @@
-name: 'Sync tvbox Tomorrow'
+name: 'Sync tvbox-data-source Tomorrow'
 
 on:
   schedule:
@@ -66,8 +66,8 @@ jobs:
           COMMIT_MSG=$(cat /tmp/commit_msg)
           COMMIT_HASH=$(cat /tmp/commit_hash)
           
-          # 添加更改
-          git add "Tvbox/DataSource/DataA"
+          # 强制添加更改
+          git add -f "Tvbox/DataSource/DataA"
           
           # 如果有更改则提交
           if git diff --staged --quiet; then
