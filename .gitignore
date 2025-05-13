@@ -1,7 +1,4 @@
-# 忽略所有文件和目录
-*
-# 不忽略 .github 目录
-!.github/
-!.github/**
+# 只忽略 .github 目录
+.github/
 # 不忽略 .gitignore 文件本身
 !.gitignore 
