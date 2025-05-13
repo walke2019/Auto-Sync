@@ -36,6 +36,9 @@ jobs:
           # 清理临时目录
           rm -rf "$TEMP_DIR"
           
+          # 替换文件中的引用路径
+          find clash -type f -exec sed -i 's|liandu2024/clash/refs/heads/main|walke2019/Auto-Sync/refs/heads/main/clash|g' {} +
+          
       - name: Commit changes
         run: |
           git config --global user.name 'github-actions[bot]'
@@ -48,6 +51,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: sync clash repository"
+            git commit -m "chore: sync clash repository and update references"
             git push
           fi
