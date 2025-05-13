@@ -17,26 +17,28 @@ jobs:
 
       - name: Sync Clash repository
         run: |
-          # 创建临时目录
-          TEMP_DIR=$(mktemp -d)
+          # 确保 clash 目录存在
+          mkdir -p clash
           
-          # 克隆 clash 仓库到临时目录
-          git clone https://github.com/liandu2024/clash.git "$TEMP_DIR"
-          
-          # 复制文件到项目根目录（排除 .git 目录和 .github 目录）
-          rsync -av --exclude='.git' --exclude='.github' "$TEMP_DIR/" ./
-          
-          # 清理临时目录
-          rm -rf "$TEMP_DIR"
+          # 如果 clash/.git 不存在，执行完整克隆
+          if [ ! -d "clash/.git" ]; then
+            rm -rf clash
+            git clone https://github.com/liandu2024/clash.git clash
+          else
+            # 如果已存在，则更新
+            cd clash
+            git fetch origin
+            git reset --hard origin/main
+            cd ..
+          fi
           
       - name: Commit changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # 添加所有更改，但排除 .github 目录
-          git add -A
-          git reset .github/
+          # 添加 clash 目录的更改
+          git add clash/
           
           # 如果有更改则提交
           if git diff --staged --quiet; then
