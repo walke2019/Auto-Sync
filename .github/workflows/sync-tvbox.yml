@@ -1,4 +1,4 @@
-name: Sync Tushen Tomorrow
+name: Sync tvbox Tomorrow
 
 on:
   schedule:

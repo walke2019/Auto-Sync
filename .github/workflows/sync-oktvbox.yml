@@ -1,4 +1,4 @@
-name: Sync FongMi Release
+name: Sync oktvbox Release
 
 on:
   schedule:
