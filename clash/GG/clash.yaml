@@ -540,25 +540,32 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf
+  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_8d11db13
+  password: asd123456
+  port: 8388
+  server: 103.141.221.124
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
   name: 🔴🇸🇬[📺]_github.com/Ruk1ng001_d6847e5a
   password: asd123456
   port: 8388
   server: 103.36.91.32
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ⚪🏳️_github.com/Ruk1ng001_9df08c02
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 19001
+  server: ss.047.node-for-bigairport.win
+  type: ss
 - cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_cb485760
+  name: ⚪🏳️_github.com/Ruk1ng001_c24dd95e
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 11688
-  server: ss.005.node-for-bigairport.win
+  port: 16888
+  server: ss.002.node-for-bigairport.win
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: ⚪🏳️_github.com/Ruk1ng001_6aa18eb3
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 19000
-  server: ss.048.node-for-bigairport.win
-  type: ss
 - cipher: aes-256-gcm
   name: ⚪🏳️_github.com/Ruk1ng001_9cd3c1cb
   password: 504cb0be-b285-4ec5-9561-bc289aea0d46
@@ -566,39 +573,19 @@ proxies:
   server: bgroup.node4.s2.nodelist-airport.com
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_da3e6be3
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 13001
-  server: ss.015.node-for-bigairport.win
+- cipher: chacha20-ietf-poly1305
+  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_d31754a5
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 111.248.69.4
+  skip-cert-verify: false
   type: ss
-  udp: true
+  udp: false
 - cipher: chacha20-ietf-poly1305
   name: 🟢🇹🇼[🤖📺🔍]_github.com/Ruk1ng001_4b39ecd8
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: 111.248.87.48
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_a45c87bf
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 13004
-  server: ss.016.node-for-bigairport.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_8d11db13
-  password: asd123456
-  port: 8388
-  server: 103.141.221.124
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_8949388d
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 11689
-  server: ss.010.node-for-bigairport.win
   type: ss
   udp: true
 - cipher: chacha20-ietf
@@ -608,12 +595,53 @@ proxies:
   server: 103.149.182.79
   type: ss
   udp: true
-- cipher: chacha20-ietf
-  name: 🔴🇭🇰[🔍]_github.com/Ruk1ng001_deefc73a
-  password: asd123456
-  port: 8388
-  server: 103.149.183.12
+- cipher: chacha20-ietf-poly1305
+  name: ⚪🏳️[📺]_github.com/Ruk1ng001_6aa18eb3
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 19000
+  server: ss.048.node-for-bigairport.win
   type: ss
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_a45c87bf
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 13004
+  server: ss.016.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_8949388d
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 11689
+  server: ss.010.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_ccf6b90f
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 15099
+  server: ss.004.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_bec262ed
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 22189
+  server: ss.012.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_626e2f0f
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 114.45.177.19
+  type: ss
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_aea5d735
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 15099
+  server: ss.014.node-for-bigairport.win
+  type: ss
+  udp: true
 - name: 🔴🇺🇸[📺🔍]_github.com/Ruk1ng001_bba2e63d
   network: ws
   port: 8080
@@ -630,43 +658,75 @@ proxies:
     max-early-data: 2560
     path: /ec4l307nur5g
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_b343cb23
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 60.249.39.204
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_4b011134
+  name: ⚪🏳️_github.com/Ruk1ng001_da3e6be3
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 23888
-  server: ss.008.node-for-bigairport.win
+  port: 13001
+  server: ss.015.node-for-bigairport.win
   type: ss
   udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1ng001_dea5ae6e
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
-    short-id: 96e03e0f184639ef
-  server: 183.179.43.254
-  servername: peer.pan.baidu.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4c1778f3965c48af9529c11ce054b9c2
-  xudp: true
-- cipher: chacha20-ietf
-  name: 🔴🇭🇰_github.com/Ruk1ng001_a777e2be
-  password: asd123456
-  port: 8388
-  server: 103.149.183.80
+- cipher: chacha20-ietf-poly1305
+  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_8fd0f61b
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 60.249.39.202
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_a82a7935
-  port: 9002
-  server: world.t.51guangtaobao.com
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+- cipher: chacha20-ietf-poly1305
+  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_ecde7ed3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 60.249.39.170
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_cc335269
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 60.249.39.203
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_cb485760
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 11688
+  server: ss.005.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_857e4100
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 60.249.39.171
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001_bdbfd591
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
@@ -675,6 +735,12 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf
+  name: 🔴🇭🇰[🧠📺🎭🎪]_github.com/Ruk1ng001_6ce13559
+  password: asd123456
+  port: 8388
+  server: 103.149.183.113
+  type: ss
+- cipher: chacha20-ietf
   name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_HkDyYDUI
   password: asd123456
   port: 8388
@@ -682,13 +748,19 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_d31754a5
+  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_aaecec9c
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
-  server: 111.248.69.4
-  skip-cert-verify: false
+  server: r3mrcg007134n4g.cybervena.com
   type: ss
-  udp: false
+  udp: true
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_38a0634e
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 36888
+  server: ss.003.node-for-bigairport.win
+  type: ss
+  udp: true
 - alterId: '0'
   cipher: auto
   name: 🔴🇭🇰_github.com/Ruk1ng001_ab6f0eed
@@ -701,12 +773,6 @@ proxies:
   udp: true
   uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_626e2f0f
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 114.45.177.19
-  type: ss
 - cipher: aes-128-gcm
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_p7OXy7aH
   password: shadowsocks
@@ -715,19 +781,24 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_e8ec75c1
-  password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
+  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_e879ab24
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
-  server: r3mrcg0011499tl.cybervena.com
+  server: 36.224.130.127
   type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_47a5806a
+  name: ⚪🏳️_github.com/Ruk1ng001_6d18c3b3
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 36099
-  server: ss.026.node-for-bigairport.win
+  port: 36888
+  server: ss.007.node-for-bigairport.win
   type: ss
   udp: true
+- cipher: chacha20-ietf
+  name: 🟢🇭🇰_github.com/Ruk1ng001_dc08bbd1
+  password: asd123456
+  port: 8388
+  server: 103.149.183.80
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001_0246eabb
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
@@ -742,29 +813,18 @@ proxies:
   server: ss.038.node-for-bigairport.win
   type: ss
   udp: true
-- flow: xtls-rprx-vision
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_60972cef
-  network: tcp
-  port: 16710
-  server: sgvless.yydzx.xyz
-  servername: sgvless.yydzx.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_e8ec75c1
+  password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
+  port: 50099
+  server: r3mrcg0011499tl.cybervena.com
+  type: ss
   udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - cipher: aes-128-gcm
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_G4c6jjuO
   password: shadowsocks
   port: 443
   server: 149.22.87.241
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_c40ce56e
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 11688
-  server: ss.009.node-for-bigairport.win
   type: ss
   udp: true
 - client-fingerprint: safari
@@ -783,6 +843,13 @@ proxies:
   udp: true
   uuid: 9678fe03-ca76-4044-8803-324d5e7fd7c8
   xudp: true
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_c40ce56e
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 11688
+  server: ss.009.node-for-bigairport.win
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_ebf3be24
@@ -790,39 +857,11 @@ proxies:
   server: 103.182.97.12
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001_4708c224
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-  udp: true
-- name: 🔴🇭🇰[🎬📺]_github.com/Ruk1ng001_2c89da1d
-  network: ws
-  port: 80
-  server: 172.64.156.188
-  type: vless
-  udp: true
-  uuid: 53342b53-157e-4475-9f3a-40439434e689
-  ws-opts:
-    headers:
-      Host: c.iamdt.dpdns.org
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /
-  xudp: true
 - cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_434e921b
+  name: ⚪🏳️_github.com/Ruk1ng001_73d7aa2e
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 18287
-  server: ss.027.node-for-bigairport.win
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_e0dcc9f6
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 29004
-  server: ss.022.node-for-bigairport.win
+  port: 16098
+  server: ss.018.node-for-bigairport.win
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -832,51 +871,6 @@ proxies:
   server: xjp2.shdetai.cn
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_73d7aa2e
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 16098
-  server: ss.018.node-for-bigairport.win
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_febcec7e
-  network: ws
-  port: 443
-  server: 57.182.195.74
-  servername: qznql.node-proxy.chinat.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: qznql.node-proxy.chinat.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- cipher: chacha20-ietf-poly1305
-  name: ⚪🏳️_github.com/Ruk1ng001_8aeb2c19
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 16688
-  server: ss.041.node-for-bigairport.win
-  type: ss
-- flow: xtls-rprx-vision
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_b75482b5
-  network: tcp
-  port: 16944
-  server: sgvless.yydzx.xyz
-  servername: sgvless.yydzx.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
@@ -893,6 +887,18 @@ proxies:
   udp: true
   uuid: 9678fe03-ca76-4044-8803-324d5e7fd7c8
   xudp: true
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001_99365f4a
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - flow: xtls-rprx-vision-udp443
   name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_b257c6c8
   port: 443
@@ -903,30 +909,26 @@ proxies:
   type: vless
   uuid: 5c0aeda1-c9b7-4e3f-9fc9-8067f4867ede
 - cipher: aes-256-gcm
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_1334a8cd
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 19887
-  server: ss.037.node-for-bigairport.win
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
   name: ⚪🏳️_github.com/Ruk1ng001_0f91dfee
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 29004
   server: ss.039.node-for-bigairport.win
   type: ss
   udp: true
-- flow: xtls-rprx-vision
-  name: 🔴🇸🇬_github.com/Ruk1ng001_17995a42
-  network: tcp
-  port: 16756
-  server: sgvless.yydzx.xyz
-  servername: sgvless.yydzx.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_434e921b
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 18287
+  server: ss.027.node-for-bigairport.win
+  type: ss
   udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- cipher: aes-256-gcm
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_1334a8cd
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 19887
+  server: ss.037.node-for-bigairport.win
+  type: ss
+  udp: true
 - client-fingerprint: firefox
   ech-opts:
     enable: true
@@ -960,21 +962,18 @@ proxies:
   server: 103.182.97.245
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_530b17c0
-  network: tcp
+- alterId: 0
+  cipher: auto
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_8164fdb5
+  network: none
   port: 443
-  reality-opts:
-    public-key: CNUdP4EqYrvDYcw3E3EHCm1flSgKAUaO22XE5F2HAjI
-    short-id: 0eb5fb6958f835da
-  server: o66cj5.jpvless.yydzx.xyz
-  servername: www.bandainamcoent.co.jp
+  server: 140.238.2.250
   skip-cert-verify: false
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  xudp: true
 - client-fingerprint: safari
   encryption: none
   flow: xtls-rprx-vision
@@ -1030,18 +1029,35 @@ proxies:
   sni: f4aj7r.yytls.top
   type: anytls
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇲🇳[🎬🤖📺🔍]_github.com/Ruk1ng001_6c1b2593
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27018
-  server: fhjigt.yytls.top
+- down: ''
+  fingerprint: ''
+  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_3c5cb5dc
+  obfs: salamander
+  obfs-password: kvskPTMwDB0zvUGg
+  password: 847a8e71-53b1-4d52-98b7-75aca9b23607
+  port: 8443
+  server: 1.us.chuanyun-endpoint.cc
   skip-cert-verify: false
-  sni: fhjigt.yytls.top
-  type: anytls
+  sni: ''
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  name: 🔴🇭🇰_github.com/Ruk1ng001_63c3b7a0
+  network: ws
+  port: 38650
+  server: 149.104.25.239
+  servername: sni.111000.dns.army
+  tls: true
+  type: vless
   udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dns.army
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.104 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7f43f8b8
@@ -1076,47 +1092,6 @@ proxies:
     headers:
       Host: qznql.node-proxy.chinat.indevs.in
     path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: encryptedsni.com+https://dns.alidns.com/dns-query
-  encryption: none
-  name: 🔴🇭🇰_github.com/Ruk1ng001_0068253b
-  network: ws
-  port: 2053
-  security: tls
-  server: cf4.danfeng.eu.org
-  servername: juzi8186.qea.ccwu.cc
-  tls: true
-  type: vless
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  ws-opts:
-    headers:
-      Host: juzi8186.qea.ccwu.cc
-    path: /products/redirect.php/juzibaipiao?ed=2560
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_3e0db2b2
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 12689
-  server: ss.040.node-for-bigairport.win
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001_038b2869
-  network: ws
-  port: 22403
-  security: tls
-  server: 156.225.22.121
-  servername: w9rw8g1k.node-c.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: w9rw8g1k.node-c.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: w9rw8g1k.node-c.danfeng.gv.uy
-    path: /danfeng?ed=2560
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -1134,6 +1109,18 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /?proxyip=ip.111000.de5.net%3A443
+- name: ⚪🏳️_github.com/Ruk1ng001_ceb68d48
+  network: ws
+  port: 80
+  server: 104.17.152.254
+  tls: false
+  type: vless
+  udp: true
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  ws-opts:
+    headers:
+      Host: vip.yaml7.ggff.net
+    path: /
 - client-fingerprint: chrome
   http-opts:
     headers: {}
@@ -1149,58 +1136,6 @@ proxies:
   udp: true
   uuid: d6d7e024-0a49-483d-bcd7-048c4d30eca6
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001_267433a0
-  network: ws
-  port: 2087
-  security: tls
-  server: 103.224.80.7
-  servername: sni.skylee4.cloudns.ch
-  tls: true
-  type: vless
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sni.skylee4.cloudns.ch
-    path: /proxyip=ProxyIP.CMLiussss.net
-- flow: xtls-rprx-vision
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7b6af55d
-  network: tcp
-  port: 12200
-  server: jpvless.yydzx.xyz
-  servername: jpvless.yydzx.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_9878371b
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CNUdP4EqYrvDYcw3E3EHCm1flSgKAUaO22XE5F2HAjI
-    short-id: 0eb5fb6958f835da
-  server: z3ntvh.jpvless.yydzx.xyz
-  servername: www.bandainamcoent.co.jp
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- flow: xtls-rprx-vision
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f0cad77d
-  network: tcp
-  port: 12152
-  server: jpvless.yydzx.xyz
-  servername: jpvless.yydzx.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - cipher: aes-256-gcm
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a48ff83d
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
@@ -1208,6 +1143,20 @@ proxies:
   server: ss.023.node-for-bigairport.win
   type: ss
   udp: true
+- name: ⚪🏳️_github.com/Ruk1ng001_08df82c5
+  network: ws
+  port: 2096
+  server: 104.18.33.45
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?Telegram🇨🇳@WangCai2=
 - alpn:
   - h2
   - http/1.1
@@ -1220,18 +1169,51 @@ proxies:
   sni: ynru14.yytls.top
   type: anytls
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: ⚪🏳️_github.com/Ruk1ng001_039291f5
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🟢🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a6194947
   network: tcp
-  port: 29712
-  server: bgroup.node1.v.nodelist-airport.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  port: 6379
+  reality-opts:
+    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
+    short-id: 96e03e0f184639ef
+  server: 124.151.43.21
+  servername: peer.pan.baidu.com
+  tls: true
+  type: vless
   udp: true
-  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
+  uuid: 4c1778f3965c48af9529c11ce054b9c2
   xudp: true
+- cipher: aes-256-gcm
+  name: 🔴🇯🇵_github.com/Ruk1ng001_64f791b9
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 15886
+  server: ss.034.node-for-bigairport.win
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_cc5c82a3
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 8.223.63.150
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_ca006c4e
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 29004
+  server: ss.035.node-for-bigairport.win
+  type: ss
+  udp: true
 - alpn:
   - h2
   - http/1.1
@@ -1263,21 +1245,6 @@ proxies:
   server: ss.030.node-for-bigairport.win
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_50c75b7b
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
-    short-id: 7994d24409820c44
-  server: b2ob8r.sgvless.yydzx.xyz
-  servername: deb.debian.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - alpn:
   - h2
   - http/1.1
@@ -1290,28 +1257,63 @@ proxies:
   sni: le5hlr.yytls.top
   type: anytls
   udp: true
-- cipher: aes-256-gcm
-  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_b288186e
-  password: 504cb0be-b285-4ec5-9561-bc289aea0d46
-  port: 20002
-  server: bgroup.node2.s2.nodelist-airport.com
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_f4bed6ba
+  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_c6ee591b
   network: ws
-  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
-  port: 443
-  server: 172.64.152.23
-  skip-cert-verify: false
-  sni: gzjx.dpdns.org
+  password: 8r<[9'l6hAO#8ZQi
+  port: 16301
+  server: 38.207.172.108
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
-    path: /51.91.253.83=8443
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_ed469f55
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
+    short-id: 7994d24409820c44
+  server: v6zba5.sgvless.yydzx.xyz
+  servername: deb.debian.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇵🇭[🎬🤖📺]_github.com/Ruk1ng001_8c90d157
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27020
+  server: ed4xga.yytls.top
+  skip-cert-verify: false
+  sni: ed4xga.yytls.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_7876dd21
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 172.64.147.106
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /tr
 - alpn:
   - h2
   - http/1.1
@@ -1324,54 +1326,6 @@ proxies:
   sni: i6llfg.yytls.top
   type: anytls
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇲🇳[🎬🤖📺🔍]_github.com/Ruk1ng001_93e011fc
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27018
-  server: kp7w80.yytls.top
-  skip-cert-verify: false
-  sni: kp7w80.yytls.top
-  type: anytls
-  udp: true
-- insecure: '1'
-  mport: 10000-19999
-  name: ⚪🏳️_github.com/Ruk1ng001_f6f09d77
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 10000
-  server: tw.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_lb34nh83
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🟢🇹🇼[📺🎭🎪✨]_github.com/Ruk1ng001_5eea212a
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
-    short-id: 96e03e0f184639ef
-  server: 220.130.75.218
-  servername: peer.pan.baidu.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4c1778f3965c48af9529c11ce054b9c2
-  xudp: true
 - alterId: 0
   cipher: auto
   name: 🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_1e5040c7
@@ -1396,6 +1350,21 @@ proxies:
   sni: vt6dgc.yytls.top
   type: anytls
   udp: true
+- client-fingerprint: chrome
+  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_ccb3758b
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.168.16.112
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
 - alpn:
   - h2
   - http/1.1
@@ -1408,6 +1377,13 @@ proxies:
   sni: quk1mp.yytls.top
   type: anytls
   udp: true
+- cipher: aes-256-gcm
+  name: 🔴🇰🇷_github.com/Ruk1ng001_1c307c7d
+  password: 504cb0be-b285-4ec5-9561-bc289aea0d46
+  port: 50001
+  server: bgroup.node2.s.nodelist-airport.com
+  type: ss
+  udp: true
 - alpn:
   - h2
   - http/1.1
@@ -1418,18 +1394,6 @@ proxies:
   server: a1ehva.yytls.top
   skip-cert-verify: false
   sni: a1ehva.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇻🇳[🎬🤖📺🔍]_github.com/Ruk1ng001_202ac11a
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27015
-  server: zcv7nr.yytls.top
-  skip-cert-verify: false
-  sni: zcv7nr.yytls.top
   type: anytls
   udp: true
 - client-fingerprint: chrome
@@ -1451,113 +1415,64 @@ proxies:
   udp: true
   uuid: 876d9d25-19c8-462b-b364-7b47e0602f12
   xudp: true
-- flow: xtls-rprx-vision
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4412278e
-  network: tcp
-  port: 12359
-  server: jpvless.yydzx.xyz
-  servername: jpvless.yydzx.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🔴🇭🇰[🎬🤖📺]_github.com/Ruk1ng001_f736d17f
+  name: 🔴🇻🇳[🎬🤖📺🔍]_github.com/Ruk1ng001_202ac11a
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27002
-  server: v5n3oj.yytls.top
+  port: 27015
+  server: zcv7nr.yytls.top
   skip-cert-verify: false
-  sni: v5n3oj.yytls.top
+  sni: zcv7nr.yytls.top
   type: anytls
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_2f4fecfa
-  port: 6012
-  server: world.t.51guangtaobao.com
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- alterId: 0
-  cipher: auto
-  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_8164fdb5
-  network: none
+- name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_c27f275b
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 140.238.2.250
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-tw-002.fastervpn.world
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_a94bd582
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: skf1ib.yytls.top
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: skf1ib.yytls.top
+  type: anytls
   udp: true
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇮🇩[🎬🤖📺🔍]_github.com/Ruk1ng001_1c5bbe5b
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27016
+  server: r7sc4t.yytls.top
+  skip-cert-verify: false
+  sni: r7sc4t.yytls.top
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
-  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_ccb3758b
+  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_87826d9b
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 43.168.16.112
+  server: 47.76.218.163
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- insecure: '1'
-  mport: 40000-49999
-  name: 🟢🇹🇼_github.com/Ruk1ng001_1d172ca2
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 40000
-  server: tw.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
-- flow: xtls-rprx-vision
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d3f36bef
-  network: tcp
-  port: 12899
-  server: jpvless.yydzx.xyz
-  servername: jpvless.yydzx.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alterId: 2
-  cipher: auto
-  name: 🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_d28ca191
-  port: 30809
-  server: 103.182.97.12
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 🔴🇸🇬[🎬🤖📺]_github.com/Ruk1ng001_feaafb1b
-  network: ws
-  port: 443
-  security: tls
-  server: 159.223.41.212
-  servername: w9rw8g1k.node-c.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: w9rw8g1k.node-c.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: w9rw8g1k.node-c.danfeng.gv.uy
-    path: /danfeng?ed=2560
 - client-fingerprint: chrome
   encryption: none
   http-opts:
@@ -1593,25 +1508,47 @@ proxies:
   udp: true
   uuid: 9678fe03-ca76-4044-8803-324d5e7fd7c8
   xudp: true
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_5805bc9c
-  network: ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_ebe5900e
+  network: tcp
   port: 443
-  server: 159.89.207.154
-  servername: qznql.node-proxy.chinat.indevs.in
+  reality-opts:
+    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
+    short-id: 7994d24409820c44
+  server: zk11rz.sgvless.yydzx.xyz
+  servername: deb.debian.org
   skip-cert-verify: false
-  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: qznql.node-proxy.chinat.indevs.in
-    path: /danfeng?ed=2560
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇮🇩[🤖]_github.com/Ruk1ng001_2fed5272
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27016
+  server: p6novi.yytls.top
+  skip-cert-verify: false
+  sni: p6novi.yytls.top
+  type: anytls
+  udp: true
+- insecure: '1'
+  mport: 50000-59999
+  name: ⚪🏳️_github.com/Ruk1ng001_0154d915
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 50000
+  server: tw.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
 - client-fingerprint: safari
   encryption: none
   flow: xtls-rprx-vision
@@ -1640,17 +1577,6 @@ proxies:
   sni: q94xuz.yytls.top
   type: anytls
   udp: true
-- flow: xtls-rprx-vision
-  name: 🔴🇯🇵[🤖📺]_github.com/Ruk1ng001_c159dcfa
-  network: tcp
-  port: 12799
-  server: jpvless.yydzx.xyz
-  servername: jpvless.yydzx.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - alterId: '0'
   cipher: auto
   name: ⚪🏳️_github.com/Ruk1ng001_8f13feb6
@@ -1663,21 +1589,30 @@ proxies:
   udp: true
   uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1d071379
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CNUdP4EqYrvDYcw3E3EHCm1flSgKAUaO22XE5F2HAjI
-    short-id: 0eb5fb6958f835da
-  server: ytnmmo.jpvless.yydzx.xyz
-  servername: www.bandainamcoent.co.jp
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_e155c20c
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: lg7a57.yytls.top
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: lg7a57.yytls.top
+  type: anytls
   udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- down: ''
+  fingerprint: ''
+  name: 🟢🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_3c0a6f32
+  obfs: ''
+  obfs-password: ''
+  password: 9678fe03-ca76-4044-8803-324d5e7fd7c8
+  port: 60000
+  server: aws-linkhy9.liangxin1.xyz
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: hysteria2
+  up: ''
 - alpn:
   - h2
   - http/1.1
@@ -1690,28 +1625,18 @@ proxies:
   sni: cusujn.yytls.top
   type: anytls
   udp: true
-- flow: xtls-rprx-vision
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_55df520b
-  network: tcp
-  port: 12545
-  server: jpvless.yydzx.xyz
-  servername: jpvless.yydzx.xyz
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇹🇼[📺]_github.com/Ruk1ng001_dc3ff3af
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27005
+  server: vsbxke.yytls.top
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: vsbxke.yytls.top
+  type: anytls
   udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- flow: xtls-rprx-vision
-  name: 🔴🇯🇵_github.com/Ruk1ng001_0005afad
-  network: tcp
-  port: 12139
-  server: jpvless.yydzx.xyz
-  servername: jpvless.yydzx.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - client-fingerprint: safari
   encryption: none
   flow: xtls-rprx-vision
@@ -1728,60 +1653,16 @@ proxies:
   udp: true
   uuid: 9678fe03-ca76-4044-8803-324d5e7fd7c8
   xudp: true
-- flow: xtls-rprx-vision
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7255092c
-  network: tcp
-  port: 12472
-  server: jpvless.yydzx.xyz
-  servername: jpvless.yydzx.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_1c23ad58
-  network: tcp
-  port: 53211
-  reality-opts:
-    public-key: sFE6gPFzkhJTyS-MF29Csf1Sd32ElRPA2bRfzlnijgU
-    short-id: 7cde99b5
-  server: sg01.aigosearch.com
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b6dfff7e-5535-4aff-8af8-5c27790849a4
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_ed0964b3
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27005
-  server: owfopi.yytls.top
-  skip-cert-verify: false
-  sni: owfopi.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇹🇼[🎬🤖]_github.com/Ruk1ng001_31d1857b
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27005
-  server: e3qdjp.yytls.top
-  skip-cert-verify: false
-  sni: e3qdjp.yytls.top
-  type: anytls
+- cipher: chacha20-ietf-poly1305
+  name: ⚪🏳️[🎬🤖📺]_github.com/Ruk1ng001_0a05fede
+  password: Pudding4242
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 7050
+  server: lzj.carrollis.club
+  type: ss
   udp: true
 - alpn:
   - h2
@@ -1795,17 +1676,18 @@ proxies:
   sni: qzdv02.yytls.top
   type: anytls
   udp: true
-- flow: xtls-rprx-vision
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_2dc1b2ee
-  network: tcp
-  port: 12083
-  server: jpvless.yydzx.xyz
-  servername: jpvless.yydzx.xyz
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_ac192c58
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27005
+  server: znskbt.yytls.top
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: znskbt.yytls.top
+  type: anytls
   udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - client-fingerprint: chrome
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e4a3c79c
   password: BxceQaOe
@@ -1815,24 +1697,6 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 🔴🇰🇷_github.com/Ruk1ng001_1c307c7d
-  password: 504cb0be-b285-4ec5-9561-bc289aea0d46
-  port: 50001
-  server: bgroup.node2.s.nodelist-airport.com
-  type: ss
-  udp: true
-- flow: xtls-rprx-vision
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ad2615f7
-  network: tcp
-  port: 12559
-  server: jpvless.yydzx.xyz
-  servername: jpvless.yydzx.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
@@ -1851,6 +1715,25 @@ proxies:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
     path: /danfeng?ed=2560
+- cipher: aes-256-gcm
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_89b77b76
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 19887
+  server: ss.032.node-for-bigairport.win
+  type: ss
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_d4611e71
+  obfs: salamander
+  obfs-password: ceg5yZwgCMaznT2N
+  password: 847a8e71-53b1-4d52-98b7-75aca9b23607
+  port: 8443
+  server: 2.sg.chuanyun-endpoint.cc
+  skip-cert-verify: false
+  sni: ''
+  type: hysteria2
+  up: ''
 - alpn:
   - h2
   - http/1.1
@@ -1865,13 +1748,13 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_499794d9
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_5b114f72
   network: tcp
   port: 443
   reality-opts:
     public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
     short-id: 7994d24409820c44
-  server: nrbdys.sgvless.yydzx.xyz
+  server: wb1vn5.sgvless.yydzx.xyz
   servername: deb.debian.org
   skip-cert-verify: false
   tls: true
@@ -1880,20 +1763,34 @@ proxies:
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_721562c1
-  network: tcp
+  name: 🔴🇭🇰_github.com/Ruk1ng001_20ddb768
+  network: ws
   port: 443
-  reality-opts:
-    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
-    short-id: 96e03e0f184639ef
-  server: 38.180.191.25
-  servername: peer.pan.baidu.com
+  server: 38.147.187.14
+  servername: sn1.skylee5.cloudns.ch
   tls: true
   type: vless
   udp: true
-  uuid: 45838e8e58c44a21b229c2e43347934a
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sn1.skylee5.cloudns.ch
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /proxyip=ProxyIP.CMLiussss.net
   xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4d300869
+  obfs: salamander
+  obfs-password: BOpEbQpylExOX8Fy
+  password: 847a8e71-53b1-4d52-98b7-75aca9b23607
+  port: 8443
+  server: 2.jp.chuanyun-endpoint.cc
+  skip-cert-verify: false
+  sni: ''
+  type: hysteria2
+  up: ''
 - client-fingerprint: safari
   encryption: none
   flow: xtls-rprx-vision
@@ -1910,17 +1807,6 @@ proxies:
   udp: true
   uuid: 9678fe03-ca76-4044-8803-324d5e7fd7c8
   xudp: true
-- flow: xtls-rprx-vision
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_239623e4
-  network: tcp
-  port: 12497
-  server: jpvless.yydzx.xyz
-  servername: jpvless.yydzx.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
@@ -1964,47 +1850,55 @@ proxies:
   sni: f39dg4.yytls.top
   type: anytls
   udp: true
-- flow: xtls-rprx-vision
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_617ab495
+- cipher: aes-256-gcm
+  name: 🔴🇯🇵_github.com/Ruk1ng001_7738b85c
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 29015
+  server: ss.028.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_4388b27c
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 11688
+  server: ss.006.node-for-bigairport.win
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_0f859bd1
   network: tcp
-  port: 12084
-  server: jpvless.yydzx.xyz
-  servername: jpvless.yydzx.xyz
+  port: 443
+  reality-opts:
+    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
+    short-id: 7994d24409820c44
+  server: tnf4it.sgvless.yydzx.xyz
+  servername: deb.debian.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇲🇳[🎬🤖📺🔍]_github.com/Ruk1ng001_16864dac
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27018
-  server: aztgzl.yytls.top
-  skip-cert-verify: false
-  sni: aztgzl.yytls.top
-  type: anytls
-  udp: true
-- client-fingerprint: firefox
+- client-fingerprint: qq
   encryption: none
-  fp: firefox
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_47797d44
-  network: ws
-  port: 443
-  security: tls
-  server: 34.143.213.202
-  servername: w9rw8g1k.node-c.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: w9rw8g1k.node-c.danfeng.gv.uy
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_1c23ad58
+  network: tcp
+  port: 53211
+  reality-opts:
+    public-key: sFE6gPFzkhJTyS-MF29Csf1Sd32ElRPA2bRfzlnijgU
+    short-id: 7cde99b5
+  server: sg01.aigosearch.com
+  servername: www.apple.com
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: w9rw8g1k.node-c.danfeng.gv.uy
-    path: /danfeng?ed=2560
+  udp: true
+  uuid: b6dfff7e-5535-4aff-8af8-5c27790849a4
+  xudp: true
 - alterId: '0'
   cipher: auto
   name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_2450057a
@@ -2021,33 +1915,6 @@ proxies:
       Host: kr02.a0a.xyz
     path: /cctv13.m3u8
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🔴🇯🇵_github.com/Ruk1ng001_59b3c7d8
-  network: tcp
-  port: 44073
-  reality-opts:
-    public-key: Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4
-    short-id: ''
-  server: 138.2.50.155
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 11d29ec6-be66-4f59-97c6-7cff836ea318
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇲🇴_github.com/Ruk1ng001_532fbd91
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27013
-  server: bc1qks.yytls.top
-  skip-cert-verify: false
-  sni: bc1qks.yytls.top
-  type: anytls
-  udp: true
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
@@ -2083,45 +1950,37 @@ proxies:
       Host: admit-statute-live-undertaken.trycloudflare.com
     path: /48d5eb0f-fd55-4357-baec-a68fa39a4b1b-vm
   xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🔴🇭🇰[🎬📺🎭🎪]_github.com/Ruk1ng001_f1f2f1f9
+  network: ws
+  port: 16622
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
+  ws-opts:
+    headers:
+      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
+    path: /
+  xudp: true
 - client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_0907659a
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_878cfc8b
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 178.128.97.53
+  server: 167.71.222.177
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇹🇼[🎬🤖📺]_github.com/Ruk1ng001_9ef9a413
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27005
-  server: zdr5u4.yytls.top
-  skip-cert-verify: false
-  sni: zdr5u4.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: ⚪🏳️[🎬]_github.com/Ruk1ng001_798793f8
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27003
-  server: oti4c6.yytls.top
-  skip-cert-verify: false
-  sni: oti4c6.yytls.top
-  type: anytls
-  udp: true
 - alpn:
   - h2
   - http/1.1
@@ -2153,6 +2012,36 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
+  name: 🔴🇹🇼[🤖📺]_github.com/Ruk1ng001_ab458247
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27005
+  server: k43es8.yytls.top
+  skip-cert-verify: false
+  sni: k43es8.yytls.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_e9f64bab
+  network: ws
+  port: 59103
+  server: 138.2.95.208
+  servername: guslef2w8oz12wv.ymj.xx.kg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: guslef2w8oz12wv.ymj.xx.kg
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   name: 🔴🇸🇬[🤖]_github.com/Ruk1ng001_5bad1bac
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27003
@@ -2161,11 +2050,26 @@ proxies:
   sni: xq8rkd.yytls.top
   type: anytls
   udp: true
-- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_938529bf
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_8cd96784
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CNUdP4EqYrvDYcw3E3EHCm1flSgKAUaO22XE5F2HAjI
+    short-id: 0eb5fb6958f835da
+  server: j0uhwj.jpvless.yydzx.xyz
+  servername: www.bandainamcoent.co.jp
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_575f0ab1
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 159.65.143.223
+  server: 152.42.217.192
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -2174,126 +2078,6 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_2cdbb17c
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 152.42.169.132
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_db836809
-  password: 876d9d25-19c8-462b-b364-7b47e0602f12
-  port: 50020
-  server: hg1.shdetai.cn
-  sni: hg1.shdetai.cn
-  type: tuic
-  udp: true
-  uuid: 876d9d25-19c8-462b-b364-7b47e0602f12
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_9d0612c1
-  network: ws
-  port: 8443
-  security: tls
-  server: 160.16.116.222
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  skip-cert-verify: false
-  sni: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_878cfc8b
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 167.71.222.177
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/35.0.1916.153 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_694d54be
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 159.89.205.195
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_3dbcd201
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 167.71.221.62
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_e53f85aa
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 188.166.217.179
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_e98e01c2
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 29690
-  server: ss.025.node-for-bigairport.win
-  type: ss
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇹🇭[🎬🤖📺🔍]_github.com/Ruk1ng001_f7567e7f
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27007
-  server: u3yz29.yytls.top
-  skip-cert-verify: false
-  sni: u3yz29.yytls.top
-  type: anytls
-  udp: true
 - name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_2e21d785
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -2307,6 +2091,125 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_b02a54e9
+  network: ws
+  port: 10001
+  server: 112.164.151.157
+  servername: qznql.node-proxy.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_febcec7e
+  network: ws
+  port: 443
+  server: 57.182.195.74
+  servername: qznql.node-proxy.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_db836809
+  password: 876d9d25-19c8-462b-b364-7b47e0602f12
+  port: 50020
+  server: hg1.shdetai.cn
+  sni: hg1.shdetai.cn
+  type: tuic
+  udp: true
+  uuid: 876d9d25-19c8-462b-b364-7b47e0602f12
+- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_a30a2bb7
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 138.2.87.237
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_dd93470c
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CNUdP4EqYrvDYcw3E3EHCm1flSgKAUaO22XE5F2HAjI
+    short-id: 0eb5fb6958f835da
+  server: ojs5e9.jpvless.yydzx.xyz
+  servername: www.bandainamcoent.co.jp
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- client-fingerprint: chrome
+  name: 🔴🇭🇰[🎬📺]_github.com/Ruk1ng001_0b5a1419
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 21123
+  server: 149.104.26.24
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🟢🇹🇼[📺🎭🎪✨]_github.com/Ruk1ng001_b80db160
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
+    short-id: 96e03e0f184639ef
+  server: 85.237.207.189
+  servername: peer.pan.baidu.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4c1778f3965c48af9529c11ce054b9c2
+  xudp: true
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_e98e01c2
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 29690
+  server: ss.025.node-for-bigairport.win
+  type: ss
+  udp: true
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
@@ -2318,6 +2221,37 @@ proxies:
     short-id: 9bf38508
   server: aws-link5.liangxin1.xyz
   servername: www.lamer.com.hk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9678fe03-ca76-4044-8803-324d5e7fd7c8
+  xudp: true
+- client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_0d10c7f2
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 165.22.248.134
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_66730517
+  network: tcp
+  port: 25485
+  reality-opts:
+    public-key: VOFSjjWT0wIH3Q0ntyEZd8WwksrIAb5gPt_3PBnEASg
+    short-id: 9c5b8c53
+  server: aws-link14.liangxin1.xyz
+  servername: www.apple.com.cn
   tls: true
   type: vless
   udp: true
@@ -2340,43 +2274,31 @@ proxies:
         (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- client-fingerprint: ios
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_66730517
-  network: tcp
-  port: 25485
-  reality-opts:
-    public-key: VOFSjjWT0wIH3Q0ntyEZd8WwksrIAb5gPt_3PBnEASg
-    short-id: 9c5b8c53
-  server: aws-link14.liangxin1.xyz
-  servername: www.apple.com.cn
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_5805bc9c
+  network: ws
+  port: 443
+  server: 159.89.207.154
+  servername: qznql.node-proxy.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 9678fe03-ca76-4044-8803-324d5e7fd7c8
-  xudp: true
-- client-fingerprint: chrome
-  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_0b5a1419
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 21123
-  server: 149.104.26.24
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560
 - client-fingerprint: chrome
-  name: 🔴🇯🇵[🎬]_github.com/Ruk1ng001_980f927a
+  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_317d15e9
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 153.121.45.101
+  server: 143.20.204.5
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -2384,7 +2306,20 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_e9de32d2
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 129.212.233.197
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - cipher: chacha20-ietf-poly1305
   name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_851eaa0d
@@ -2405,6 +2340,18 @@ proxies:
   sni: wd93u1.yytls.top
   type: anytls
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇹🇭[🎬🤖📺🔍]_github.com/Ruk1ng001_91d15ebe
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27007
+  server: n080hl.yytls.top
+  skip-cert-verify: false
+  sni: n080hl.yytls.top
+  type: anytls
+  udp: true
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
@@ -2423,47 +2370,33 @@ proxies:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
     path: /danfeng?ed=2560
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇹🇭[🎬🤖📺🔍]_github.com/Ruk1ng001_91d15ebe
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27007
-  server: n080hl.yytls.top
-  skip-cert-verify: false
-  sni: n080hl.yytls.top
-  type: anytls
-  udp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001_94674ebd
-  network: ws
-  port: 443
-  security: tls
-  server: 154.219.104.17
-  servername: sni.skylee4.cloudns.ch
-  tls: true
-  type: vless
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sni.skylee4.cloudns.ch
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_ade92c2c
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_0418b6df
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 159.223.85.214
+  server: 159.223.79.119
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_0f99ef39
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 209.97.171.87
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: firefox
   ech-opts:
@@ -2484,6 +2417,19 @@ proxies:
     headers:
       Host: qznql.node-proxy.chinat.indevs.in
     path: /danfeng?ed=2560
+- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_e1e5614b
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 164.52.2.98
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_e14bcb52
   password: mrwdfNTD8M79LCukCieldrqZWqs=
   port: 1443
@@ -2493,6 +2439,21 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_b3ad3f21
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 206.189.147.60
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: '0'
   cipher: auto
   name: ⚪🏳️[📺🔍]_github.com/Ruk1ng001_3e62e384
@@ -2505,65 +2466,6 @@ proxies:
   udp: true
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
   xudp: true
-- cipher: none
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_40d7e676
-  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: woshinidie-et3.pages.dev
-    mode: websocket
-    mux: false
-    path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
-    tls: true
-  port: 443
-  server: 18.143.76.130
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_d2ff8a9f
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 165.22.104.36
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_58ce2267
-  network: ws
-  port: 80
-  server: 168.138.43.75
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: jp01.a0a.xyz
-    path: /cctv13.m3u8
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_463286ef
-  network: ws
-  port: 443
-  security: tls
-  server: 160.22.16.203
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  skip-cert-verify: false
-  sni: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560
 - alpn:
   - h2
   - http/1.1
@@ -2610,13 +2512,6 @@ proxies:
   udp: true
   uuid: 9678fe03-ca76-4044-8803-324d5e7fd7c8
   xudp: true
-- cipher: aes-256-gcm
-  name: 🔴🇲🇾[🎬🤖📺🔍]_github.com/Ruk1ng001_b2b3f94e
-  password: kH5DWfji/UbZ0zsD3HxLYWtDXf8d0dxBdA4ICXFba3A=
-  port: 29435
-  server: 187.77.141.224
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_cb53fc0e
   password: 876d9d25-19c8-462b-b364-7b47e0602f12
@@ -2624,19 +2519,29 @@ proxies:
   server: hg2.shdetai.cn
   type: ss
   udp: true
-- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_e9de32d2
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 新加坡5
+    flag: 🇸🇬
+    multiplier: 1
+    originalName: 新加坡5
+    region: 新加坡
+    tags: []
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_2cc69681
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 129.212.233.197
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  port: 12306
+  server: 167.71.222.177
+  servername: guslef2w8oz12wv.ymj.xx.kg
+  sni: guslef2w8oz12wv.ymj.xx.kg
+  tfo: false
   tls: true
-  type: trojan
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: guslef2w8oz12wv.ymj.xx.kg
+    path: /@Marisa_kristi
 - alpn:
   - h2
   - http/1.1
@@ -2649,26 +2554,21 @@ proxies:
   sni: vidqmj.yytls.top
   type: anytls
   udp: true
-- name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_94580e76
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 23.175.201.2
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_fde74ad5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CNUdP4EqYrvDYcw3E3EHCm1flSgKAUaO22XE5F2HAjI
+    short-id: 0eb5fb6958f835da
+  server: tu2aq8.jpvless.yydzx.xyz
+  servername: www.bandainamcoent.co.jp
+  skip-cert-verify: false
   tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🔴🇲🇾[🎬🤖📺🎪]_github.com/Ruk1ng001_06fa4456
-  password: 32315324-cf6b-11ed-979b-f23c9164ca5d
-  port: 31233
-  server: 42204a87-tcev40-tdua6y-nx3b.my.oshuawei.com
-  tls: true
-  type: http
-  username: 32315324-cf6b-11ed-979b-f23c9164ca5d
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - alpn:
   - h2
   - http/1.1
@@ -2693,11 +2593,11 @@ proxies:
   sni: jx3h8w.yytls.top
   type: anytls
   udp: true
-- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_e1e5614b
+- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_fe1806ea
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 164.52.2.98
+  server: 178.128.90.108
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -2706,33 +2606,50 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_84671d97
+- client-fingerprint: chrome
+  encryption: none
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_dbb65450
   network: ws
-  port: 41493
-  security: tls
-  server: 158.178.225.153
+  port: 20205
+  server: 152.42.217.192
+  servername: nisav2de2t0ai8p-hd0.misa.cc.cd
   tls: true
   type: vless
+  udp: true
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: 020g5uxcxmqlndg.luyuju.dpdns.org
-    path: /%40Marisa_kristi
-- client-fingerprint: chrome
-  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_7876dd21
+      Host: nisav2de2t0ai8p-hd0.misa.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_cf458a6a
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 172.64.147.106
+  port: 2053
+  server: 47.82.155.79
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /tr
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_f4503991
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 47.82.155.79
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
   name: 🔴🇮🇳[🎬🤖📺🎭]_github.com/Ruk1ng001_8e6547c5
@@ -2746,12 +2663,54 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
+  name: 🔴🇲🇴[🎬📺]_github.com/Ruk1ng001_58c230d8
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27013
+  server: spbt81.yytls.top
+  skip-cert-verify: false
+  sni: spbt81.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_ec1af3c2
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: mv32xi.yytls.top
+  skip-cert-verify: false
+  sni: mv32xi.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   name: 🔴🇻🇳[🎬🤖📺🔍]_github.com/Ruk1ng001_9f2bec89
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27015
   server: a7nkpo.yytls.top
   skip-cert-verify: false
   sni: a7nkpo.yytls.top
+  type: anytls
+  udp: true
+- cipher: aes-256-cfb
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_lb34nh83
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
+  type: ss
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇯🇵_github.com/Ruk1ng001_5388e76b
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27004
+  server: u925j6.yytls.top
+  skip-cert-verify: false
+  sni: u925j6.yytls.top
   type: anytls
   udp: true
 - client-fingerprint: firefox
@@ -2772,6 +2731,33 @@ proxies:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
     path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_92fe4b59
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
+    short-id: 7994d24409820c44
+  server: qfaxrs.sgvless.yydzx.xyz
+  servername: deb.debian.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_84c481ee
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27005
+  server: ewbzze.yytls.top
+  skip-cert-verify: false
+  sni: ewbzze.yytls.top
+  type: anytls
+  udp: true
 - alpn:
   - h3
   congestion-controller: bbr
@@ -2783,6 +2769,36 @@ proxies:
   type: tuic
   udp: true
   uuid: 876d9d25-19c8-462b-b364-7b47e0602f12
+- client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_aba9cfda
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 47.82.178.58
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_694d54be
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 159.89.205.195
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
 - alpn:
   - ''
   alterId: '0'
@@ -2798,43 +2814,46 @@ proxies:
   uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
   xudp: true
 - client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_82c423e1
+  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_77fe93a2
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 83.229.121.78
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_f0845c47
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 209.97.170.177
+  server: 188.239.9.91
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
-        Safari/537.36
+      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 🔴🇯🇵[🎬📺🔍]_github.com/Ruk1ng001_fe5abc3b
+- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_938529bf
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 21044
-  server: 138.2.23.80
+  port: 443
+  server: 159.65.143.223
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_ca006c4e
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 29004
-  server: ss.035.node-for-bigairport.win
-  type: ss
-  udp: true
 - client-fingerprint: safari
   encryption: none
   flow: xtls-rprx-vision
@@ -2866,20 +2885,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_d3a78d40
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 22000
-  server: 47.79.237.236
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - alpn:
   - h2
   - http/1.1
@@ -2891,120 +2896,6 @@ proxies:
   skip-cert-verify: false
   sni: gqho9f.yytls.top
   type: anytls
-  udp: true
-- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_575f0ab1
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 152.42.217.192
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇯🇵[🎬🤖]_github.com/Ruk1ng001_a845b1b5
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27004
-  server: fupwpg.yytls.top
-  skip-cert-verify: false
-  sni: fupwpg.yytls.top
-  type: anytls
-  udp: true
-- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_d11979ce
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 194.87.10.77
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇯🇵[🎬🤖📺]_github.com/Ruk1ng001_68662639
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 14487
-  server: c7sv57.jpanytls.yydzx.xyz
-  skip-cert-verify: false
-  sni: c7sv57.jpanytls.yydzx.xyz
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇲🇳[🎬🤖📺🔍]_github.com/Ruk1ng001_c79cc434
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27018
-  server: klbh47.yytls.top
-  skip-cert-verify: false
-  sni: klbh47.yytls.top
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: 🔴🇯🇵[🎬📺🔍]_github.com/Ruk1ng001_9da0f9b0
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 18122
-  server: 155.248.168.35
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_77a15575
-  network: ws
-  port: 8443
-  security: tls
-  server: 109.176.19.182
-  servername: sni.skylee4.cloudns.ch
-  tls: true
-  type: vless
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sni.skylee4.cloudns.ch
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_5c7150c4
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 188.166.247.45
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_beb69660
-  password: 504cb0be-b285-4ec5-9561-bc289aea0d46
-  port: 54612
-  server: bgroup.node3.s2.nodelist-airport.com
-  type: ss
   udp: true
 - client-fingerprint: chrome
   name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_ac570a36
@@ -3021,39 +2912,64 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
         (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_0349c6c2
-  network: ws
-  port: 2053
-  security: tls
-  server: 185.248.184.201
-  servername: w9rw8g1k.node-c.danfeng.gv.uy
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇯🇵[🎬🤖]_github.com/Ruk1ng001_a845b1b5
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27004
+  server: fupwpg.yytls.top
   skip-cert-verify: false
-  sni: w9rw8g1k.node-c.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: w9rw8g1k.node-c.danfeng.gv.uy
-    path: /danfeng?ed=2560
+  sni: fupwpg.yytls.top
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_cdfbbc1b
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_52c0f0a5
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 165.232.165.200
+  server: 47.82.160.100
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.110 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_3723d7f0
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.160.195.223
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 🔴🇸🇬_github.com/Ruk1ng001_376ed5da
+  network: ws
+  port: 9377
+  server: 152.42.232.41
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
+  sni: ooa858iqkhza12.mesa.ip-ddns.com
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
+    path: /@Marisa_kristi
 - alpn:
   - h3
   congestion-controller: bbr
@@ -3065,109 +2981,62 @@ proxies:
   type: tuic
   udp: true
   uuid: 876d9d25-19c8-462b-b364-7b47e0602f12
-- cipher: aes-256-gcm
-  name: 🔴🇬🇧[🎬🤖📺🔍]_github.com/Ruk1ng001_03a56cfe
-  password: ldjmwoNqgQqqc43j
+- client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_2cdbb17c
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 149.102.132.184
+  server: 152.42.169.132
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_82c423e1
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 209.97.170.177
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
+        Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇳🇱[🎬🤖📺🔍]_github.com/Ruk1ng001_b8a42833
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.190
   type: ss
   udp: true
-- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_f4503991
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 47.82.155.79
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_f0845c47
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 188.239.9.91
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_b960f74c
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_e53f85aa
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 141.11.43.124
+  server: 188.166.217.179
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇱🇦[🎬🤖📺]_github.com/Ruk1ng001_d1cd4914
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27028
-  server: s2vqz9.yytls.top
-  skip-cert-verify: false
-  sni: s2vqz9.yytls.top
-  type: anytls
-  udp: true
-- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_a30a2bb7
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 138.2.87.237
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🟡🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_eafb42b8
-  password: fbf91120-50ba-11ef-a203-f23c91cfbbc9
-  port: 443
-  server: bb7c1f57-t9zts0-tcmifz-1s3lb.sg.oshuawei.com
-  sni: bb7c1f57-t9zts0-tcmifz-1s3lb.sg.oshuawei.com
-  tls: true
-  type: http
-  username: fbf91120-50ba-11ef-a203-f23c91cfbbc9
-- name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_e4d98c22
-  password: 6fc9e004-4ace-4a40-9986-5806b5a51f90
-  port: 61480
-  server: a1.lsyllzf.cn
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_3dbe55b3
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 139.162.61.34
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
+- cipher: aes-256-cfb
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_TwEVoQ4D
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  type: ss
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
@@ -3186,46 +3055,16 @@ proxies:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
     path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_e5f5fde6
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 194.87.10.241
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_27cd3700
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.134.174.114
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🔴🇵🇰[🎬🤖📺]_github.com/Ruk1ng001_7dfdbfbe
+  name: 🔴🇭🇰[🎬🤖📺]_github.com/Ruk1ng001_0adb0412
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27032
-  server: ujqxmv.yytls.top
+  port: 27002
+  server: nf7a9p.yytls.top
   skip-cert-verify: false
-  sni: ujqxmv.yytls.top
+  sni: nf7a9p.yytls.top
   type: anytls
   udp: true
 - client-fingerprint: chrome
@@ -3252,75 +3091,52 @@ proxies:
       Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
     path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_dbe7937a
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_9da0f9b0
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 154.16.183.190
+  port: 18122
+  server: 155.248.168.35
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.110 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_27cd3700
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.134.174.114
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🔴🇭🇰[🎬🤖📺]_github.com/Ruk1ng001_0adb0412
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27002
-  server: nf7a9p.yytls.top
-  skip-cert-verify: false
-  sni: nf7a9p.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇮🇳[🎬🤖📺🔍]_github.com/Ruk1ng001_955efddb
+  name: 🔴🇮🇳[🎬🤖📺🔍]_github.com/Ruk1ng001_2e3016c8
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27022
-  server: ll8fg2.yytls.top
+  server: nlqcdn.yytls.top
   skip-cert-verify: false
-  sni: ll8fg2.yytls.top
+  sni: nlqcdn.yytls.top
   type: anytls
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_zQyvGqsQ
-  network: ws
-  port: 443
-  server: 152.67.218.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  ws-opts:
-    path: /
-- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_1191f5fb
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 174.138.20.108
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- cipher: aes-256-gcm
-  name: 🔴🇬🇧[🎬🤖📺🔍]_github.com/Ruk1ng001_d450ffad
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_07d2691b
+  password: 876d9d25-19c8-462b-b364-7b47e0602f12
+  port: 50060
+  server: xjp1.shdetai.cn
   type: ss
   udp: true
 - alpn:
@@ -3335,67 +3151,19 @@ proxies:
   sni: lcjtqk.yytls.top
   type: anytls
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_07d2691b
-  password: 876d9d25-19c8-462b-b364-7b47e0602f12
-  port: 50060
-  server: xjp1.shdetai.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_4388b27c
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 11688
-  server: ss.006.node-for-bigairport.win
-  type: ss
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇰🇭[🤖📺]_github.com/Ruk1ng001_572b3897
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27027
-  server: jqjfje.yytls.top
-  skip-cert-verify: false
-  sni: jqjfje.yytls.top
-  type: anytls
-  udp: true
-- cipher: aes-256-cfb
-  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_TwEVoQ4D
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇮🇳[🎬🤖📺🔍]_github.com/Ruk1ng001_e5840985
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27022
-  server: kpgfmb.yytls.top
-  skip-cert-verify: false
-  sni: kpgfmb.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🔴🇯🇵[📺🔍]_github.com/Ruk1ng001_b03a9150
+- name: 🔴🇯🇵[🎬📺🔍]_github.com/Ruk1ng001_fcff5a7d
   network: ws
-  port: 80
-  server: 172.111.146.64
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+  port: 9586
+  security: tls
+  server: 103.232.213.244
+  servername: oia8or7k8rs5.zrf.xx.kg
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
-    headers: {}
-    path: /vmess/
-  xudp: true
+    headers:
+      Host: oia8or7k8rs5.zrf.xx.kg
+    path: /@Marisa_kristifp=chrome
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
@@ -3414,6 +3182,59 @@ proxies:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
     path: /danfeng?ed=2560
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇨🇦[🎬🤖📺🔍]_github.com/Ruk1ng001_17033981
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27021
+  server: h05ugx.yytls.top
+  skip-cert-verify: false
+  sni: h05ugx.yytls.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ad2a4ca7
+  network: ws
+  port: 39545
+  server: 156.246.91.248
+  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 新加坡5
+    flag: 🇸🇬
+    multiplier: 1
+    originalName: 新加坡5
+    region: 新加坡
+    tags: []
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_ba25d67c
+  network: ws
+  port: 4399
+  server: 178.128.19.168
+  servername: adv2m5gy-wrhiahph85c.ovtc.qzz.io
+  sni: adv2m5gy-wrhiahph85c.ovtc.qzz.io
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: adv2m5gy-wrhiahph85c.ovtc.qzz.io
+    path: /@Marisa_kristi
 - client-fingerprint: chrome
   name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_a070bb9f
   network: ws
@@ -3429,12 +3250,71 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
+- alterId: '0'
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_6f154d68
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
+  ws-opts:
+    headers:
+      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 🔴🇯🇵[🎬📺🔍]_github.com/Ruk1ng001_5b721c44
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 155.248.181.189
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_dbe7937a
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 154.16.183.190
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
 - cipher: chacha20-ietf-poly1305
   name: 🔴🇳🇱[🎬🤖📺🔍]_github.com/Ruk1ng001_DqxLQXFK
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
   server: 193.29.139.227
   type: ss
+- name: 🔴🇭🇰[🎬🤖🔍]_github.com/Ruk1ng001_2c89da1d
+  network: ws
+  port: 80
+  server: 172.64.156.188
+  type: vless
+  udp: true
+  uuid: 53342b53-157e-4475-9f3a-40439434e689
+  ws-opts:
+    headers:
+      Host: c.iamdt.dpdns.org
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /
+  xudp: true
 - alpn:
   - h2
   - http/1.1
@@ -3447,19 +3327,6 @@ proxies:
   sni: tslpxk.yytls.top
   type: anytls
   udp: true
-- name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_fcff5a7d
-  network: ws
-  port: 9586
-  security: tls
-  server: 103.232.213.244
-  servername: oia8or7k8rs5.zrf.xx.kg
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: oia8or7k8rs5.zrf.xx.kg
-    path: /@Marisa_kristifp=chrome
 - cipher: chacha20-ietf-poly1305
   name: 🔴🇳🇱[🎬🤖📺🔍]_github.com/Ruk1ng001_j7ZVbevI
   password: 4a2rfixophdjffa8KVA4Aa
@@ -3474,96 +3341,33 @@ proxies:
   server: 221.139.79.57
   type: ss
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇲🇴[🎬🔍]_github.com/Ruk1ng001_42112da7
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27013
-  server: gsivv8.yytls.top
-  skip-cert-verify: false
-  sni: gsivv8.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇮🇳_github.com/Ruk1ng001_6641a33b
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27022
-  server: a7nqor.yytls.top
-  skip-cert-verify: false
-  sni: a7nqor.yytls.top
-  type: anytls
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_aaa08117
-  network: ws
-  port: 33890
-  security: tls
-  server: 210.203.195.52
-  servername: w9rw8g1k.node-c.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: w9rw8g1k.node-c.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: w9rw8g1k.node-c.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_fe1806ea
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 178.128.90.108
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- cipher: aes-256-gcm
-  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_febcade8
-  password: uwmRUOVM5ljNAtPj
-  port: 443
-  server: 154.53.57.143
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_aba9cfda
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_3dbe55b3
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 47.82.178.58
+  server: 139.162.61.34
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_cf458a6a
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 47.82.155.79
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇸🇬[🤖]_github.com/Ruk1ng001_65d51efa
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27003
+  server: gpn559.yytls.top
+  skip-cert-verify: false
+  sni: gpn559.yytls.top
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
   encryption: none
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_94d68194
@@ -3582,18 +3386,39 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /taizi
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇸🇬[🤖]_github.com/Ruk1ng001_65d51efa
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27003
-  server: gpn559.yytls.top
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_527e4b5b
+  network: ws
+  port: 17512
+  security: tls
+  server: 142.248.151.249
+  servername: qi4rysu2u-e8j2zzhk.bsld.de5.net
   skip-cert-verify: false
-  sni: gpn559.yytls.top
-  type: anytls
+  sni: qi4rysu2u-e8j2zzhk.bsld.de5.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_0907659a
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 178.128.97.53
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
 - alpn:
   - h2
   - http/1.1
@@ -3607,68 +3432,35 @@ proxies:
   type: anytls
   udp: true
 - client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_6ee3733f
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_3dbcd201
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 43.160.207.175
+  server: 167.71.221.62
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  metadata:
-    cleanName: 新加坡5
-    flag: 🇸🇬
-    multiplier: 1
-    originalName: 新加坡5
-    region: 新加坡
-    tags: []
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_2cc69681
-  network: ws
-  port: 12306
-  server: 167.71.222.177
-  servername: guslef2w8oz12wv.ymj.xx.kg
-  sni: guslef2w8oz12wv.ymj.xx.kg
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: guslef2w8oz12wv.ymj.xx.kg
-    path: /@Marisa_kristi
-- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_173dc403
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_d2ff8a9f
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 143.198.209.123
+  server: 165.22.104.36
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇱🇦[🎬🤖📺🔍]_github.com/Ruk1ng001_fd1a54f2
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27028
-  server: m7glgf.yytls.top
-  skip-cert-verify: false
-  sni: m7glgf.yytls.top
-  type: anytls
-  udp: true
 - alpn:
   - h2
   - http/1.1
@@ -3681,34 +3473,35 @@ proxies:
   sni: dwtp0v.yytls.top
   type: anytls
   udp: true
-- client-fingerprint: chrome
-  name: 🔴🇯🇵[🎬📺🔍]_github.com/Ruk1ng001_d93bbdf4
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 64.110.104.30
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🔴🇮🇹[🎬🤖📺🔍]_github.com/Ruk1ng001_87c0e186
+  name: 🔴🇰🇭[🎬🤖📺🔍]_github.com/Ruk1ng001_64d43136
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27024
-  server: ub96eo.yytls.top
+  port: 27027
+  server: ts0f05.yytls.top
   skip-cert-verify: false
-  sni: ub96eo.yytls.top
+  sni: ts0f05.yytls.top
   type: anytls
   udp: true
+- client-fingerprint: chrome
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_b40baddd
+  network: ws
+  port: 35311
+  server: 212.50.233.25
+  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+  skip-cert-verify: true
+  sni: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+    path: /@Marisa_kristi
 - flow: xtls-rprx-vision-udp443
   name: 🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_29f35efa
   port: 443
@@ -3718,30 +3511,24 @@ proxies:
   tls: true
   type: vless
   uuid: 5c0aeda1-c9b7-4e3f-9fc9-8067f4867ede
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇹🇭_github.com/Ruk1ng001_376a17b7
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27007
-  server: ahj23y.yytls.top
-  skip-cert-verify: false
-  sni: ahj23y.yytls.top
-  type: anytls
+- client-fingerprint: chrome
+  encryption: none
+  name: ⚪🏳️_github.com/Ruk1ng001_1796961a
+  network: ws
+  port: 443
+  server: 124.156.202.172
+  servername: sn1.skylee5.cloudns.ch
+  tls: true
+  type: vless
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇯🇵[🎬🤖]_github.com/Ruk1ng001_edac2155
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 14154
-  server: yi5xfk.jpanytls.yydzx.xyz
-  skip-cert-verify: false
-  sni: yi5xfk.jpanytls.yydzx.xyz
-  type: anytls
-  udp: true
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sn1.skylee5.cloudns.ch
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /proxyip=ProxyIP.CMLiussss.net
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   http-opts:
@@ -3761,6 +3548,18 @@ proxies:
   udp: true
   uuid: 876d9d25-19c8-462b-b364-7b47e0602f12
   xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇹🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_a41abe29
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27025
+  server: xnne20.yytls.top
+  skip-cert-verify: false
+  sni: xnne20.yytls.top
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
   encryption: none
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_3db3a6cf
@@ -3779,18 +3578,21 @@ proxies:
         like Gecko) Chrome/68.0.3440.106 Safari/537.36
     path: /taizi
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇲🇴[🎬📺]_github.com/Ruk1ng001_2cc6e024
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27013
-  server: ujbqaf.yytls.top
-  skip-cert-verify: false
-  sni: ujbqaf.yytls.top
-  type: anytls
+- client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_f056bfdf
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 14706
+  server: 8.222.195.24
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: firefox
   ech-opts:
     enable: true
@@ -3810,18 +3612,18 @@ proxies:
     headers:
       Host: qznql.node-proxy.chinat.indevs.in
     path: /danfeng?ed=2560
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇰🇷[🎬🤖📺]_github.com/Ruk1ng001_da45edb7
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27008
-  server: b87zd5.yytls.top
-  skip-cert-verify: false
-  sni: b87zd5.yytls.top
-  type: anytls
-  udp: true
+- name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_84671d97
+  network: ws
+  port: 41493
+  security: tls
+  server: 158.178.225.153
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 020g5uxcxmqlndg.luyuju.dpdns.org
+    path: /%40Marisa_kristi
 - alpn:
   - h3
   congestion-controller: bbr
@@ -3833,19 +3635,6 @@ proxies:
   type: tuic
   udp: true
   uuid: 876d9d25-19c8-462b-b364-7b47e0602f12
-- name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_56552afe
-  network: ws
-  port: 8443
-  security: tls
-  server: 43.247.134.179
-  servername: sni.skylee4.cloudns.ch
-  tls: true
-  type: vless
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sni.skylee4.cloudns.ch
-    path: /proxyip=ProxyIP.CMLiussss.netfp=chrome
 - alpn:
   - ''
   alterId: '0'
@@ -3863,6 +3652,18 @@ proxies:
     headers: {}
     path: /
   xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇮🇹[🎬🤖📺🔍]_github.com/Ruk1ng001_6104a173
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27024
+  server: no4pz9.yytls.top
+  skip-cert-verify: false
+  sni: no4pz9.yytls.top
+  type: anytls
+  udp: true
 - flow: xtls-rprx-vision-udp443
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_252793f1
   port: 443
@@ -3872,67 +3673,36 @@ proxies:
   tls: true
   type: vless
   uuid: 5c0aeda1-c9b7-4e3f-9fc9-8067f4867ede
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇮🇳[🎬🤖📺]_github.com/Ruk1ng001_cf5e26ed
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27022
-  server: b8ly65.yytls.top
-  skip-cert-verify: false
-  sni: b8ly65.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇵🇰[🎬🤖📺🔍]_github.com/Ruk1ng001_1f888761
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27032
-  server: orytep.yytls.top
-  skip-cert-verify: false
-  sni: orytep.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇹🇭_github.com/Ruk1ng001_0404e066
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27007
-  server: f3u58v.yytls.top
-  skip-cert-verify: false
-  sni: f3u58v.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇵🇰[🎬🤖📺]_github.com/Ruk1ng001_f1be2467
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27032
-  server: ampv5t.yytls.top
-  skip-cert-verify: false
-  sni: ampv5t.yytls.top
-  type: anytls
-  udp: true
-- name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_0f99ef39
+- client-fingerprint: chrome
+  encryption: none
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_df201c8e
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 209.97.171.87
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  port: 18836
+  server: 172.237.12.208
+  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
   tls: true
-  type: trojan
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_0e459ad0
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: w3moj3.yytls.top
+  skip-cert-verify: false
+  sni: w3moj3.yytls.top
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
   name: 🔴🇯🇵[🎬📺🔍]_github.com/Ruk1ng001_0fecb10b
   network: ws
@@ -3948,24 +3718,26 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7975c984
+- name: 🔴🇯🇵[🎬📺🔍]_github.com/Ruk1ng001_7bd0fc9c
   network: ws
-  port: 24443
-  server: 162.141.130.233
-  servername: guslef2w8oz12wv.ymj.xx.kg
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 168.138.46.67
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
+  type: trojan
   ws-opts:
     headers:
-      Host: guslef2w8oz12wv.ymj.xx.kg
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /@Marisa_kristi
-  xudp: true
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇦🇪[🎬🤖📺🔍]_github.com/Ruk1ng001_49a29c56
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 147.78.0.182
+  type: ss
+  udp: true
 - down: ''
   fingerprint: ''
   name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_9bc64bdc
@@ -3978,52 +3750,6 @@ proxies:
   sni: hg1.shdetai.cn
   type: hysteria2
   up: ''
-- client-fingerprint: chrome
-  name: 🔴🇺🇸_github.com/Ruk1ng001_17cc8af9
-  network: ws
-  port: 443
-  server: 91.193.58.246
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-  xudp: true
-- client-fingerprint: chrome
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_005e7728
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 11307
-  server: 47.79.85.210
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 🔴🇯🇵[🎬📺🔍]_github.com/Ruk1ng001_69a2eed4
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 16957
-  server: 150.230.214.172
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
   encryption: none
   http-opts:
@@ -4043,47 +3769,49 @@ proxies:
   udp: true
   uuid: 876d9d25-19c8-462b-b364-7b47e0602f12
   xudp: true
-- name: 🔴🇯🇵[🎬📺🔍]_github.com/Ruk1ng001_7bd0fc9c
+- client-fingerprint: chrome
+  name: 🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_1d35d916
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 168.138.46.67
-  skip-cert-verify: true
+  port: 2096
+  server: 172.64.152.23
+  skip-cert-verify: false
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🔴🇨🇦_github.com/Ruk1ng001_dc999782
-  network: ws
-  port: 2052
-  server: 104.17.201.245
-  type: vless
   udp: true
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: index.arcane509.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.101 Safari/537.36
-    max-early-data: 2560
-    path: /x0o2qglxz7zu
-  xudp: true
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /tr
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a2ae73a1
+  name: 🔴🇳🇿[🎬🤖📺]_github.com/Ruk1ng001_cb3485a3
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27004
-  server: msanos.yytls.top
+  port: 27031
+  server: bxwghv.yytls.top
   skip-cert-verify: false
-  sni: msanos.yytls.top
+  sni: bxwghv.yytls.top
   type: anytls
   udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🟢🇮🇳[🎬🤖📺🔍]_github.com/Ruk1ng001_bc1e1adc
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
+    short-id: 96e03e0f184639ef
+  server: 86.107.100.36
+  servername: peer.pan.baidu.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 45838e8e58c44a21b229c2e43347934a
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -4100,21 +3828,6 @@ proxies:
   udp: true
   uuid: 4c1778f3965c48af9529c11ce054b9c2
   xudp: true
-- client-fingerprint: chrome
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_3723d7f0
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.160.195.223
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
 - name: 🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_51d87ff2
   network: ws
   port: 8880
@@ -4129,18 +3842,6 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🔴🇮🇳[🎬🤖📺🔍]_github.com/Ruk1ng001_c38df178
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27022
-  server: pvjypx.yytls.top
-  skip-cert-verify: false
-  sni: pvjypx.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
   name: 🔴🇲🇾_github.com/Ruk1ng001_80155891
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27014
@@ -4149,35 +3850,26 @@ proxies:
   sni: i7oi1x.yytls.top
   type: anytls
   udp: true
-- name: 🔴🇰🇷[🎭]_github.com/Ruk1ng001_48b81d1a
-  password: ''
+- name: 🔴🇰🇷[📺🎭🎪📦]_github.com/Ruk1ng001_5b8e1a9b
   port: 1090
   server: 121.169.46.116
+  tls: false
   type: socks5
   username: Og%3D%3D
-- alterId: 0
-  cipher: auto
-  name: 🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_75d3388c
+- client-fingerprint: chrome
+  name: 🔴🇯🇵[🎬📺🔍]_github.com/Ruk1ng001_69a2eed4
   network: ws
-  port: 16622
-  server: t.cnmjcn.cyou
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
+  password: 8r<[9'l6hAO#8ZQi
+  port: 16957
+  server: 150.230.214.172
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   ws-opts:
     headers:
-      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🔴🇫🇮[🎬🤖📺🔍]_github.com/Ruk1ng001_PIScl6Td
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 37.143.129.98
-  type: ss
-  udp: true
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - alpn:
   - h2
   - http/1.1
@@ -4208,67 +3900,32 @@ proxies:
   sni: xwd3as.yytls.top
   type: anytls
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇹🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_1d4e44a0
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27025
-  server: h11gy0.yytls.top
-  skip-cert-verify: false
-  sni: h11gy0.yytls.top
-  type: anytls
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: ⚪🏳️[🎬🤖📺🔍]_github.com/Ruk1ng001_f7aa519b
-  password: 93069d226f003fab
-  port: 11201
-  server: 154.205.147.166
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🔴🇦🇪[🎬🤖📺🔍]_github.com/Ruk1ng001_c805ecd3
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 147.78.0.182
-  type: ss
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_bc081245
-  network: ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_29acafa8
+  network: tcp
   port: 443
-  security: tls
-  server: 163.5.205.193
-  servername: w9rw8g1k.node-c.danfeng.gv.uy
+  reality-opts:
+    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
+    short-id: 7994d24409820c44
+  server: mx0wbu.sgvless.yydzx.xyz
+  servername: deb.debian.org
   skip-cert-verify: false
-  sni: w9rw8g1k.node-c.danfeng.gv.uy
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: w9rw8g1k.node-c.danfeng.gv.uy
-    path: /danfeng?ed=2560
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🔴🇱🇦[🎬🤖📺]_github.com/Ruk1ng001_a7bee9a5
+  name: 🔴🇮🇹[🎬🤖📺🔍]_github.com/Ruk1ng001_ed4ea9f8
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27028
-  server: da0k8d.yytls.top
+  port: 27024
+  server: wm81pp.yytls.top
   skip-cert-verify: false
-  sni: da0k8d.yytls.top
+  sni: wm81pp.yytls.top
   type: anytls
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_338ebcd5
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.0.177
-  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_82ae842e
@@ -4277,17 +3934,26 @@ proxies:
   server: hg1.shdetai.cn
   type: ss
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇰🇷[🎬🤖]_github.com/Ruk1ng001_fdf26519
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27008
-  server: an9pfq.yytls.top
-  skip-cert-verify: false
-  sni: an9pfq.yytls.top
-  type: anytls
+- insecure: '1'
+  mport: 30000-39999
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_912ff3df
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NTd65A==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 30000
+  server: sg.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: ⚪🏳️[🎬🤖📺🔍]_github.com/Ruk1ng001_73e310c2
+  password: 93069d226f003fab
+  port: 11201
+  server: 154.205.147.166
+  type: ss
   udp: true
 - name: 🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_f5a32bbc
   network: ws
@@ -4330,21 +3996,13 @@ proxies:
   sni: viz3mh.yytls.top
   type: anytls
   udp: true
-- client-fingerprint: chrome
-  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_77fe93a2
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 83.229.121.78
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇳🇱[🎬🤖📺🔍]_github.com/Ruk1ng001_d3b3f197
+  password: VpKABcOpNNA0l5G2AVOmw8
+  port: 62685
+  server: 213.109.147.242
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: firefox
   ech-opts:
     enable: true
@@ -4364,33 +4022,34 @@ proxies:
     headers:
       Host: qznql.node-proxy.chinat.indevs.in
     path: /danfeng?ed=2560
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: ⚪🏳️[🎬🤖]_github.com/Ruk1ng001_05cc1bc2
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27005
-  server: ugz6v0.yytls.top
-  skip-cert-verify: false
-  sni: ugz6v0.yytls.top
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001_3bcf24e2
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_7fdf2b76
   network: ws
-  port: 2053
-  security: tls
-  server: 154.12.188.42
-  servername: sni.skylee4.cloudns.ch
+  port: 10001
+  server: 183.96.87.158
+  servername: qznql.node-proxy.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sni.skylee4.cloudns.ch
-    path: /proxyip=ProxyIP.CMLiussss.net
+      Host: qznql.node-proxy.chinat.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- name: 🔴🇮🇳[🎬🤖📺🔍]_github.com/Ruk1ng001_d656823a
+  password: M7v%w11Se*
+  port: 443
+  server: tttyder.wsone.icu
+  skip-cert-verify: true
+  sni: tttyder.wsone.icu
+  type: trojan
 - alpn:
   - ''
   alterId: '0'
@@ -4405,8 +4064,37 @@ proxies:
   udp: true
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   xudp: true
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_6c4337a8
+  network: ws
+  port: 15000
+  server: 125.138.172.119
+  servername: qznql.node-proxy.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560
+- name: 🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_d4b7da28
+  network: ws
+  port: 8880
+  server: 213.219.247.40
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime26.workers.dev
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
 - client-fingerprint: chrome
-  name: 🔴🇯🇵[🎬📺🔍]_github.com/Ruk1ng001_aaad3273
+  name: 🔴🇯🇵_github.com/Ruk1ng001_aaad3273
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -4419,115 +4107,6 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_dc67a67a
-  network: ws
-  port: 19888
-  server: 222.97.226.51
-  servername: qznql.node-proxy.chinat.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: qznql.node-proxy.chinat.indevs.in
-    path: /danfeng?ed=2560
-- name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_3530affd
-  network: ws
-  port: 22525
-  security: tls
-  server: 142.248.139.25
-  servername: qznql.node-proxy.chinat.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: qznql.node-proxy.chinat.indevs.in
-    path: /danfeng?ed=2560fp=firefox
-- cipher: aes-256-cfb
-  name: 🟢🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_e9a90237
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_ea9bad57
-  port: 9028
-  server: select-us.ddnskunlun.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- name: 🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_d4b7da28
-  network: ws
-  port: 8880
-  server: 213.219.247.40
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime26.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇵🇰[🎬🤖📺]_github.com/Ruk1ng001_25b45946
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27032
-  server: ciqjk6.yytls.top
-  skip-cert-verify: false
-  sni: ciqjk6.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇮🇩[🎬🤖📺🔍]_github.com/Ruk1ng001_2c18cdf9
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27016
-  server: wkoh46.yytls.top
-  skip-cert-verify: false
-  sni: wkoh46.yytls.top
-  type: anytls
-  udp: true
-- congestion-controller: bbr
-  disable-sni: false
-  name: 🟢🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_21ab9ff4
-  password: 32d6d133-0496-4b24-ab42-24d6dba0c071
-  port: 31851
-  server: 207.174.28.26
-  skip-cert-verify: true
-  sni: apple.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 32d6d133-0496-4b24-ab42-24d6dba0c071
-- client-fingerprint: chrome
-  name: 🔴🇰🇷[🎬📺🔍]_github.com/Ruk1ng001_fe636396
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 18161
-  server: 193.122.102.79
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
   encryption: none
@@ -4545,18 +4124,6 @@ proxies:
   udp: true
   uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001_075089a0
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  type: vmess
-  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
-  ws-opts:
-    headers:
-      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
-    path: /
 - encryption: none
   name: 🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_34796163
   network: ws
@@ -4572,46 +4139,8 @@ proxies:
         like Gecko) Chrome/70.0.3538.110 Safari/537.36
     path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_2b180072
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🔴🇮🇳[🎬🤖]_github.com/Ruk1ng001_d148c7a3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
-    short-id: 96e03e0f184639ef
-  server: 65.20.67.50
-  servername: peer.pan.baidu.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4c1778f3965c48af9529c11ce054b9c2
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_eb1e258a
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 88.210.36.108
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🔴🇸🇬[🔍]_github.com/Ruk1ng001_80981a5f
+  name: 🔴🇸🇬_github.com/Ruk1ng001_80981a5f
   network: ws
   port: 443
   server: 20.6.12.145
@@ -4626,6 +4155,22 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/65.0.3325.181 Safari/537.36
     path: /proxyip=ProxyIP.CMLiussss.net
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🔴🇭🇰[📺🎭✨📦]_github.com/Ruk1ng001_d9356aa9
+  network: ws
+  port: 16622
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
+  ws-opts:
+    headers:
+      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
+    path: /
   xudp: true
 - alterId: '0'
   cipher: auto
@@ -4675,6 +4220,29 @@ proxies:
         like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /taizi
   xudp: true
+- alterId: '0'
+  cipher: aes-128-gcm
+  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_4c938bcf
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_7IyBvnAE
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: feb7fa9:154948
+    mode: tls
+  port: 2377
+  server: 88.210.36.107
+  type: ss
+  udp: true
 - alpn:
   - h2
   - http/1.1
@@ -4687,18 +4255,6 @@ proxies:
   sni: r93za9.yytls.top
   type: anytls
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇯🇵[🎬🤖]_github.com/Ruk1ng001_4d810092
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27004
-  server: b43ghx.yytls.top
-  skip-cert-verify: false
-  sni: b43ghx.yytls.top
-  type: anytls
-  udp: true
 - name: 🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_6ffaf36b
   network: ws
   port: 8880
@@ -4709,22 +4265,6 @@ proxies:
     headers:
       Host: vms.lifetime08.workers.dev
     path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 🟢🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_3c06fce5
-  port: 9027
-  server: select-us.ddnskunlun.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- cipher: aes-256-gcm
-  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_b9d124da
-  password: jJHq807bQ7TM0yOh
-  port: 80
-  server: 94.72.127.58
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 🔴🇵🇱[🎬🤖📺🔍]_github.com/Ruk1ng001_27a67f6b
   password: FAdUvMJUq5vDgKEq
@@ -4732,6 +4272,25 @@ proxies:
   server: 217.30.10.70
   type: ss
   udp: true
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_dc67a67a
+  network: ws
+  port: 19888
+  server: 222.97.226.51
+  servername: qznql.node-proxy.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560
 - client-fingerprint: chrome
   name: 🔴🇮🇳[🎬🤖📺📦]_github.com/Ruk1ng001_35f87372
   network: tcp
@@ -4743,16 +4302,35 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_7IyBvnAE
+  name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_eb1e258a
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: feb7fa9:154948
+    host: 817aa69.default.nintendo.com:112719
     mode: tls
   port: 2377
-  server: 88.210.36.107
+  server: 88.210.36.108
   type: ss
   udp: true
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_2f649c98
+  network: ws
+  port: 20201
+  server: 125.135.9.231
+  servername: qznql.node-proxy.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560
 - alterId: '0'
   cipher: auto
   name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_3636afb2
@@ -4765,18 +4343,27 @@ proxies:
   udp: true
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇹🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_859ecbe2
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27025
-  server: jnuqrj.yytls.top
+- flow: xtls-rprx-vision-udp443-udp443
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_be507c01
+  port: 443
+  security: tls
+  server: sg1.ap221.com
+  servername: sg.ap221.com
+  tls: true
+  type: vless
+  uuid: 5c0aeda1-c9b7-4e3f-9fc9-8067f4867ede
+- alterId: '0'
+  cipher: auto
+  name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_8c744d14
+  network: tcp
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: false
-  sni: jnuqrj.yytls.top
-  type: anytls
+  tls: false
+  type: vmess
   udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
 - alpn:
   - h3
   congestion-controller: bbr
@@ -4788,55 +4375,6 @@ proxies:
   type: tuic
   udp: true
   uuid: 876d9d25-19c8-462b-b364-7b47e0602f12
-- down: ''
-  fingerprint: ''
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_8d8b8788
-  obfs: ''
-  obfs-password: ''
-  password: 876d9d25-19c8-462b-b364-7b47e0602f12
-  port: 50011
-  server: xjp1.shdetai.cn
-  skip-cert-verify: false
-  sni: xjp1.shdetai.cn
-  type: hysteria2
-  up: ''
-- flow: xtls-rprx-vision-udp443-udp443
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_be507c01
-  port: 443
-  security: tls
-  server: sg1.ap221.com
-  servername: sg.ap221.com
-  tls: true
-  type: vless
-  uuid: 5c0aeda1-c9b7-4e3f-9fc9-8067f4867ede
-- alterId: 0
-  cipher: auto
-  name: 🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001_4fbabe82
-  network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
-  ws-opts:
-    headers:
-      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇹🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_72163453
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27025
-  server: twpedt.yytls.top
-  skip-cert-verify: false
-  sni: twpedt.yytls.top
-  type: anytls
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_VMvDti24
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
@@ -4844,29 +4382,86 @@ proxies:
   server: 203.23.128.92
   type: ss
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇲🇴_github.com/Ruk1ng001_c085a00b
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27013
-  server: t7chyo.yytls.top
-  skip-cert-verify: false
-  sni: t7chyo.yytls.top
-  type: anytls
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_2b180072
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_11b41263
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 88.210.36.109
+  type: ss
   udp: true
 - alterId: '0'
   cipher: auto
-  name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_e3268b89
-  network: tcp
-  port: 180
-  server: 82.198.246.97
+  name: 🔴🇮🇳[🎬🤖📺🔍]_github.com/Ruk1ng001_d5ea9273
+  network: ws
+  port: 16626
+  server: planb.mojcn.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
+  ws-opts:
+    headers:
+      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_3bbf070c
+  network: ws
+  port: 16616
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
+  ws-opts:
+    headers:
+      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_d14647df
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 18.143.76.130
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: ⚪🏳️_github.com/Ruk1ng001_32f04c9c
+  network: tcp
+  port: 30000
+  server: 84.75.203.36
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 948f0b34-3e53-49e8-9874-b75cef63dbcb
   xudp: true
 - client-fingerprint: chrome
   encryption: none
@@ -4886,30 +4481,33 @@ proxies:
         Chrome/46.0.2490.71 Safari/537.36
     path: /taizi
   xudp: true
+- client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_d700580c
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 140.245.59.102
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: '0'
-  cipher: aes-128-gcm
-  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_4c938bcf
+  cipher: auto
+  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_48197c15
   network: tcp
   port: 180
-  server: 82.198.246.37
+  server: 82.198.246.9
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇭🇰_github.com/Ruk1ng001_a38a5e75
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27002
-  server: twppkp.yytls.top
-  skip-cert-verify: false
-  sni: twppkp.yytls.top
-  type: anytls
-  udp: true
 - encryption: none
   name: 🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_4f169f1e
   network: ws
@@ -4924,22 +4522,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🔴🇰🇷_github.com/Ruk1ng001_657fb0e9
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
-    short-id: 96e03e0f184639ef
-  server: 158.247.220.63
-  servername: peer.pan.baidu.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4c1778f3965c48af9529c11ce054b9c2
   xudp: true
 - client-fingerprint: firefox
   encryption: none
@@ -4959,6 +4541,18 @@ proxies:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
     path: /danfeng?ed=2560
+- alterId: '0'
+  cipher: auto
+  name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_999afe87
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
 - name: 🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_76761fcf
   network: ws
   port: 8880
@@ -4973,101 +4567,30 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🔴🇲🇾[🎬🤖📺🔍]_github.com/Ruk1ng001_e392bada
+  name: 🔴🇦🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_5490b229
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27014
-  server: e8jcpf.yytls.top
+  port: 27026
+  server: mfwral.yytls.top
   skip-cert-verify: false
-  sni: e8jcpf.yytls.top
+  sni: mfwral.yytls.top
   type: anytls
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇲🇳_github.com/Ruk1ng001_26339bb9
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27018
-  server: afmhek.yytls.top
-  skip-cert-verify: false
-  sni: afmhek.yytls.top
-  type: anytls
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_579b752f
+- name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_5b836017
   network: ws
-  port: 20332
-  security: tls
-  server: 221.167.88.143
-  servername: w9rw8g1k.node-c.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: w9rw8g1k.node-c.danfeng.gv.uy
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 150.109.11.223
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  type: trojan
   ws-opts:
     headers:
-      Host: w9rw8g1k.node-c.danfeng.gv.uy
-    path: /danfeng?ed=2560
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: '0'
   cipher: auto
-  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_48197c15
-  network: tcp
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_c16e6fe2
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27005
-  server: kpcwss.yytls.top
-  skip-cert-verify: false
-  sni: kpcwss.yytls.top
-  type: anytls
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_e198fc00
-  network: ws
-  port: 19530
-  security: tls
-  server: 14.52.191.85
-  servername: w9rw8g1k.node-c.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: w9rw8g1k.node-c.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: w9rw8g1k.node-c.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_95b1a15c
-  network: ws
-  port: 16616
-  server: m.cnmjin.net
-  type: vmess
-  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
-  ws-opts:
-    headers:
-      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
-    path: /
-- alterId: '0'
-  cipher: aes-128-gcm
-  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_32522bbd
+  name: 🔴🇺🇸_github.com/Ruk1ng001_91614699
   network: tcp
   port: 180
   server: 82.198.246.233
@@ -5077,73 +4600,6 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- client-fingerprint: chrome
-  name: 🔴🇰🇷_github.com/Ruk1ng001_1c5cb5ed
-  network: ws
-  port: 32603
-  server: 220.86.228.109
-  servername: sni.111000.dns.army
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dns.army
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇳🇿[🎬🤖📺🔍]_github.com/Ruk1ng001_cf954422
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27031
-  server: uiilkk.yytls.top
-  skip-cert-verify: false
-  sni: uiilkk.yytls.top
-  type: anytls
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🟢🇬🇧[🎬🤖📺🔍]_github.com/Ruk1ng001_990d57f7
-  password: 3fcrUYO1q7yO5FpiDlm01T
-  port: 443
-  server: 51.241.246.228
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🔴🇦🇺[🎬🤖📺🔍]_github.com/Ruk1ng001_16afd7d9
-  password: SL4vzcvhBHhTWivD
-  port: 443
-  server: 154.26.155.172
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_11b41263
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 88.210.36.109
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_5VnTMZos
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.167
-  type: ss
-- cipher: aes-256-gcm
-  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_4d896f1e
-  password: 7vZO55fXgXAJXa2F
-  port: 443
-  server: 154.12.242.150
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   encryption: none
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_301e817a
@@ -5162,6 +4618,13 @@ proxies:
         Chrome/70.0.3538.110 Safari/537.36
     path: /taizi
   xudp: true
+- cipher: aes-128-gcm
+  name: 🔴🇨🇦[🎬🤖📺🔍]_github.com/Ruk1ng001_fFd6RE6n
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  type: ss
+  udp: true
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
@@ -5180,46 +4643,29 @@ proxies:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
     path: /danfeng?ed=2560
-- cipher: aes-128-gcm
-  name: 🔴🇨🇦[🎬🤖📺🔍]_github.com/Ruk1ng001_fFd6RE6n
-  password: shadowsocks
-  port: 443
-  server: 149.22.95.183
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 🔴🇰🇷[🤖📺🔍]_github.com/Ruk1ng001_93823419
+- alterId: '0'
+  cipher: auto
+  name: 🔴🇸🇬[🎬🤖📺🎪]_github.com/Ruk1ng001_184ca578
   network: ws
-  port: 10005
-  security: tls
-  server: 222.251.222.151
-  servername: w9rw8g1k.node-c.danfeng.gv.uy
+  port: 16618
+  server: t.cnmjcn.cyou
   skip-cert-verify: false
-  sni: w9rw8g1k.node-c.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
   ws-opts:
     headers:
-      Host: w9rw8g1k.node-c.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_9d76bc9c
-  network: tcp
+      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- cipher: aes-128-gcm
+  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_898de958
+  password: shadowsocks
   port: 443
-  reality-opts:
-    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
-    short-id: 7994d24409820c44
-  server: sgvless.yydzx.xyz
-  servername: deb.debian.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: 156.146.38.170
+  type: ss
   udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - alterId: 0
   cipher: auto
   name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_38dd0a8f
@@ -5229,19 +4675,179 @@ proxies:
   tls: false
   type: vmess
   uuid: d4d715a6-0a2e-4304-df2f-d5efd85a5a5d
-- cipher: aes-128-gcm
-  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_898de958
-  password: shadowsocks
+- name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_be3dc6d8
+  network: ws
+  port: 8880
+  server: 77.37.33.40
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime57.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+  xudp: true
+- client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_ade92c2c
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 156.146.38.170
+  server: 159.223.85.214
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- encryption: none
+  name: 🔴🇺🇸[🎬🤖📺]_github.com/Ruk1ng001_c9451c42
+  network: ws
+  port: 8880
+  server: 185.149.135.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime56.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🟢🇹🇼[🎬🤖📺✨]_github.com/Ruk1ng001_cb50e15b
+  network: ws
+  port: 16616
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
+  ws-opts:
+    headers:
+      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🟢🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_9757d1e4
+  network: tcp
+  port: 15623
+  reality-opts:
+    public-key: x_BonebeDcNGX4eoog2P-p7_kzQhB0-OHJw5l1lbUCs
+    short-id: 3f
+  security: reality
+  server: 154.21.91.91
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  uuid: 78dca3dc-8134-4e65-a08b-ba34ba228cdd
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇳🇱[🎬🤖📺🔍]_github.com/Ruk1ng001_9953bffa
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 193.29.139.157
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🔴🇭🇰[📺🔍]_github.com/Ruk1ng001_ea11e808
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    path: /arki?ed=2048
+- name: 🔴🇲🇾[🎬🤖📺🎪]_github.com/Ruk1ng001_06fa4456
+  password: 32315324-cf6b-11ed-979b-f23c9164ca5d
+  port: 31233
+  server: 42204a87-tcev40-tdua6y-nx3b.my.oshuawei.com
+  tls: true
+  type: http
+  username: 32315324-cf6b-11ed-979b-f23c9164ca5d
+- name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_d3f91590
+  network: ws
+  port: 8880
+  server: 89.116.161.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime08.workers.dev
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_0090f561
+  network: ws
+  port: 8112
+  server: 103.192.179.207
+  servername: qznql.node-proxy.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: safari
+  encryption: none
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a23e3676
+  network: ws
+  port: 443
+  server: cfyes.lxy1015.top
+  servername: jp-lx.777076.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9678fe03-ca76-4044-8803-324d5e7fd7c8
+  ws-opts:
+    headers:
+      Host: jp-lx.777076.xyz
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /liangxin/jp1
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇭🇰[🤖📺]_github.com/Ruk1ng001_1c5bae9b
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27002
+  server: dcp9id.yytls.top
+  skip-cert-verify: false
+  sni: dcp9id.yytls.top
+  type: anytls
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇭🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_8b37e7ac
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 169.150.242.77
   type: ss
   udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🔴🇰🇷[🎬🔍]_github.com/Ruk1ng001_bdbe853b
+  name: 🔴🇰🇷_github.com/Ruk1ng001_216b826c
   network: ws
-  port: 12300
-  server: 112.184.132.12
+  port: 20000
+  server: 121.158.68.235
   servername: sni.111000.v6.army
   tls: true
   type: vless
@@ -5250,31 +4856,543 @@ proxies:
   ws-opts:
     headers:
       Host: sni.111000.v6.army
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
     path: /?ed=2560
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🔴🇳🇱[🎬🤖📺🔍]_github.com/Ruk1ng001_BPffEHgY
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 193.29.139.179
-  type: ss
-- name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_8f73ac5e
-  password: dbb37a23-5d1a-4232-b667-f3409854db1e
-  port: 13763
-  server: a1.lsyllzf.cn
+- client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_0ef797bb
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 146.190.102.51
   skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🔴🇲🇾[🎬🤖📺🎭]_github.com/Ruk1ng001_b3369884
+  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+  port: 31233
+  server: d6c86ce5-t9zts0-tfi5fd-1imi4.my.oshuawei.com
+  sni: d6c86ce5-t9zts0-tfi5fd-1imi4.my.oshuawei.com
+  tls: true
+  type: http
+  username: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇹🇼[🤖]_github.com/Ruk1ng001_e10799fd
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27005
+  server: po1nx9.yytls.top
+  skip-cert-verify: false
+  sni: po1nx9.yytls.top
+  type: anytls
+  udp: true
+- name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_e460a0ba
+  network: ws
+  port: 8880
+  server: 45.85.119.40
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime56.workers.dev
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+- client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_6ee3733f
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.160.207.175
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇹🇼[🎬🤖]_github.com/Ruk1ng001_61c22126
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27005
+  server: k0evya.yytls.top
+  skip-cert-verify: false
+  sni: k0evya.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - 'http/1.1
+
+    '
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_05285803
+  network: ws
+  port: 16922
+  security: tls
+  server: 121.145.65.176
+  servername: c1mxc.api-gateway.fgfw.qzz.io
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c1mxc.api-gateway.fgfw.qzz.io
+    path: /danfeng-2cm3?ed=2560fp=firefox
+- client-fingerprint: chrome
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_e1c1ed15
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 11265
+  server: 211.48.77.114
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- encryption: none
+  name: 🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_59cdbf64
+  network: ws
+  port: 8880
+  server: 104.254.140.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime54.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_283e91d9
+  network: ws
+  port: 443
+  server: 192.243.126.94
+  servername: jp2.shdetai.bond
+  tls: true
+  type: vless
+  udp: true
+  uuid: 876d9d25-19c8-462b-b364-7b47e0602f12
+  ws-opts:
+    headers:
+      Host: jp2.shdetai.bond
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /taizi
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🔴🇳🇱[🎬🤖📺🔍]_github.com/Ruk1ng001_8c0b568d
+  network: tcp
+  port: 23576
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  server: 51.158.206.26
+  servername: fuck.rkn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_51f1d391
+  network: ws
+  port: 443
+  server: 166.88.14.183
+  servername: jp2.shdetai.bond
+  tls: true
+  type: vless
+  udp: true
+  uuid: 876d9d25-19c8-462b-b364-7b47e0602f12
+  ws-opts:
+    headers:
+      Host: jp2.shdetai.bond
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /taizi
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_67ebbd50
+  network: tcp
+  port: 57623
+  reality-opts:
+    public-key: BL4bEP5My8N4j8hOkg-lI-JVrFou4eC7nSzD6Gk19DU
+    short-id: a0ed5ba7
+  server: 38.207.190.137
+  servername: ts3.tc.mm.bing.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6245c3d6-348f-44a4-f18b-9d13168a3425
+- alterId: 2
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001_okiud7JU
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🔴🇳🇱[🎬🤖📺🔍]_github.com/Ruk1ng001_cd93f819
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
+    short-id: 96e03e0f184639ef
+  server: 78.141.219.18
+  servername: peer.pan.baidu.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4c1778f3965c48af9529c11ce054b9c2
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_81778dba
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
+    short-id: 7994d24409820c44
+  server: j30mrh.sgvless.yydzx.xyz
+  servername: deb.debian.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- encryption: none
+  name: 🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_3deeb383
+  network: ws
+  port: 8880
+  server: 109.176.239.50
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime03.workers.dev
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇳🇱[🎬🤖📺🔍]_github.com/Ruk1ng001_4a92da48
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.235
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🔴🇺🇸[🎬🤖📺🎪]_github.com/Ruk1ng001_932c0202
+  network: tcp
+  port: 50513
+  reality-opts:
+    public-key: BL4bEP5My8N4j8hOkg-lI-JVrFou4eC7nSzD6Gk19DU
+    short-id: 79394c306dd3
+  server: 38.207.190.137
+  servername: ts3.tc.mm.bing.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6245c3d6-348f-44a4-f18b-9d13168a3425
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🟢🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_75ac9b0e
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: khEvnbR8fxZCRIQkpJr9o57-dq_ufC7ErMKFo34im10
+    short-id: be8dcf0d
+  security: reality
+  server: jp.rfc.7li7li.vip
+  servername: itunes.apple.com
+  spider-x: /
+  tls: true
+  type: vless
+  uuid: 135a7899-d6d6-40e9-a33e-d0ae87e09a7e
+- cipher: aes-256-cfb
+  name: 🟢🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_e9a90237
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_dfb1deb2
+  password: 2bc77a3a-1a6a-49bd-987f-5368cca0f930
+  port: 8881
+  server: 96.9.211.183
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_ypLVnAqW
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.160
+  type: ss
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇯🇵[🎬🤖]_github.com/Ruk1ng001_d6e9e405
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27004
+  server: kywk5r.yytls.top
+  skip-cert-verify: false
+  sni: kywk5r.yytls.top
+  type: anytls
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_f9752301
+  network: tcp
+  port: 18000
+  server: 149.88.23.202
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 🔴🇰🇷_github.com/Ruk1ng001_81c8b7a1
+  network: ws
+  port: 23023
+  security: tls
+  server: 221.165.124.107
+  servername: vfa9.cdn-stream.fgfw.indevs.in
+  skip-cert-verify: false
+  sni: vfa9.cdn-stream.fgfw.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: ⚪🏳️_github.com/Ruk1ng001_3a4f4e5a
+  network: ws
+  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  server: 104.17.101.139
+  skip-cert-verify: true
+  sni: sni.111000.dynv6.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /?proxyip=ip.111000.de5.net%3A443
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇲🇲[🎬🤖📺🔍]_github.com/Ruk1ng001_6f8baf1a
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27029
+  server: yaz4n0.yytls.top
+  skip-cert-verify: false
+  sni: yaz4n0.yytls.top
+  type: anytls
+  udp: true
+- name: 🔴🇰🇷[🎬📺🔍]_github.com/Ruk1ng001_841415f7
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 18790
+  server: 169.212.176.182
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- allowInsecure: '1'
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_0da33338
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 14430
+  security: tls
+  server: 211.238.77.167
+  servername: Koma-YT.PAGeS.Dev
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🔴🇩🇪[🎬🤖📺🔍]_github.com/Ruk1ng001_ed5dccae
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: DHsthrDRMCGcOyJd4xTce_4CCSAJZGwxCdfNrkB_Pgs
+    short-id: 479826bdfc3eb86e
+  server: 54.37.75.187
+  servername: www.speedtest.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: a0b067ac-162d-4237-956d-10b8b471d3f5
+  xudp: true
+- client-fingerprint: chrome
+  name: 🔴🇰🇷[🎬📺🔍]_github.com/Ruk1ng001_c2be4c2f
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 60004
+  server: 220.118.83.101
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 🔴🇰🇷[🎬📺🔍]_github.com/Ruk1ng001_0b39d225
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 10333
+  server: 211.229.78.252
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇮🇹[🎬🤖📺🔍]_github.com/Ruk1ng001_5f1722ab
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27024
+  server: we4cfj.yytls.top
+  skip-cert-verify: false
+  sni: we4cfj.yytls.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🔴🇯🇵[🎬🤖🔍]_github.com/Ruk1ng001_b9074259
+  network: ws
+  port: 39085
+  server: 142.248.151.249
+  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇮🇹[🎬🤖📺🔍]_github.com/Ruk1ng001_a9aa4fc7
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27024
+  server: wqd461.yytls.top
+  skip-cert-verify: false
+  sni: wqd461.yytls.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_62046b44
+  network: tcp
+  port: 50030
+  reality-opts:
+    public-key: 93sE3L-JBa-1x_aSJILHmv58IivMFIHNMtyIxQ7t70s
+    short-id: fbb7eb
+  server: jp1.shdetai.cn
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 876d9d25-19c8-462b-b364-7b47e0602f12
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_bc0b54f8
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: kv7ezq.yytls.top
+  skip-cert-verify: false
+  sni: kv7ezq.yytls.top
   type: anytls
   udp: true
 - client-fingerprint: firefox
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_1723e23a
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_ce11678a
   network: ws
-  port: 12300
-  server: 49.142.200.31
+  port: 11371
+  server: 112.72.253.34
   servername: qznql.node-proxy.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -5287,14 +5405,744 @@ proxies:
       Host: qznql.node-proxy.chinat.indevs.in
     path: /danfeng?ed=2560
 - alpn:
+  - 'http/1.1
+
+    '
+  name: 🔴🇰🇷_github.com/Ruk1ng001_7550229f
+  network: ws
+  port: 10035
+  security: tls
+  server: 175.197.105.20
+  servername: c1mxc.api-gateway.fgfw.qzz.io
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c1mxc.api-gateway.fgfw.qzz.io
+    path: /danfeng-2cm3?ed=2560fp=firefox
+- cipher: aes-256-gcm
+  name: 🔴🇬🇧[🎬🤖📺🔍]_github.com/Ruk1ng001_dc8e44ce
+  password: YhzqOeJsfuZ9rkkc
+  port: 443
+  server: 149.102.132.186
+  type: ss
+  udp: true
+- name: 🔴🇬🇧[🎬🤖📺🔍]_github.com/Ruk1ng001_518cc569
+  network: ws
+  port: 8880
+  server: 192.200.160.50
+  servername: vms.lifetime43.workers.dev
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime43.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+        Safari/537.36
+    path: /?ed=2560
+- alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🔴🇲🇴[🎬📺🔍]_github.com/Ruk1ng001_1d28d98e
+  name: 🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_d194c20e
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27013
-  server: g9whvc.yytls.top
+  port: 27005
+  server: scb2jc.yytls.top
   skip-cert-verify: false
-  sni: g9whvc.yytls.top
+  sni: scb2jc.yytls.top
+  type: anytls
+  udp: true
+- name: 🔴🇬🇧[🎬📺🔍]_github.com/Ruk1ng001_c10af3ea
+  network: ws
+  port: 8880
+  server: 45.40.149.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime39.workers.dev
+    path: /?ed=2560
+- name: 🔴🇮🇩[🎬🤖📺🎪]_github.com/Ruk1ng001_c35f378d
+  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+  port: 32233
+  server: 3d6a7222-t9zts0-tfi5fd-1imi4.id.oshuawei.com
+  sni: 3d6a7222-t9zts0-tfi5fd-1imi4.id.oshuawei.com
+  tls: true
+  type: http
+  username: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+- cipher: aes-256-cfb
+  name: 🔴🇵🇱[🎬🤖📺🔍]_github.com/Ruk1ng001_5af2babc
+  password: TPqX8edgbAURcAMb
+  port: 9079
+  server: 217.30.10.70
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🟢🇹🇭[🎬🤖📺🔍]_github.com/Ruk1ng001_e74e8c79
+  password: d7zh2lMrXNH5+8+8pKzlxiCU9NN022ih+uAyxj5d4qo=
+  port: 31700
+  server: 102.129.229.85
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 🔴🇰🇷[🎬📺🔍]_github.com/Ruk1ng001_6c09d53f
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 22558
+  server: 152.69.229.175
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_64eaa93c
+  network: ws
+  port: 19888
+  server: 211.206.53.72
+  servername: qznql.node-proxy.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560
+- name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_56c38e75
+  network: ws
+  port: 11019
+  security: tls
+  server: 165.246.171.218
+  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+    path: /@Marisa_kristifp=chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇹🇭[🎬🤖📺🔍]_github.com/Ruk1ng001_989465a0
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27007
+  server: p6ygf1.yytls.top
+  skip-cert-verify: false
+  sni: p6ygf1.yytls.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 🔴🇰🇷[🎬📺🔍]_github.com/Ruk1ng001_2ebfcb1b
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 12312
+  server: 211.48.77.114
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇲🇲[🎬🤖📺]_github.com/Ruk1ng001_29bbb704
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27029
+  server: jwhztr.yytls.top
+  skip-cert-verify: false
+  sni: jwhztr.yytls.top
+  type: anytls
+  udp: true
+- cipher: aes-128-gcm
+  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_3899267d
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.236
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_8d73f3e7
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 154.223.20.79
+  type: ss
+  udp: true
+- name: 🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_55770f85
+  network: ws
+  port: 8880
+  server: 199.181.197.40
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime19.workers.dev
+    path: /?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_a9d3f70d
+  network: ws
+  port: 10035
+  security: tls
+  server: 119.195.0.158
+  servername: vfa9.cdn-stream.fgfw.indevs.in
+  skip-cert-verify: false
+  sni: vfa9.cdn-stream.fgfw.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_77d63073
+  network: ws
+  port: 55055
+  server: 64.186.240.147
+  servername: qznql.node-proxy.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_49815deb
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CNUdP4EqYrvDYcw3E3EHCm1flSgKAUaO22XE5F2HAjI
+    short-id: 0eb5fb6958f835da
+  server: izd7g4.jpvless.yydzx.xyz
+  servername: www.bandainamcoent.co.jp
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_c8efd598
+  password: 876d9d25-19c8-462b-b364-7b47e0602f12
+  port: 50030
+  server: us2.shdetai.cn
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🔴🇳🇱[🎬🤖📺🔍]_github.com/Ruk1ng001_0c5wvefz
+  network: tcp
+  port: 23576
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  server: 51.158.206.34
+  servername: fuck.rkn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇹🇭_github.com/Ruk1ng001_ed1174b4
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27007
+  server: cpa99s.yytls.top
+  skip-cert-verify: false
+  sni: cpa99s.yytls.top
+  type: anytls
+  udp: true
+- cipher: aes-256-cfb
+  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_95b28b3e
+  password: amazonskr05
+  port: 443
+  server: 18.209.66.91
+  type: ss
+- client-fingerprint: chrome
+  name: 🔴🇰🇷[🎬📺🔍]_github.com/Ruk1ng001_bf4f6892
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 19150
+  server: 121.161.114.201
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /trTelegram🇨🇳 @WangCai2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇹🇭[🎬🤖]_github.com/Ruk1ng001_0f6dfb61
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27007
+  server: ushodz.yytls.top
+  skip-cert-verify: false
+  sni: ushodz.yytls.top
+  type: anytls
+  udp: true
+- encryption: none
+  name: 🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_2ec3159b
+  network: ws
+  port: 8880
+  server: 185.207.198.50
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime15.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.110 Safari/537.36
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🎪]_github.com/Ruk1ng001_399e7265
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
+  ws-opts:
+    headers:
+      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001_e7902588
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27002
+  server: y697lk.yytls.top
+  skip-cert-verify: false
+  sni: y697lk.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇹🇼_github.com/Ruk1ng001_be6142ae
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27005
+  server: bp6yty.yytls.top
+  skip-cert-verify: false
+  sni: bp6yty.yytls.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_67bda433
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CNUdP4EqYrvDYcw3E3EHCm1flSgKAUaO22XE5F2HAjI
+    short-id: 0eb5fb6958f835da
+  server: rt643a.jpvless.yydzx.xyz
+  servername: www.bandainamcoent.co.jp
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- client-fingerprint: chrome
+  name: 🔴🇰🇷[🎬📺🔍]_github.com/Ruk1ng001_fe636396
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 18161
+  server: 193.122.102.79
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🔴🇬🇧[🎬🤖📺🔍]_github.com/Ruk1ng001_10341d92
+  network: ws
+  port: 8880
+  server: 185.16.110.40
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime44.workers.dev
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+- cipher: aes-256-cfb
+  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_7b5a488a
+  password: amazonskr05
+  port: 443
+  server: 13.218.172.80
+  type: ss
+- cipher: aes-256-cfb
+  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_b0145c1e
+  password: amazonskr05
+  port: 443
+  server: 100.26.47.172
+  type: ss
+- name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_4616f59b
+  network: ws
+  port: 14534
+  security: tls
+  server: 49.165.150.206
+  servername: qznql.node-proxy.chinat.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560fp=firefox
+- cipher: aes-256-cfb
+  name: 🔴🇧🇪[🎬🤖📺🔍]_github.com/Ruk1ng001_07f18430
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.249.78
+  type: ss
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇵🇭[🎬🤖📺🔍]_github.com/Ruk1ng001_e13cce7c
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27020
+  server: kohr6t.yytls.top
+  skip-cert-verify: false
+  sni: kohr6t.yytls.top
+  type: anytls
+  udp: true
+- cipher: aes-256-gcm
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a112d3c3
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 103.106.228.175
+  type: ss
+  udp: true
+- name: 🟢🇩🇪[🎬📺🔍]_github.com/Ruk1ng001_9fc650ca
+  port: 777
+  server: 93.123.84.128
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  uuid: c9424b66-67dd-4dbf-ddbc-752514cc04a5
+- name: 🔴🇰🇷[🎬📺🔍]_github.com/Ruk1ng001_8f2d9f16
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 15714
+  server: 183.104.92.31
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🔴🇰🇷[🎬🤖]_github.com/Ruk1ng001_2bfcd138
+  network: ws
+  port: 11434
+  security: tls
+  server: 183.108.49.163
+  servername: qznql.node-proxy.chinat.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560fp=firefox
+- name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_31f5bf58
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 12349
+  server: 220.86.228.109
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇲🇳[🎬🤖]_github.com/Ruk1ng001_4193efc9
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27018
+  server: cd7wg0.yytls.top
+  skip-cert-verify: false
+  sni: cd7wg0.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇹🇼[🎬🤖]_github.com/Ruk1ng001_22128ebf
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27005
+  server: fra62p.yytls.top
+  skip-cert-verify: false
+  sni: fra62p.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇹🇭[🎬📺🔍]_github.com/Ruk1ng001_a6527f3c
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27007
+  server: t7y3x8.yytls.top
+  skip-cert-verify: false
+  sni: t7y3x8.yytls.top
+  type: anytls
+  udp: true
+- name: 🔴🇰🇷[🎬📺🔍]_github.com/Ruk1ng001_a3c8d88e
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 16010
+  server: 121.179.218.9
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇲🇾_github.com/Ruk1ng001_a1482c8c
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27014
+  server: vf750k.yytls.top
+  skip-cert-verify: false
+  sni: vf750k.yytls.top
+  type: anytls
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_8fb64c90
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  port: 443
+  server: bogging-eyeteeth-fly.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_c1b767d3
+  password: elTuo73FsQwO90EbLo96Ve
+  port: 49726
+  server: 45.55.40.127
+  type: ss
+  udp: true
+- name: 🔴🇸🇪[🎬🤖📺🔍]_github.com/Ruk1ng001_47f1f798
+  network: tcp
+  port: 40617
+  server: 109.120.132.142
+  type: vless
+  udp: true
+  uuid: d8d05386-e381-40a4-bb63-715c208b3ed3
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: ⚪🏳️_github.com/Ruk1ng001_d539f53f
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
+    short-id: 96e03e0f184639ef
+  server: 38.54.116.244
+  servername: peer.pan.baidu.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 45838e8e58c44a21b229c2e43347934a
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇨🇦[🎬🤖📺🔍]_github.com/Ruk1ng001_0f076fa0
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 79.127.200.169
+  type: ss
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_47882b8c
+  network: ws
+  port: 16923
+  security: tls
+  server: 110.45.5.104
+  servername: vfa9.cdn-stream.fgfw.indevs.in
+  skip-cert-verify: false
+  sni: vfa9.cdn-stream.fgfw.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🟢🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a7be7b9c
+  network: tcp
+  port: 443
+  server: 150.251.158.76
+  servername: s646.okgg.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  xudp: true
+- cipher: aes-256-gcm
+  name: 🔴🇩🇪[🎬🤖📺🔍]_github.com/Ruk1ng001_a0088aeb
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 213.202.208.199
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🔴🇺🇸_github.com/Ruk1ng001_71a230b5
+  password: amazonskr05
+  port: 443
+  server: 100.27.193.207
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🟢🇳🇱[🎬🤖📺🔍]_github.com/Ruk1ng001_2ac8959a
+  password: wEaXpDTKWawYNyIUJ3hzqk
+  port: 49137
+  server: 195.93.253.245
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_b83d3af0
+  network: ws
+  port: 443
+  server: 76.223.33.155
+  servername: qznql.node-proxy.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560
+- name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_16263f5a
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 14430
+  server: 119.203.144.51
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 🔴🇺🇸[📺]_github.com/Ruk1ng001_77fc3796
+  network: ws
+  port: 443
+  server: 63.141.128.8
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- cipher: rc4-md5
+  name: 🔴🇨🇦[🤖]_github.com/Ruk1ng001_GZZRTsul
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
+  type: ss
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇻🇳[🎬🤖📺🔍]_github.com/Ruk1ng001_f5685974
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27015
+  server: zbdw28.yytls.top
+  skip-cert-verify: false
+  sni: zbdw28.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🟢🇨🇳[🤖📺🔍]_github.com/Ruk1ng001_ac40b130
+  password: 9b016db2-a63d-43ab-99d8-e424022a752f
+  port: 2052
+  server: jp1.yuntong.click
+  skip-cert-verify: false
   type: anytls
   udp: true
