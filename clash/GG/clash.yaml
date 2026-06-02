@@ -510,6 +510,17 @@ rules:
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_6ddacdd1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 52.221.182.197
+  type: ss
+  udp: true
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_da709669
@@ -520,11 +531,26 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_ed194174
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 16888
-  server: 18.162.59.8
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_ee80ce19
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 47.129.228.114
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_d08b7017
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 54.255.178.200
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -536,6 +562,39 @@ proxies:
     mode: tls
   port: 2377
   server: 54.251.161.126
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_ae66d5d9
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 47.129.38.6
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_7ab423b8
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 54.169.81.201
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_885184ac
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 54.255.243.110
   type: ss
   udp: true
 - alterId: 1
@@ -558,48 +617,44 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- cipher: chacha20-ietf-poly1305
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_3db19ff3
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c18ca9e:213221
-    mode: tls
-  port: 2377
-  server: 18.141.230.148
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_c40ce56e
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 11688
+  server: ss.009.node-for-bigairport.win
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_1f5ccc7c
+  name: 🔴🇸🇬[🎬🤖🔍]_github.com/Ruk1ng001_8c1992be
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: (TG @WangCai2)c18ca9e:213221
     mode: tls
   port: 2377
-  server: 13.215.184.182
+  server: 18.139.163.18
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_d128800c
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_93e0c34d
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: (TG @WangCai2)c18ca9e:213221
     mode: tls
   port: 2377
-  server: 13.229.120.42
+  server: 18.138.35.43
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_dc4beb1c
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_450a5730
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: (TG @WangCai2)c18ca9e:213221
     mode: tls
   port: 2377
-  server: 13.214.209.196
+  server: 18.143.63.164
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -614,17 +669,6 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_5974a25e
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c18ca9e:213221
-    mode: tls
-  port: 2377
-  server: 13.214.209.226
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_980edc15
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
@@ -633,6 +677,17 @@ proxies:
     mode: tls
   port: 2377
   server: 13.229.249.124
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_5974a25e
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 13.214.209.226
   type: ss
   udp: true
 - alterId: 1
@@ -645,16 +700,28 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_61ded780
-  port: 448
-  server: qgi2xqy-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_6e7e2e6e
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 13.212.60.176
+  type: ss
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_2741633c
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 52.77.216.160
+  type: ss
+  udp: true
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e6dcada0
@@ -665,26 +732,17 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_da41bca6
-  port: 28786
-  server: ax7bbps-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_83153416
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 13.215.227.70
+  type: ss
   udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- name: 🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001_f5653fc8
-  network: ws
-  port: 80
-  server: 104.17.220.242
-  type: vless
-  uuid: d8bc8425-5e80-4c26-bd93-af634c033e2d
-  ws-opts:
-    headers:
-      Host: purnet.gmijcp.workers.dev
-    path: /?ed=2048
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_3fb67766
@@ -695,39 +753,6 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- name: 🔴🇨🇦[🎬🤖📺🔍]_github.com/Ruk1ng001_e8fc47bf
-  network: ws
-  port: 2082
-  server: 104.17.109.71
-  type: vless
-  udp: true
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: index.arcane509.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    max-early-data: 2560
-    path: /jeyk7gbxzfe1
-  xudp: true
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_c40ce56e
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 11688
-  server: ss.009.node-for-bigairport.win
-  type: ss
-  udp: true
-- name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_0b6e9fdc
-  network: ws
-  port: 80
-  server: 104.17.176.228
-  type: vless
-  uuid: d8bc8425-5e80-4c26-bd93-af634c033e2d
-  ws-opts:
-    headers:
-      Host: purnet.gmijcp.workers.dev
-    path: /?ed=2048
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c7fe85a1
@@ -758,20 +783,13 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_48a02db1
-  network: ws
-  port: 80
-  server: 104.19.151.106
-  type: vless
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_e653ad84
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 15099
+  server: ss.013.node-for-bigairport.win
+  type: ss
   udp: true
-  uuid: 73d17f62-d0c0-4c90-903c-a2b3f3806cca
-  ws-opts:
-    headers:
-      Host: fragrant-tooth-a5b7.cajeba6448.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /?ed=2048#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night
-  xudp: true
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1259ee71
@@ -782,26 +800,20 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e3449e4e
-  port: 447
-  server: oha4npj-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_ed194174
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 16888
+  server: 18.162.59.8
+  type: ss
   udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4096577a
-  port: 28787
-  server: qg35pny-g05.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_73d7aa2e
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 16098
+  server: ss.018.node-for-bigairport.win
+  type: ss
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_06779141
@@ -812,16 +824,13 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_8f6fe35a
-  port: 448
-  server: xdu5xlc-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_85481074
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 16097
+  server: ss.019.node-for-bigairport.win
+  type: ss
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f4ab919a
@@ -834,19 +843,9 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_063635ed
-  port: 46486
-  server: f4f5olm-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_3c4b964e
-  port: 11777
-  server: qdf5or1-g05.jp02-e3-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_8f6fe35a
+  port: 448
+  server: xdu5xlc-g05.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -864,24 +863,35 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_6b9cd42e
-  port: 11776
-  server: hx4d54s-g04.jp02-e3-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_063635ed
+  port: 46486
+  server: f4f5olm-g05.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- encryption: none
+  name: 🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001_7d67768d
+  network: ws
+  port: 80
+  server: 104.19.47.96
+  type: vless
+  uuid: d8bc8425-5e80-4c26-bd93-af634c033e2d
+  ws-opts:
+    headers:
+      Host: purnet.gmijcp.workers.dev
+    path: /?ed=2048
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_bf6df648
-  port: 447
-  server: hxz4b4j-g04.jp04-1d-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_3c4b964e
+  port: 11777
+  server: qdf5or1-g05.jp02-e3-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c0ab0d90
@@ -892,16 +902,13 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ddee98e5
-  port: 448
-  server: fgiyoqy-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_6d18c3b3
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 36888
+  server: ss.007.node-for-bigairport.win
+  type: ss
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ef07f1be
@@ -914,21 +921,14 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_3374c875
-  port: 447
-  server: ax4db4s-g04.jp04-1d-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ddee98e5
+  port: 448
+  server: fgiyoqy-g05.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_4b011134
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 23888
-  server: ss.008.node-for-bigairport.win
-  type: ss
-  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1841ba98
@@ -969,61 +969,18 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a61e3763
-  port: 448
-  server: x4i5sq1-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_4b011134
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 23888
+  server: ss.008.node-for-bigairport.win
+  type: ss
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d7298aec
-  port: 448
-  server: wdi5ply-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_778227f8
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_68c36218
   port: 46485
-  server: iuadb4k-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e1cb1ed3
-  port: 448
-  server: xd32xl1-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4dc1e9ff
-  port: 448
-  server: qdf2sl1-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_b09ccf5c
-  port: 28786
-  server: hx49npj-g04.jp07-sh-vm0.entry.fr0528.art
+  server: ohabb4s-g04.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -1042,9 +999,9 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_68c36218
-  port: 46485
-  server: ohabb4s-g04.jp05-h6-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_b09ccf5c
+  port: 28786
+  server: hx49npj-g04.jp07-sh-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -1070,38 +1027,11 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_c24dd95e
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 16888
-  server: ss.002.node-for-bigairport.win
-  type: ss
-  udp: true
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_98bc22c2
   port: 11777
   server: fdiyxqm-g05.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1eafb8ef
-  port: 11777
-  server: qd35sn1-g05.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_5cbdf414
-  port: 28787
-  server: qdiypny-g05.jp07-sh-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -1129,44 +1059,14 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_63b2237f
-  port: 11777
-  server: qgiyxr1-g05.jp02-e3-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_acb4c9cf
+  port: 448
+  server: wduyxnc-g05.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d23c1132
-  port: 11776
-  server: ox795xk-g04.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_09acbe3a
-  port: 46486
-  server: q43yory-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_8ae117c6
-  port: 28786
-  server: ahz9nxj-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - cipher: chacha20-ietf-poly1305
   name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_777eadc4
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -1180,26 +1080,6 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_acb4c9cf
-  port: 448
-  server: wduyxnc-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d4cb1b9a
-  port: 46485
-  server: auad5xj-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c9f1cbc2
   port: 28786
   server: hu49b4k-g04.jp07-sh-vm0.entry.fr0528.art
@@ -1210,9 +1090,9 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_8aa0a902
-  port: 447
-  server: ix7bbpk-g04.jp04-1d-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d4cb1b9a
+  port: 46485
+  server: auad5xj-g04.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -1250,16 +1130,6 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_6a5f7a6e
-  port: 46485
-  server: ouzdn4s-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_2de60822
   port: 447
   server: aha4npj-g04.jp04-1d-vm0.entry.fr0528.art
@@ -1268,21 +1138,21 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- name: 🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001_f5653fc8
+  network: ws
+  port: 80
+  server: 104.17.220.242
+  type: vless
+  uuid: d8bc8425-5e80-4c26-bd93-af634c033e2d
+  ws-opts:
+    headers:
+      Host: purnet.gmijcp.workers.dev
+    path: /?ed=2048
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_9aed0508
-  port: 28786
-  server: hx4bqpk-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_260eec4c
-  port: 447
-  server: ah44q4s-g04.jp04-1d-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_6a5f7a6e
+  port: 46485
+  server: ouzdn4s-g04.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -1298,6 +1168,23 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_a45c87bf
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 13004
+  server: ss.016.node-for-bigairport.win
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_05bff6b8
+  port: 46485
+  server: ax7954k-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a2ee973a
@@ -1308,16 +1195,16 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7752947e
-  port: 447
-  server: aua954j-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- name: 🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_0b6e9fdc
+  network: ws
+  port: 80
+  server: 104.17.176.228
+  type: vless
+  uuid: d8bc8425-5e80-4c26-bd93-af634c033e2d
+  ws-opts:
+    headers:
+      Host: purnet.gmijcp.workers.dev
+    path: /?ed=2048
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_46f346d1
@@ -1341,76 +1228,6 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c6872af3
-  port: 28786
-  server: oh79qxk-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e3a7f5b0
-  port: 46486
-  server: xgf5sry-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ad1e0942
-  port: 28786
-  server: iuadq4k-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_bef44b70
-  port: 46485
-  server: hx7d5pk-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_9dca83c6
-  port: 46486
-  server: x4iypry-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_b756086b
-  port: 448
-  server: q4fyolm-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_5923def7
-  port: 46486
-  server: qdi2pl1-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_b9acb967
   port: 11777
   server: xguypqm-g05.jp02-e3-vm0.entry.fr0528.art
@@ -1431,14 +1248,14 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4656fdf4
-  port: 448
-  server: x4uysrm-g05.jp04-1d-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_43ed8efd
+  port: 28786
+  server: iu44q4j-g04.jp07-sh-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_57ac2b7a
@@ -1451,49 +1268,9 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_43ed8efd
-  port: 28786
-  server: iu44q4j-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e5e2bc05
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4656fdf4
   port: 448
-  server: wdiysq1-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_dd0126c7
-  port: 447
-  server: au49qps-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a29334da
-  port: 448
-  server: xdf2sqm-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f1bacf28
-  port: 46486
-  server: fguyplc-g05.jp05-h6-vm0.entry.fr0528.art
+  server: x4uysrm-g05.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -1511,36 +1288,6 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_62bd2613
-  port: 11777
-  server: qgf5prc-g05.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_0851a8d8
-  port: 11777
-  server: wg32pq1-g05.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e7a0a123
-  port: 28786
-  server: ixz95pk-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_b136e441
   port: 11776
   server: au4954k-g04.jp02-e3-vm0.entry.fr0528.art
@@ -1549,16 +1296,6 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1ca980a7
-  port: 46486
-  server: wd35slc-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - cipher: chacha20-ietf-poly1305
   name: 🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001_4cbe8a90
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -1582,9 +1319,9 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_78f90184
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1ca980a7
   port: 46486
-  server: qdiyxlm-g05.jp05-h6-vm0.entry.fr0528.art
+  server: wd35slc-g05.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -1602,34 +1339,14 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f6d5ac61
-  port: 11777
-  server: wgu2sry-g05.jp02-e3-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_96d795c6
+  port: 11776
+  server: iua9bps-g04.jp02-e3-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d09e1f25
-  port: 46486
-  server: xdu5oqy-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_9c63732a
-  port: 11777
-  server: x4iyslm-g05.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - cipher: chacha20-ietf-poly1305
   name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_b11b1dfe
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -1641,58 +1358,6 @@ proxies:
   server: 60.249.14.39
   type: ss
   udp: true
-- down: ''
-  fingerprint: ''
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_778e2eb4
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20577
-  server: jp3.dexlos.com
-  skip-cert-verify: false
-  sni: jp3.dexlos.com
-  type: hysteria2
-  up: ''
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7095d431
-  port: 46486
-  server: fg32ply-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_5ef140e5
-  port: 448
-  server: xgfypny-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4e8a0061
-  port: 11776
-  server: huzd5xk-g04.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a537f09e
-  port: 28786
-  server: hxzd54k-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - cipher: chacha20-ietf-poly1305
   name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_aa3ceb3d
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -1711,16 +1376,6 @@ proxies:
   server: ss.011.node-for-bigairport.win
   type: ss
   udp: true
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_13c68673
-  port: 46485
-  server: hhz454k-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ef7be89a
@@ -1743,6 +1398,23 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_13c68673
+  port: 46485
+  server: hhz454k-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- cipher: chacha20-ietf
+  name: 🔴🇭🇰[📦]_github.com/Ruk1ng001_7e8902c3
+  password: asd123456
+  port: 8388
+  server: 103.141.221.124
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_46ad921c
   port: 28787
   server: w4iypqc-g05.jp07-sh-vm0.entry.fr0528.art
@@ -1753,95 +1425,14 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_795fecc0
-  port: 28786
-  server: hu49qxs-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_30468c3a
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_12ce7675
   port: 11777
-  server: q43ysl1-g05.jp02-e3-vm0.entry.fr0528.art
+  server: fgu5oqm-g05.jp02-e3-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_dd5f150c
-  port: 11776
-  server: ixabbxk-g04.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_707f1bfd
-  port: 46486
-  server: x4uyorc-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_31f0c07b
-  port: 448
-  server: w4i2orc-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_9ddda80a
-  port: 11776
-  server: aua9q4k-g04.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- cipher: chacha20-ietf-poly1305
-  name: 🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001_fe589356
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c18ca9e:213221
-    mode: tls
-  port: 2377
-  server: 60.249.35.96
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_b94b1744
-  port: 46486
-  server: qd35xl1-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_48551e99
-  port: 11776
-  server: hhzd54s-g04.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_dbfd6669
@@ -1857,26 +1448,6 @@ proxies:
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d277b6e4
   port: 448
   server: xg3yprc-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_cdd1bff3
-  port: 447
-  server: ixzbqxk-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d4f39962
-  port: 46486
-  server: f4uyxlc-g05.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -1912,16 +1483,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f2f7324a
-  port: 28786
-  server: au7b5ps-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - cipher: chacha20-ietf-poly1305
   name: 🔴🇸🇬[🤖]_github.com/Ruk1ng001_20e1b4a7
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -1935,14 +1496,14 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_323cecd3
-  port: 11777
-  server: wgf5ply-g05.jp02-e3-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f2f7324a
+  port: 28786
+  server: au7b5ps-g04.jp07-sh-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_bbf735bb
@@ -1963,6 +1524,14 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- name: 🟡🇭🇰[📺]_github.com/Ruk1ng001_2e457a99
+  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+  port: 8443
+  server: a7d75baa-te5ts0-tip01z-1gevg.hkt2.cdnhuawei.com
+  skip-cert-verify: true
+  sni: a7d75baa-te5ts0-tip01z-1gevg.hkt2.cdnhuawei.com
+  type: anytls
+  udp: true
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4373a323
@@ -1983,16 +1552,6 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1186882b
-  port: 46486
-  server: w4f5sly-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - cipher: chacha20-ietf-poly1305
   name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_d7d58063
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -2002,6 +1561,17 @@ proxies:
     mode: tls
   port: 2377
   server: 211.22.161.166
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001_b58383f8
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 60.249.14.94
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2016,27 +1586,6 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001_b58383f8
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c18ca9e:213221
-    mode: tls
-  port: 2377
-  server: 60.249.14.94
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_0b802dbb
-  port: 447
-  server: au44bxj-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- cipher: chacha20-ietf-poly1305
   name: 🟢🇹🇼[📺🎭🎪🎞️]_github.com/Ruk1ng001_4d882f07
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
@@ -2049,26 +1598,27 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  client-fingerprint: chrome
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f356310f
-  network: tcp
-  port: 11773
-  server: glso9xa-g01.jp02-e3-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4d99d626
+  port: 46486
+  server: wguypn1-g05.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 1a9f857f-9a07-3a8c-a155-f9ab3c457343
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a2b4f3a2
-  port: 46485
-  server: ou4454s-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- cipher: chacha20-ietf-poly1305
+  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_da820476
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001269pz2.cybervena.com
+  type: ss
   udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- cipher: chacha20-ietf-poly1305
+  name: ⚪🏳️_github.com/Ruk1ng001_9df08c02
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 19001
+  server: ss.047.node-for-bigairport.win
+  type: ss
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_cfa58760
@@ -2076,16 +1626,6 @@ proxies:
   server: w432sqm-g05.jp01-nn-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7e81da10
-  port: 448
-  server: wdi5sny-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
@@ -2119,16 +1659,17 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4d9426c1
-  port: 28787
-  server: wgf5xqy-g05.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 🟢🇹🇼[🎬🤖📺]_github.com/Ruk1ng001_ce9e670b
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 59.125.62.192
+  type: ss
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c9c7da92
@@ -2195,36 +1736,34 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- client-fingerprint: chrome
+  encryption: none
+  name: ⚪🏳️_github.com/Ruk1ng001_520b75ad
+  network: ws
+  port: 443
+  server: 124.244.50.35
+  servername: sn1.skylee5.cloudns.ch
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sn1.skylee5.cloudns.ch
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /proxyip=ProxyIP.CMLiussss.net
+  xudp: true
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ad0ba7df
-  port: 11776
-  server: hxadb4j-g04.jp02-e3-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_5a1dc65a
+  port: 46485
+  server: ah7bbpk-g04.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_6888327c
-  port: 46486
-  server: w432sn1-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_9c18e236
-  port: 11777
-  server: w4i5xlm-g05.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - cipher: 2022-blake3-aes-256-gcm
   name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_bc35ee1f
   password: MDVmMDZmMjcxMGVhZThlYmVkZGEwOThiNmJjYTYzMzc=:YTlkNzI3Y2QtMzMwYi00ZWRkLTg5MTEtN2MyMjRkZjY=
@@ -2232,16 +1771,6 @@ proxies:
   server: sg-02.jjsdns.com
   type: ss
   udp: true
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_61959766
-  port: 11776
-  server: oh44nps-g04.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7c498f6b
@@ -2252,6 +1781,16 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_61959766
+  port: 11776
+  server: oh44nps-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_6c74c01e
@@ -2274,18 +1813,6 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - down: ''
   fingerprint: ''
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_71305575
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20778
-  server: jp4.dexlos.com
-  skip-cert-verify: false
-  sni: jp4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_88ab4d16
   obfs: salamander
   obfs-password: xK9mN2pLq5vR8wB3
@@ -2298,6 +1825,16 @@ proxies:
   up: ''
 - alterId: 1
   cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_6e296fac
+  port: 11777
+  server: fgu2pnc-g05.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c3567ca6
   port: 11777
   server: f4i2xqc-g05.jp02-e3-vm0.entry.fr0528.art
@@ -2306,13 +1843,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_73d7aa2e
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 16098
-  server: ss.018.node-for-bigairport.win
-  type: ss
-  udp: true
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c8efc7ba
@@ -2349,18 +1879,6 @@ proxies:
   server: 13.159.19.79
   type: ss
   udp: true
-- down: ''
-  fingerprint: ''
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_24445bb0
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20682
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
@@ -2378,16 +1896,15 @@ proxies:
   udp: true
   uuid: 09213C69-2971-449A-8DC6-6C3B738E9D77
   xudp: true
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_3f9126bd
-  port: 28787
-  server: wg32on1-g05.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+- client-fingerprint: chrome
+  name: 🟡🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001_c81e02ba
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 8300
+  server: 8ff2fd1c-t9mv40-tdtaxw-au6.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: 8ff2fd1c-t9mv40-tdtaxw-au6.hkt.east.wctype.com
+  type: anytls
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_537b939f
@@ -2398,18 +1915,33 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- down: ''
-  fingerprint: ''
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_db77cd5d
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20536
-  server: jp3.dexlos.com
+- name: 🟡🇭🇰[📺🔍]_github.com/Ruk1ng001_42f50150
+  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+  port: 8443
+  server: c7f72645-te24g0-twuk0i-1hzyr.hkt2.cdnhuawei.com
+  skip-cert-verify: true
+  sni: c7f72645-te24g0-twuk0i-1hzyr.hkt2.cdnhuawei.com
+  type: anytls
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_0449ccfc
+  port: 11776
+  server: oh4bbpk-g04.jp02-e3-vm0.entry.fr0528.art
   skip-cert-verify: false
-  sni: jp3.dexlos.com
-  type: hysteria2
-  up: ''
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ff73a412
+  port: 447
+  server: ox7dbxj-g04.jp04-1d-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d68431a6
@@ -2433,16 +1965,6 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ff73a412
-  port: 447
-  server: ox7dbxj-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a8d8519d
   port: 28786
   server: ih7d54j-g04.jp06-jz-vm0.entry.fr0528.art
@@ -2463,21 +1985,21 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c4049688
-  port: 28787
-  server: fgu2pqc-g05.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_46e87620
   port: 448
   server: qdu2snc-g05.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c4049688
+  port: 28787
+  server: fgu2pqc-g05.jp06-jz-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
@@ -2491,16 +2013,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_45667383
-  port: 46485
-  server: iu49n4k-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_eba8334f
@@ -2522,16 +2034,40 @@ proxies:
   server: 59.125.62.191
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_38a0634e
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 36888
+  server: ss.003.node-for-bigairport.win
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: movie
+  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_91cff2be
+  network: grpc
+  port: 10128
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk3-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 09213C69-2971-449A-8DC6-6C3B738E9D77
+  xudp: true
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a5c6a649
-  port: 21585
-  server: fgu2pnc-g05.jp03-j7-vm0.entry.fr0528.art
+  name: 🔴🇯🇵_github.com/Ruk1ng001_da41bca6
+  port: 28786
+  server: ax7bbps-g04.jp07-sh-vm0.entry.fr0528.art
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_3697071c
@@ -2542,35 +2078,27 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- cipher: aes-256-gcm
-  name: 🔴🇸🇬_github.com/Ruk1ng001_1334a8cd
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 19887
-  server: ss.037.node-for-bigairport.win
-  type: ss
-  udp: true
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_f8b3c7a9
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 8080
-  server: tw1.dexlos.com
-  sni: tw1.dexlos.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 09213C69-2971-449A-8DC6-6C3B738E9D77
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_372b125e
-  port: 11776
-  server: axzbn4k-g04.jp02-e3-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_3f08343b
+  port: 28787
+  server: w4fyony-g05.jp06-jz-vm0.entry.fr0528.art
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- cipher: chacha20-ietf-poly1305
+  name: 🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001_fe589356
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 60.249.35.96
+  type: ss
+  udp: true
 - encryption: none
   name: 🟢🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_6ef8dc2a
   network: tcp
@@ -2582,29 +2110,9 @@ proxies:
   xudp: true
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_3f08343b
-  port: 28787
-  server: w4fyony-g05.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f676a747
-  port: 28787
-  server: w4f5onm-g05.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_123b21f9
-  port: 28786
-  server: auz9nps-g04.jp07-sh-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_372b125e
+  port: 11776
+  server: axzbn4k-g04.jp02-e3-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -2622,6 +2130,26 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_123b21f9
+  port: 28786
+  server: auz9nps-g04.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_813ef5fe
+  port: 46485
+  server: ouz454k-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c102adcd
   port: 28787
   server: wd35pny-g05.jp07-sh-vm0.entry.fr0528.art
@@ -2630,23 +2158,38 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_181e6b13
-  network: grpc
-  port: 10031
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: jp1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e7d8b9ae
+  port: 28786
+  server: hx4bb4j-g04.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  xudp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🔴🇸🇬[📺]_github.com/Ruk1ng001_c490f8ef
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27103
+  reduce-rtt: false
+  server: yq7hun.yydzx.xyz
+  sni: yq7hun.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_3473aaeb
+  port: 21584
+  server: iua454k-g04.jp03-j7-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_2fde281f
@@ -2659,31 +2202,11 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_10d785dc
-  port: 28786
-  server: hxa4nxk-g04.jp07-sh-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_0c366ce7
+  port: 447
+  server: axz4nxj-g04.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e7d8b9ae
-  port: 28786
-  server: hx4bb4j-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_3473aaeb
-  port: 21584
-  server: iua454k-g04.jp03-j7-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
@@ -2707,58 +2230,11 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_0c366ce7
-  port: 447
-  server: axz4nxj-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a59e7448
-  port: 447
-  server: iu7b5xk-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_17164eea
-  port: 447
-  server: ah7db4s-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_b6437032
-  network: grpc
-  port: 10037
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_af276e97
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 17877
-  server: jp-02.jjsdns.com
+- cipher: chacha20-ietf
+  name: 🔴🇭🇰_github.com/Ruk1ng001_AJrBnYnC
+  password: asd123456
+  port: 8388
+  server: 103.149.182.105
   type: ss
   udp: true
 - alterId: 1
@@ -2771,13 +2247,16 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- cipher: chacha20-ietf-poly1305
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_76f6b8f0
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 15795
-  server: jp-04.jjsdns.com
-  type: ss
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_17164eea
+  port: 447
+  server: ah7db4s-g04.jp04-1d-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ad52e32b
@@ -2788,16 +2267,18 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_b13ecc7c
-  port: 448
-  server: xdfyxl1-g05.jp04-1d-vm0.entry.fr0528.art
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇻🇳[🎬🤖📺🔍]_github.com/Ruk1ng001_d65c35d6
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27015
+  server: vl5ly0.yytls.top
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: vl5ly0.yytls.top
+  type: anytls
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d33adb52
@@ -2818,6 +2299,17 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇸🇬[🎬🤖📺]_github.com/Ruk1ng001_d128800c
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 13.229.120.42
+  type: ss
+  udp: true
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e8336ef4
@@ -2828,18 +2320,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- down: ''
-  fingerprint: ''
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4ec301d2
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20532
-  server: jp3.dexlos.com
-  skip-cert-verify: false
-  sni: jp3.dexlos.com
-  type: hysteria2
-  up: ''
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_de6acd33
@@ -2850,45 +2330,11 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- down: ''
-  fingerprint: ''
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_9e94f452
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20766
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_86fc3172
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20780
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_46d005bc
   port: 448
   server: f4f2sqc-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f767f30e
-  port: 46486
-  server: fdfyon1-g05.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -2906,14 +2352,58 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_5d860931
-  port: 28786
-  server: ixz95ps-g04.jp06-jz-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_0185d62f
+  port: 448
+  server: f435sl1-g05.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇹🇭[🎬🤖📺]_github.com/Ruk1ng001_a6527f3c
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27007
+  server: t7y3x8.yytls.top
+  skip-cert-verify: false
+  sni: t7y3x8.yytls.top
+  type: anytls
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_74ee47bf
+  port: 28787
+  server: q4u2xny-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_fb23e53f
+  port: 46486
+  server: x4fyplm-g05.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_e06df706
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27003
+  server: wd93u1.yytls.top
+  skip-cert-verify: false
+  sni: wd93u1.yytls.top
+  type: anytls
+  udp: true
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_bf084f00
@@ -2926,48 +2416,6 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_71623d72
-  port: 21584
-  server: iuz9q4s-g04.jp03-j7-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_74ee47bf
-  port: 28787
-  server: q4u2xny-g05.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_72ac81e3
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27105
-  reduce-rtt: false
-  server: hwwvhp.yydzx.xyz
-  sni: hwwvhp.yydzx.xyz
-  type: tuic
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_fb23e53f
-  port: 46486
-  server: x4fyplm-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_012ab728
   port: 46485
   server: au7bbxs-g04.jp05-h6-vm0.entry.fr0528.art
@@ -2976,38 +2424,6 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_78f1c944
-  port: 46486
-  server: w4iyxrm-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_6736bc9a
-  port: 28786
-  server: ou74b4k-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- down: ''
-  fingerprint: ''
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_ce9462b2
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20604
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e34e030f
@@ -3020,14 +2436,14 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f38ede0a
-  port: 28787
-  server: qgfyxnm-g05.jp07-sh-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_6736bc9a
+  port: 28786
+  server: ou74b4k-g04.jp07-sh-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_79336ccf
@@ -3038,18 +2454,16 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- down: ''
-  fingerprint: ''
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1b9dca50
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20628
-  server: jp4.dexlos.com
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f38ede0a
+  port: 28787
+  server: qgfyxnm-g05.jp07-sh-vm0.entry.fr0528.art
   skip-cert-verify: false
-  sni: jp4.dexlos.com
-  type: hysteria2
-  up: ''
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a08fb875
@@ -3070,16 +2484,18 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_24944890
-  port: 28787
-  server: xdi5pqm-g05.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e7dad708
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27104
+  reduce-rtt: false
+  server: vqkfop.yydzx.xyz
+  sni: vqkfop.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_98c87959
@@ -3095,6 +2511,33 @@ proxies:
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c229f67c
   port: 28787
   server: fgiypqm-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: update
+  name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_81e2a0b0
+  network: grpc
+  port: 10127
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 09213C69-2971-449A-8DC6-6C3B738E9D77
+  xudp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f83473e9
+  port: 448
+  server: qgf2xly-g05.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -3140,33 +2583,6 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- cipher: aes-256-gcm
-  name: 🔴🇯🇵_github.com/Ruk1ng001_a48ff83d
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 29888
-  server: ss.023.node-for-bigairport.win
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_676f52e8
-  port: 28787
-  server: q4uypn1-g05.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f81bcbf0
-  port: 28787
-  server: qguypqm-g05.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e95ac15d
@@ -3179,9 +2595,29 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_46c970ba
-  port: 28787
-  server: wg32src-g05.jp07-sh-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7e974430
+  port: 21585
+  server: wg32sqc-g05.jp01-nn-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_fa2873aa
+  port: 11776
+  server: hhz9q4j-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4f38034f
+  port: 46486
+  server: q4f5src-g05.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -3199,51 +2635,9 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4f38034f
-  port: 46486
-  server: q4f5src-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- down: ''
-  fingerprint: ''
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_eb79cf33
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20730
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_657ede6b
-  port: 28786
-  server: au4bnpk-g04.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d418c4f6
   port: 11777
   server: qgf2xq1-g05.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7492a218
-  port: 11777
-  server: w4u2sn1-g05.jp02-e3-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -3262,58 +2656,14 @@ proxies:
     path: /mpmva3e8rtr6v7qq
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f9ab7cfc
-  port: 46485
-  server: iua4bxk-g04.jp05-h6-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7492a218
+  port: 11777
+  server: w4u2sn1-g05.jp02-e3-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001_693ca9cb
-  port: 13413
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    short-id: a1b2c3d4
-  security: reality
-  server: zzhk4.ainivp.com
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_04f17be3
-  port: 28786
-  server: oxa4qpk-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e7182ac3
-  port: 21585
-  server: x43yxly-g05.jp03-j7-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_0bf9f72e
-  port: 21584
-  server: hx4bn4s-g04.jp03-j7-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d0d70cca
@@ -3334,6 +2684,33 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_ca006c4e
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 29004
+  server: ss.035.node-for-bigairport.win
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f9ab7cfc
+  port: 46485
+  server: iua4bxk-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ad0ba7df
+  port: 11776
+  server: hxadb4j-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: ⚪🏳️_github.com/Ruk1ng001_8183dc56
@@ -3344,6 +2721,23 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_0f91dfee
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 29004
+  server: ss.039.node-for-bigairport.win
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f9a15f2c
+  port: 447
+  server: ahzd5xs-g04.jp04-1d-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - cipher: chacha20-ietf-poly1305
   name: 🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001_00a4cec7
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -3367,9 +2761,26 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f9a15f2c
-  port: 447
-  server: ahzd5xs-g04.jp04-1d-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_313d6232
+  port: 21585
+  server: x4f5orm-g05.jp01-nn-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- cipher: aes-256-gcm
+  name: 🔴🇯🇵_github.com/Ruk1ng001_7738b85c
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 29015
+  server: ss.028.node-for-bigairport.win
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_fde76009
+  port: 11776
+  server: auz4b4s-g04.jp02-e3-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -3387,38 +2798,14 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_fde76009
-  port: 11776
-  server: auz4b4s-g04.jp02-e3-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_261c1c5c
+  port: 28787
+  server: wgf2sqc-g05.jp07-sh-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- cipher: aes-256-gcm
-  name: 🔴🇯🇵_github.com/Ruk1ng001_7738b85c
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 29015
-  server: ss.028.node-for-bigairport.win
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_313d6232
-  port: 21585
-  server: x4f5orm-g05.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- cipher: chacha20-ietf-poly1305
-  name: 🔴🇰🇷[🤖📺🔍]_github.com/Ruk1ng001_2e9c59b0
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 22386
-  server: 43.164.128.196
-  type: ss
-  udp: true
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_8bd588ae
@@ -3439,31 +2826,16 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- cipher: chacha20-ietf-poly1305
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_8a46ab05
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 11788
-  server: jp-05.jjsdns.com
-  type: ss
-  udp: true
-- name: 🔴🇭🇰[🎬📺🎭🎪]_github.com/Ruk1ng001_14d74a4b
-  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-  port: 5228
-  server: 8bea89f7-t9zts0-tlvq5w-1jcwu.cm4.oshuawei.com
-  sni: 8bea89f7-t9zts0-tlvq5w-1jcwu.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: f93486ce-cc84-11ed-9e98-f23c913c8d2b
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_261c1c5c
-  port: 28787
-  server: wgf2sqc-g05.jp07-sh-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_3e17220d
+  port: 11776
+  server: ah4bnps-g04.jp02-e3-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_0aa281f6
@@ -3474,38 +2846,6 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- down: ''
-  fingerprint: ''
-  name: ⚪🏳️[🎬📺🔍]_github.com/Ruk1ng001_b28a8f92
-  obfs: ''
-  obfs-password: ''
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20854
-  server: hk5.dexlos.com
-  skip-cert-verify: false
-  sni: hk5.dexlos.com
-  type: hysteria2
-  up: ''
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_effa47cd
-  port: 21584
-  server: oua45xj-g04.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_b7c74bf5
-  port: 28787
-  server: wgu5prm-g05.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - cipher: 2022-blake3-aes-256-gcm
   name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_b7fa48ce
   password: MDVmMDZmMjcxMGVhZThlYmVkZGEwOThiNmJjYTYzMzc=:YTlkNzI3Y2QtMzMwYi00ZWRkLTg5MTEtN2MyMjRkZjY=
@@ -3515,19 +2855,46 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_2775d103
-  port: 21585
-  server: fgu2pl1-g05.jp03-j7-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🤖📺🔍]_github.com/Ruk1ng001_6055205f
+  port: 448
+  server: xdiysny-g05.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🤖📺🔍]_github.com/Ruk1ng001_6055205f
-  port: 448
-  server: xdiysny-g05.jp04-1d-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_59feff78
+  port: 46486
+  server: x4u5pn1-g05.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_da3e6be3
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 13001
+  server: ss.015.node-for-bigairport.win
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d71d44e6
+  port: 28787
+  server: x4i5or1-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_b73855fb
+  port: 28787
+  server: qgf2sr1-g05.jp07-sh-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -3553,18 +2920,11 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_da3e6be3
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 13001
-  server: ss.015.node-for-bigairport.win
-  type: ss
-  udp: true
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_5dabe4ee
-  port: 447
-  server: ixab5xj-g04.jp04-1d-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_2b124ce0
+  port: 46485
+  server: aua9qxj-g04.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -3572,34 +2932,14 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d71d44e6
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_2fa153cc
   port: 28787
-  server: x4i5or1-g05.jp07-sh-vm0.entry.fr0528.art
+  server: x4uysqc-g05.jp07-sh-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_59feff78
-  port: 46486
-  server: x4u5pn1-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4bee0940
-  port: 21584
-  server: ax7bnpj-g04.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ed48f824
@@ -3622,11 +2962,11 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_df79a0a4
-  port: 46485
-  server: ih74qxk-g04.jp05-h6-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4bee0940
+  port: 21584
+  server: ax7bnpj-g04.jp01-nn-vm0.entry.fr0528.art
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
@@ -3635,6 +2975,16 @@ proxies:
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_578ab65d
   port: 46485
   server: aha9n4k-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_df79a0a4
+  port: 46485
+  server: ih74qxk-g04.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -3660,6 +3010,14 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- name: 🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_95cca0cf
+  password: 460749c2-bcef-11ee-89fc-f23c913c8d2b
+  port: 8443
+  server: 0bbd66e1-temhs0-tubliy-1la7v.hkt.cdnhuawei.com
+  sni: 0bbd66e1-temhs0-tubliy-1la7v.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 460749c2-bcef-11ee-89fc-f23c913c8d2b
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e22c279d
@@ -3672,26 +3030,9 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_fb94cb3d
-  port: 46486
-  server: xguyxry-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- cipher: 2022-blake3-aes-256-gcm
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_e53a5737
-  password: MDVmMDZmMjcxMGVhZThlYmVkZGEwOThiNmJjYTYzMzc=:YTlkNzI3Y2QtMzMwYi00ZWRkLTg5MTEtN2MyMjRkZjY=
-  port: 19871
-  server: sg-04.jjsdns.com
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_52ceb587
-  port: 28786
-  server: ah4bqpj-g04.jp07-sh-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_de962880
+  port: 447
+  server: ih79bps-g04.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -3709,9 +3050,26 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e1989fc4
-  port: 448
-  server: f4u2onm-g05.jp04-1d-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_52ceb587
+  port: 28786
+  server: ah4bqpj-g04.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- cipher: 2022-blake3-aes-256-gcm
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_e53a5737
+  password: MDVmMDZmMjcxMGVhZThlYmVkZGEwOThiNmJjYTYzMzc=:YTlkNzI3Y2QtMzMwYi00ZWRkLTg5MTEtN2MyMjRkZjY=
+  port: 19871
+  server: sg-04.jjsdns.com
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_fb94cb3d
+  port: 46486
+  server: xguyxry-g05.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -3727,45 +3085,29 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_3dc295e0
-  network: grpc
-  port: 10038
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg3-r.link-t7.com
-  servername: d1.awsstatic.com
+- name: 🔴🇭🇰[🎬📺🎭🎪]_github.com/Ruk1ng001_0c41c2a4
+  password: <password>
+  port: 8443
+  server: 503cc7e8-ta1og0-taz53d-1j0y6.hkt.cdnhuawei.com
+  sni: 503cc7e8-ta1og0-taz53d-1j0y6.hkt.cdnhuawei.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  xudp: true
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_aea45af6
-  port: 21585
-  server: wgu5olm-g05.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_5018947a
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 12885
-  server: ss.031.node-for-bigairport.win
-  type: ss
-  udp: true
+  type: http
+  username: 1cce7df2-251c-11ee-9409-f23c9164ca5d
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_96a89602
   port: 11777
   server: fdu5xqy-g05.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4cee2793
+  port: 46486
+  server: f4iyxqc-g05.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -3793,29 +3135,9 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_07634564
-  port: 28786
-  server: hxa954s-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_de230b33
   port: 11777
   server: wdi5pq1-g05.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e5191db0
-  port: 46486
-  server: x432xnc-g05.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -3833,59 +3155,51 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_928e5a6a
-  port: 21584
-  server: ihabb4j-g04.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_34aded6f
-  port: 46485
-  server: hx44nxk-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_2cbc5f20
-  port: 21585
-  server: wdiyorc-g05.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_bbb24348
-  port: 21585
-  server: wgf2sqm-g05.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_743e3935
-  port: 46485
-  server: ix4bbxk-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d4cffade
   port: 28786
   server: iu74qxj-g04.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_713ad635
+  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
+  port: 8080
+  server: tw8.dexlos.com
+  sni: tw8.dexlos.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 09213C69-2971-449A-8DC6-6C3B738E9D77
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1845b8cb
+  port: 447
+  server: axa45pk-g04.jp04-1d-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ea1cbbcc
+  port: 21584
+  server: ix4bq4j-g04.jp03-j7-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e4292aef
+  port: 28786
+  server: ax79qxj-g04.jp07-sh-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -3903,49 +3217,9 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ef53f18e
-  port: 28786
-  server: ixz454k-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1c8c23eb
-  port: 46486
-  server: wgfysnm-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1845b8cb
-  port: 447
-  server: axa45pk-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_34a8e79a
-  port: 28786
-  server: axadq4s-g04.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c4cc3be5
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_bdf3e67b
   port: 28787
-  server: f4u2xlc-g05.jp06-jz-vm0.entry.fr0528.art
+  server: fguyorc-g05.jp06-jz-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -3953,19 +3227,39 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ea1cbbcc
-  port: 21584
-  server: ix4bq4j-g04.jp03-j7-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_eb239e25
+  port: 448
+  server: f4u2sr1-g05.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e4292aef
-  port: 28786
-  server: ax79qxj-g04.jp07-sh-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_0d82e780
+  port: 28787
+  server: qg32pl1-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_cfa6d238
+  port: 448
+  server: q4i5olc-g05.jp04-1d-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_fb53e3bb
+  port: 11776
+  server: hu79nxs-g04.jp02-e3-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -3991,131 +3285,18 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_0d82e780
-  port: 28787
-  server: qg32pl1-g05.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_5018947a
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 12885
+  server: ss.031.node-for-bigairport.win
+  type: ss
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_eb239e25
-  port: 448
-  server: f4u2sr1-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_bdf3e67b
-  port: 28787
-  server: fguyorc-g05.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_fb53e3bb
-  port: 11776
-  server: hu79nxs-g04.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_cfa6d238
-  port: 448
-  server: q4i5olc-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_5a1dc65a
-  port: 46485
-  server: ah7bbpk-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_0a27acf9
-  port: 21584
-  server: ih79qpj-g04.jp03-j7-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_21db3440
-  port: 21584
-  server: hx795ps-g04.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_958e566c
-  port: 11776
-  server: ax44bxs-g04.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_fcce2c2c
-  port: 28786
-  server: axz4qpj-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_946a4335
-  port: 11776
-  server: ix74qpk-g04.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_537c2dc2
   port: 447
   server: ihz4bxs-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: ⚪🏳️[🎬🤖📺🔍]_github.com/Ruk1ng001_419594e4
-  port: 447
-  server: oxa4bxk-g04.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -4131,23 +3312,11 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- down: ''
-  fingerprint: ''
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1df0e7a2
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20775
-  server: jp4.dexlos.com
-  skip-cert-verify: false
-  sni: jp4.dexlos.com
-  type: hysteria2
-  up: ''
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ea91452e
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_946a4335
   port: 11776
-  server: huabq4j-g04.jp02-e3-vm0.entry.fr0528.art
+  server: ix74qpk-g04.jp02-e3-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -4155,9 +3324,51 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7eaad29f
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_883ff27f
+  port: 11776
+  server: aua454k-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_dae8ddfd
+  port: 28787
+  server: xdiysqy-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_0b1badfd
+  port: 447
+  server: iu7dnxk-g04.jp04-1d-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇹🇭[🎬🤖📺]_github.com/Ruk1ng001_077e8760
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27007
+  server: pl5non.yytls.top
+  skip-cert-verify: false
+  sni: pl5non.yytls.top
+  type: anytls
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_80aea012
   port: 28786
-  server: ohadqpj-g04.jp06-jz-vm0.entry.fr0528.art
+  server: ouz9bpj-g04.jp06-jz-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -4170,6 +3381,47 @@ proxies:
   server: ouz4q4k-g04.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d1d60527
+  port: 11777
+  server: qd32srm-g05.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ea91452e
+  port: 11776
+  server: huabq4j-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇸🇬[🤖📺🔍]_github.com/Ruk1ng001_dc4beb1c
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 13.214.209.196
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7eaad29f
+  port: 28786
+  server: ohadqpj-g04.jp06-jz-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
@@ -4193,33 +3445,25 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d1d60527
-  port: 11777
-  server: qd32srm-g05.jp02-e3-vm0.entry.fr0528.art
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001_b00b01b8
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27002
+  server: l8htco.yytls.top
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: l8htco.yytls.top
+  type: anytls
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_311194a6
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c5acc7ca
   port: 46485
-  server: ih49nxs-g04.jp05-h6-vm0.entry.fr0528.art
+  server: ax79b4k-g04.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_80aea012
-  port: 28786
-  server: ouz9bpj-g04.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
@@ -4235,34 +3479,14 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_78b4eeed
-  port: 21585
-  server: f435xq1-g05.jp03-j7-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_50900629
-  port: 28786
-  server: hh7dbxj-g04.jp07-sh-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c426af97
+  port: 448
+  server: xd35ply-g05.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_89edfe9f
-  port: 21584
-  server: hh4dn4k-g04.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -4289,50 +3513,18 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c5acc7ca
-  port: 46485
-  server: ax79b4k-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alpn:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_0a3c6fa4
+  name: 🔴🇲🇴[🎬📺🔍]_github.com/Ruk1ng001_132077b4
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27108
+  port: 27113
   reduce-rtt: false
-  server: zf6pcv.yydzx.xyz
-  sni: zf6pcv.yydzx.xyz
+  server: w66ovv.yydzx.xyz
+  sni: w66ovv.yydzx.xyz
   type: tuic
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001_b00b01b8
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27002
-  server: l8htco.yytls.top
-  skip-cert-verify: false
-  sni: l8htco.yytls.top
-  type: anytls
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c426af97
-  port: 448
-  server: xd35ply-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_fabe0e29
@@ -4340,68 +3532,6 @@ proxies:
   server: hu4bnxs-g04.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_37ebd742
-  port: 21585
-  server: q4u2xrm-g05.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_215e5ea4
-  port: 28787
-  server: f432sqc-g05.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🔴🇲🇴[🎬📺]_github.com/Ruk1ng001_fdefed17
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27113
-  reduce-rtt: false
-  server: clhobw.yydzx.xyz
-  sni: clhobw.yydzx.xyz
-  type: tuic
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_34fc4a7a
-  port: 448
-  server: xdfyorm-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_bda585f8
-  port: 447
-  server: ohzdqxj-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_2b5e3bec
-  port: 28786
-  server: hha45xk-g04.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
@@ -4417,9 +3547,61 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_96254825
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_37ebd742
+  port: 21585
+  server: q4u2xrm-g05.jp01-nn-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_2b5e3bec
+  port: 28786
+  server: hha45xk-g04.jp06-jz-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇵🇭[🎬🤖📺🔍]_github.com/Ruk1ng001_57cba463
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27020
+  server: yc5g1b.yytls.top
+  skip-cert-verify: false
+  sni: yc5g1b.yytls.top
+  type: anytls
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e60ed16c
+  port: 46485
+  server: oha9nxs-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_215e5ea4
+  port: 28787
+  server: f432sqc-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_34fc4a7a
   port: 448
-  server: fg32sl1-g05.jp04-1d-vm0.entry.fr0528.art
+  server: xdfyorm-g05.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -4437,9 +3619,9 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺]_github.com/Ruk1ng001_1aa26570
-  port: 11777
-  server: f43ysr1-g05.jp02-e3-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_96254825
+  port: 448
+  server: fg32sl1-g05.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -4457,9 +3639,29 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺]_github.com/Ruk1ng001_1aa26570
+  port: 11777
+  server: f43ysr1-g05.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_14b81504
   port: 11776
   server: ih74b4s-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1aa42aa2
+  port: 46485
+  server: ohzbn4j-g04.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -4477,6 +3679,28 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_80525a84
+  port: 11776
+  server: hxzdqxk-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_8edfaebb
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: bmgcdi.yytls.top
+  skip-cert-verify: false
+  sni: bmgcdi.yytls.top
+  type: anytls
+  udp: true
+- alterId: 1
+  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_47535a60
   port: 28786
   server: ax7dbxk-g04.jp06-jz-vm0.entry.fr0528.art
@@ -4485,125 +3709,6 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_405de8d8
-  port: 447
-  server: ix79nxs-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_00f5aa21
-  port: 11777
-  server: qg3ysrm-g05.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_f2563cff
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27105
-  reduce-rtt: false
-  server: uecvl9.yydzx.xyz
-  sni: uecvl9.yydzx.xyz
-  type: tuic
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1aa42aa2
-  port: 46485
-  server: ohzbn4j-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_deb89bc9
-  port: 28787
-  server: xdi2onm-g05.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_b1f36487
-  port: 11777
-  server: q4iyorm-g05.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_79ec1fcf
-  port: 11776
-  server: iu49bxj-g04.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a93db1b5
-  port: 28786
-  server: hx4bbps-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_bb175a47
-  port: 46485
-  server: ax7d54k-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_211bda0b
-  port: 28786
-  server: ohz45ps-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7a6dd4e3
-  port: 448
-  server: w4f2prm-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- cipher: aes-256-gcm
-  name: ⚪🏳️_github.com/Ruk1ng001_9b3ad9d5
-  password: 504cb0be-b285-4ec5-9561-bc289aea0d46
-  port: 20002
-  server: bgroup.node1.s2.nodelist-airport.com
-  type: ss
-  udp: true
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_24c27790
@@ -4624,28 +3729,21 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_0100c26c
-  network: grpc
-  port: 10036
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  xudp: true
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e9e62145
-  port: 11777
-  server: qgi2prm-g05.jp02-e3-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a93db1b5
+  port: 28786
+  server: hx4bbps-g04.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7a6dd4e3
+  port: 448
+  server: w4f2prm-g05.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -4653,24 +3751,58 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_bdb35ad2
-  port: 21585
-  server: fd32sq1-g05.jp01-nn-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_bb175a47
+  port: 46485
+  server: ax7d54k-g04.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_600228d2
-  port: 21584
-  server: ox44nxk-g04.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_211bda0b
+  port: 28786
+  server: ohz45ps-g04.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_9b3ad9d5
+  password: 504cb0be-b285-4ec5-9561-bc289aea0d46
+  port: 20002
+  server: bgroup.node1.s2.nodelist-airport.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🔴🇯🇵_github.com/Ruk1ng001_a48ff83d
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 29888
+  server: ss.023.node-for-bigairport.win
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1268933f
+  port: 46485
+  server: iuzdbpj-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_abec874c
+  port: 28787
+  server: wdf2onm-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f8e361b5
@@ -4683,29 +3815,26 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_b2e5185e
-  port: 11776
-  server: oxad5ps-g04.jp02-e3-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_65a5c5f3
+  port: 447
+  server: auzbqxk-g04.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_18f335ea
-  port: 46485
-  server: oh7dqxk-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-256-gcm
+  name: 🔴🇯🇵_github.com/Ruk1ng001_64f791b9
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 15886
+  server: ss.034.node-for-bigairport.win
+  type: ss
   udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_8311ab12
-  port: 11777
-  server: xdf2sqc-g05.jp02-e3-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ad065e14
+  port: 28787
+  server: w4i5srm-g05.jp07-sh-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -4733,122 +3862,6 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_65a5c5f3
-  port: 447
-  server: auzbqxk-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ad065e14
-  port: 28787
-  server: w4i5srm-g05.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- cipher: aes-256-gcm
-  name: 🔴🇯🇵_github.com/Ruk1ng001_64f791b9
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 15886
-  server: ss.034.node-for-bigairport.win
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c073b1c0
-  port: 21585
-  server: wd35pry-g05.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001_b0d30584
-  network: tcp
-  port: 46482
-  server: 78smy-g01.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1a9f857f-9a07-3a8c-a155-f9ab3c457343
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c1bf4f36
-  port: 28787
-  server: w4u5xq1-g05.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- cipher: chacha20-ietf
-  name: 🔴🇭🇰[📦]_github.com/Ruk1ng001_7e8902c3
-  password: asd123456
-  port: 8388
-  server: 103.141.221.124
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f9a86494
-  port: 28786
-  server: iu4bb4s-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_2d517209
-  port: 11776
-  server: axz9bpk-g04.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1e4d1704
-  port: 21584
-  server: iuz9qpk-g04.jp03-j7-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_11cd8ad0
-  port: 11776
-  server: aua4bxs-g04.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_066ca9b9
-  port: 28786
-  server: hx7b54s-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a6335102
   port: 28787
   server: qdf2xrm-g05.jp07-sh-vm0.entry.fr0528.art
@@ -4857,16 +3870,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d9db0235
-  port: 46485
-  server: ou7954s-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_07fa3834
@@ -4889,14 +3892,159 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_98978d25
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_5c94e12b
+  port: 11776
+  server: hu7dn4s-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1e4d1704
+  port: 21584
+  server: iuz9qpk-g04.jp03-j7-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c1bf4f36
   port: 28787
-  server: xdf2plc-g05.jp07-sh-vm0.entry.fr0528.art
+  server: w4u5xq1-g05.jp06-jz-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c073b1c0
+  port: 21585
+  server: wd35pry-g05.jp01-nn-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f9a86494
+  port: 28786
+  server: iu4bb4s-g04.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_2d517209
+  port: 11776
+  server: axz9bpk-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_11cd8ad0
+  port: 11776
+  server: aua4bxs-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_b6dd2a44
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 13006
+  server: ss.020.node-for-bigairport.win
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d9db0235
+  port: 46485
+  server: ou7954s-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_066ca9b9
+  port: 28786
+  server: hx7b54s-g04.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_21fd620a
+  port: 448
+  server: f435pn1-g05.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_257fc9a5
+  port: 21584
+  server: huzbbpj-g04.jp01-nn-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- name: 🔴🇭🇰[🎬📺🎪🔍]_github.com/Ruk1ng001_383d40d3
+  password: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+  port: 5228
+  server: 8ff74373-t9zts0-tkhmfr-1jm8i.cm4.oshuawei.com
+  sni: 8ff74373-t9zts0-tkhmfr-1jm8i.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_2322c0f4
+  port: 11777
+  server: qgi2plm-g05.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_860d04a6
+  port: 28787
+  server: x4f5ony-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d61b1929
+  port: 46485
+  server: iuadn4j-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_3b005fc2
@@ -4919,74 +4067,14 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d61b1929
-  port: 46485
-  server: iuadn4j-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_860d04a6
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_98978d25
   port: 28787
-  server: x4f5ony-g05.jp07-sh-vm0.entry.fr0528.art
+  server: xdf2plc-g05.jp07-sh-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_257fc9a5
-  port: 21584
-  server: huzbbpj-g04.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_21fd620a
-  port: 448
-  server: f435pn1-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_256fb610
-  port: 28787
-  server: x43yply-g05.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_5fc4b4fb
-  port: 28786
-  server: hh4bqpk-g04.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d356f86b
-  port: 11776
-  server: aha9nxk-g04.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_55dd6e21
@@ -4999,6 +4087,16 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c0867115
+  port: 46485
+  server: axzdnxs-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1adbb857
   port: 447
   server: iuz9bpk-g04.jp04-1d-vm0.entry.fr0528.art
@@ -5007,6 +4105,18 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001_9caf214a
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: ope9z7.yytls.top
+  skip-cert-verify: false
+  sni: ope9z7.yytls.top
+  type: anytls
+  udp: true
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_83997730
@@ -5017,11 +4127,112 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇰🇷[🎬🤖📺]_github.com/Ruk1ng001_1254f863
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: yw1v0p.yytls.top
+  skip-cert-verify: false
+  sni: yw1v0p.yytls.top
+  type: anytls
+  udp: true
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_92079b33
   port: 28786
   server: hu49n4k-g04.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇰🇷_github.com/Ruk1ng001_2e9c59b0
+  password: a9d727cd-330b-4edd-8911-7c224df6afd5
+  port: 22386
+  server: 43.164.128.196
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ef1ef02b
+  port: 28787
+  server: xg35xr1-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4e8ee183
+  port: 46485
+  server: ix49q4s-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_dad73f51
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27005
+  server: h3fuaj.yytls.top
+  skip-cert-verify: false
+  sni: h3fuaj.yytls.top
+  type: anytls
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a537f09e
+  port: 28786
+  server: hxzd54k-g04.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c4bb5e5d
+  port: 447
+  server: hh4dqpj-g04.jp04-1d-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7dda8da3
+  port: 28787
+  server: w43yorm-g05.jp06-jz-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_78a68414
+  port: 28786
+  server: oh7d5ps-g04.jp06-jz-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ffc54899
+  port: 447
+  server: oxabnps-g04.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -5047,66 +4258,13 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f79ebb2c
-  port: 447
-  server: ih4bbxj-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-256-gcm
+  name: 🔴🇯🇵_github.com/Ruk1ng001_e98e01c2
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 29690
+  server: ss.025.node-for-bigairport.win
+  type: ss
   udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ffc54899
-  port: 447
-  server: oxabnps-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d0a0604a
-  port: 447
-  server: ax7bnpk-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d7b71c61
-  port: 28787
-  server: f4i2xqm-g05.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4e8ee183
-  port: 46485
-  server: ix49q4s-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ef1ef02b
-  port: 28787
-  server: xg35xr1-g05.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_5955c700
@@ -5117,16 +4275,6 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7dda8da3
-  port: 28787
-  server: w43yorm-g05.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7a9af693
@@ -5149,34 +4297,14 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c4bb5e5d
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f79ebb2c
   port: 447
-  server: hh4dqpj-g04.jp04-1d-vm0.entry.fr0528.art
+  server: ih4bbxj-g04.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_7b09e02c
-  port: 28786
-  server: hx74npj-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_8ccab1f7
-  port: 11777
-  server: qdf5ply-g05.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_da9aa9ee
@@ -5187,33 +4315,27 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- insecure: '1'
+  mport: 10000-19999
+  name: 🟢🇹🇼_github.com/Ruk1ng001_f6f09d77
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 10000
+  server: tw.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_56c7503d
-  port: 21584
-  server: hxadbpj-g04.jp01-nn-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_78f90184
+  port: 46486
+  server: qdiyxlm-g05.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_b44e6e2a
-  port: 21585
-  server: fgf5xn1-g05.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_46ee5798
-  port: 21585
-  server: q435prm-g05.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
@@ -5229,9 +4351,9 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_bc9d8aa5
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_56c7503d
   port: 21584
-  server: hu7d5ps-g04.jp03-j7-vm0.entry.fr0528.art
+  server: hxadbpj-g04.jp01-nn-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -5239,19 +4361,27 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ef25d6b8
-  port: 28787
-  server: f4fysqy-g05.jp07-sh-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_8ccab1f7
+  port: 11777
+  server: qdf5ply-g05.jp02-e3-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- name: 🔴🇭🇰[🎬📺🎭🎪]_github.com/Ruk1ng001_072729f9
+  password: <password>
+  port: 8443
+  server: 4a93c05c-t9zts0-tcr97d-2b2n.hkt.cdnhuawei.com
+  sni: 4a93c05c-t9zts0-tcr97d-2b2n.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: fcd39788-ca23-11ed-86e2-f23c913c8d2b
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c04b2834
-  port: 46485
-  server: ahabb4j-g04.jp05-h6-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺]_github.com/Ruk1ng001_d58581b7
+  port: 447
+  server: ou79bps-g04.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -5269,26 +4399,6 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺]_github.com/Ruk1ng001_d58581b7
-  port: 447
-  server: ou79bps-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_db6d57fb
-  port: 46486
-  server: qdu2oly-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_22e3e302
   port: 447
   server: ixz954s-g04.jp04-1d-vm0.entry.fr0528.art
@@ -5297,16 +4407,23 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- cipher: aes-256-gcm
+  name: ⚪🏳️_github.com/Ruk1ng001_631f9a9c
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 13005
+  server: ss.017.node-for-bigairport.win
+  type: ss
+  udp: true
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4c2df451
-  port: 28787
-  server: xgfyoq1-g05.jp07-sh-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c04b2834
+  port: 46485
+  server: ahabb4j-g04.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_b9ceb5c2
@@ -5322,6 +4439,94 @@ proxies:
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1d1b3acb
   port: 11777
   server: xg32xlc-g05.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ebd3a300
+  port: 46485
+  server: oh79b4s-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_381d3aaf
+  port: 28787
+  server: xguyoqy-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4c2df451
+  port: 28787
+  server: xgfyoq1-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_8697a183
+  port: 448
+  server: xgiypny-g05.jp04-1d-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- name: 🔴🇭🇰[🎬📺🎭🎞️]_github.com/Ruk1ng001_96c2e148
+  password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+  port: 5228
+  server: df142108-t9zts0-tee612-2r82.cm4.oshuawei.com
+  sni: df142108-t9zts0-tee612-2r82.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_b09692b1
+  port: 28786
+  server: au44qxj-g04.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_3e3b5c80
+  port: 11776
+  server: ax44b4k-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c2589d7f
+  port: 11776
+  server: ah4dn4k-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e714b665
+  port: 11777
+  server: xdi2ory-g05.jp02-e3-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -5359,96 +4564,6 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_53d430f9
-  port: 28787
-  server: x4iyxqm-g05.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_883ff27f
-  port: 11776
-  server: aua454k-g04.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_69fdc6a8
-  port: 11777
-  server: qgi5ony-g05.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_8697a183
-  port: 448
-  server: xgiypny-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_381d3aaf
-  port: 28787
-  server: xguyoqy-g05.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_b09692b1
-  port: 28786
-  server: au44qxj-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e714b665
-  port: 11777
-  server: xdi2ory-g05.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c2589d7f
-  port: 11776
-  server: ah4dn4k-g04.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a99dea0e
-  port: 11776
-  server: hhzbb4j-g04.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a2382229
   port: 448
   server: wdfyoqy-g05.jp04-1d-vm0.entry.fr0528.art
@@ -5479,6 +4594,48 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_6ad44ea8
+  port: 28787
+  server: f432olc-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_0025d897
+  port: 448
+  server: xgi5sr1-g05.jp04-1d-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_077ce917
+  port: 448
+  server: xdiyprm-g05.jp04-1d-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇲🇴[🎬📺]_github.com/Ruk1ng001_5e480529
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27013
+  server: k9cj35.yytls.top
+  skip-cert-verify: false
+  sni: k9cj35.yytls.top
+  type: anytls
+  udp: true
+- alterId: 1
+  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_66ffcccd
   port: 21585
   server: w435sny-g05.jp01-nn-vm0.entry.fr0528.art
@@ -5487,16 +4644,13 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: 1
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d0b7b772
-  port: 447
-  server: hx4dbxk-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-256-gcm
+  name: 🔴🇸🇬_github.com/Ruk1ng001_4a5dd1e6
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 19887
+  server: ss.036.node-for-bigairport.win
+  type: ss
   udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_02e53f6d
@@ -5509,6 +4663,38 @@ proxies:
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
 - alterId: 1
   cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a72328d5
+  port: 448
+  server: f4u2or1-g05.jp04-1d-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_dbf811ea
+  port: 28786
+  server: au7bb4k-g04.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇮🇩_github.com/Ruk1ng001_c3c0b04b
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27016
+  server: cq2dby.yytls.top
+  skip-cert-verify: false
+  sni: cq2dby.yytls.top
+  type: anytls
+  udp: true
+- alterId: 1
+  cipher: auto
   name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_3891e431
   port: 28786
   server: iuad54k-g04.jp07-sh-vm0.entry.fr0528.art
@@ -5519,9 +4705,29 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a72328d5
-  port: 448
-  server: f4u2or1-g05.jp04-1d-vm0.entry.fr0528.art
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a99dea0e
+  port: 11776
+  server: hhzbb4j-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_43356761
+  port: 11777
+  server: w4f2sly-g05.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_bd160de3
+  port: 11777
+  server: wd35ory-g05.jp02-e3-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -5539,9 +4745,461 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_6ad44ea8
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_fdeee866
+  port: 46485
+  server: ohzbqxj-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺]_github.com/Ruk1ng001_3e5a0c3c
+  port: 46485
+  server: oh7d5pk-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_e968a5c9
+  port: 21584
+  server: ixzdnpk-g04.jp03-j7-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- cipher: chacha20-ietf-poly1305
+  name: 🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001_b343cb23
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 60.249.39.204
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a18b347e
+  port: 46485
+  server: ix7bbpk-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c9709c00
   port: 28787
-  server: f432olc-g05.jp07-sh-vm0.entry.fr0528.art
+  server: x4u2sn1-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_3387c3a7
+  port: 11777
+  server: qdu5ory-g05.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a56c0e3f
+  port: 21585
+  server: wdf5pny-g05.jp01-nn-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d19658aa
+  port: 46485
+  server: iu4dn4k-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇲🇴[📺]_github.com/Ruk1ng001_3fba9c5b
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27013
+  server: xk489s.yytls.top
+  skip-cert-verify: false
+  sni: xk489s.yytls.top
+  type: anytls
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_90188af4
+  port: 28786
+  server: auad5ps-g04.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c184e15e
+  port: 11776
+  server: ohzdbpj-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_78f1c944
+  port: 46486
+  server: w4iyxrm-g05.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_9c4be8ec
+  port: 28786
+  server: au4d5pj-g04.jp06-jz-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_9e3b1c47
+  port: 28787
+  server: wgi5sqm-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_13c89640
+  port: 46485
+  server: ixzdqpk-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_76bf3841
+  port: 11776
+  server: ixz9n4j-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬🤖📺]_github.com/Ruk1ng001_a1475336
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27003
+  server: i9dv56.yytls.top
+  skip-cert-verify: false
+  sni: i9dv56.yytls.top
+  type: anytls
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_2c509acc
+  port: 11777
+  server: w4i2onm-g05.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_dd44a121
+  port: 11776
+  server: ixz4bxj-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_1a7d1123
+  port: 448
+  server: fd35prm-g05.jp04-1d-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_89d18ca2
+  port: 28787
+  server: qdu5snc-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c3ecabaf
+  port: 46486
+  server: wdi5slc-g05.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_a919edaf
+  port: 46486
+  server: wdu2or1-g05.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_5acdb70c
+  port: 28787
+  server: wg32sqm-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f9653f2d
+  port: 447
+  server: au4db4k-g04.jp04-1d-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_f4df2047
+  port: 447
+  server: ih495xj-g04.jp04-1d-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_48aa24d7
+  port: 11777
+  server: xgf5sn1-g05.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_65709fc4
+  port: 28786
+  server: ax49q4j-g04.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_fb26d86b
+  port: 11776
+  server: oh4dbxs-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_ebe5df2c
+  port: 28787
+  server: f4f2xl1-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_8c0ba9f8
+  port: 21584
+  server: ou79bpj-g04.jp03-j7-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_2f4d0562
+  port: 11776
+  server: ax7bqxk-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d7294957
+  port: 11776
+  server: hxa9npj-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔴🇰🇷[🤖🔍]_github.com/Ruk1ng001_82e90235
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: qc0kel.yytls.top
+  skip-cert-verify: false
+  sni: qc0kel.yytls.top
+  type: anytls
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_34aded6f
+  port: 46485
+  server: hx44nxk-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001_83e27070
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
+    short-id: 7994d24409820c44
+  server: p1kdvx.sgvless.yydzx.xyz
+  servername: deb.debian.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_c4776b63
+  port: 11776
+  server: hhz9bpj-g04.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_235808b7
+  port: 21584
+  server: axabqpj-g04.jp01-nn-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_9998b80b
+  port: 21585
+  server: xg3ypq1-g05.jp01-nn-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_4a40f893
+  port: 28786
+  server: iu7dn4s-g04.jp06-jz-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_707c27ae
+  port: 46485
+  server: ah7bqps-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_74149a75
+  port: 46485
+  server: huz9nxs-g04.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_babb67fd
+  port: 28786
+  server: iuz4bpj-g04.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- alterId: 1
+  cipher: auto
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001_d67ad26d
+  port: 46486
+  server: fdf2prm-g05.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: false
   type: vmess
