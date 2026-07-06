@@ -510,12 +510,6 @@ rules:
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
 proxies:
-- name: 🟢🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001_f28c2c38
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
-  skip-cert-verify: true
-  type: hysteria2
 - alterId: '0'
   cipher: auto
   name: 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001_1543c279
@@ -528,14 +522,23 @@ proxies:
   udp: true
   uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
   xudp: true
-- name: 🟢🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001_11fe92fa
-  password: <password>
-  port: 8443
-  server: 9e8b2077-t9zts0-tdq4vj-1l0qa.hkt.cdnhuawei.com
-  sni: 9e8b2077-t9zts0-tdq4vj-1l0qa.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+- cipher: chacha20-ietf-poly1305
+  name: 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001_96e16316
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.35
+  type: ss
+  udp: true
+- name: 🟠🇺🇸[🤖📺🎭🎪]_github.com/Ruk1ng001_7cd60cff
+  obfs: salamander
+  obfs-password: c28f1dc0f00859f0afec5bc79dc0a251
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: us1-10uu54xz.skynode.me
+  skip-cert-verify: true
+  sni: us1-10uu54xz.skynode.me
+  type: hysteria2
+  udp: true
 - name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_a88e970f
   password: gs4BXwT6SW
   port: 10988
@@ -543,130 +546,6 @@ proxies:
   tls: false
   type: http
   username: fQ67Dpe5dU
-- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_78cb3889
-  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-  port: 443
-  server: 7a773958-tegxs0-tlvq5w-1jcwu.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: 7a773958-tegxs0-tlvq5w-1jcwu.los.hyhuawei.com
-  type: anytls
-  udp: true
-- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_02122b3e
-  password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-  port: 443
-  server: 7433097d-t9zts0-tarwmr-1fqef.sj.oshuawei.com
-  sni: 7433097d-t9zts0-tarwmr-1fqef.sj.oshuawei.com
-  tls: true
-  type: http
-  username: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-- name: 🔴🇰🇷[🤖📺🎭🎪]_github.com/Ruk1ng001_5b8e1a9b
-  port: 1090
-  server: 121.169.46.116
-  tls: false
-  type: socks5
-  username: Og%3D%3D
-- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_c0064576
-  password: c357a728-1211-11f0-9a65-f23c9164ca5d
-  port: 443
-  server: 30981a35-tegxs0-tw35ua-1m49t.se.hyhuawei.com
-  skip-cert-verify: true
-  sni: 30981a35-tegxs0-tw35ua-1m49t.se.hyhuawei.com
-  type: anytls
-  udp: true
-- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_ff3fc59d
-  password: 8f99107c-f091-11ee-9935-f23c9164ca5d
-  port: 443
-  server: 7b2d3015-tegxs0-tvh2gy-1qzi1.sjc.oshuawei.com
-  sni: 7b2d3015-tegxs0-tvh2gy-1qzi1.sjc.oshuawei.com
-  tls: true
-  type: http
-  username: 8f99107c-f091-11ee-9935-f23c9164ca5d
-- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_7c8ebfa0
-  password: 4729b4c8-1790-11eb-8684-f23c913c8d2b
-  port: 443
-  server: e4d5368d-tegxs0-ts40sw-14g76.sj.hyhuawei.com
-  sni: e4d5368d-tegxs0-ts40sw-14g76.sj.hyhuawei.com
-  tls: true
-  type: http
-  username: 4729b4c8-1790-11eb-8684-f23c913c8d2b
-- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_678c1cb7
-  password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
-  port: 443
-  server: 3bcad594-tekn40-tnnrly-g43g.sj.hyhuawei.com
-  sni: 3bcad594-tekn40-tnnrly-g43g.sj.hyhuawei.com
-  tls: true
-  type: http
-  username: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
-- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_07c3ff1a
-  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-  port: 443
-  server: bfaf39fb-tegxs0-tujecz-1qkeg.sj.hyhuawei.com
-  sni: bfaf39fb-tegxs0-tujecz-1qkeg.sj.hyhuawei.com
-  tls: true
-  type: http
-  username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_55cb19bd
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 443
-  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-  tls: true
-  type: http
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_4c4d893a
-  port: 9002
-  server: 193.176.84.37
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇺🇸[🎬📺🎭🎪]_github.com/Ruk1ng001_0378e8f5
-  password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-  port: 443
-  server: 9e6b55bc-t9zts0-tighxj-12hj8.sj.oshuawei.com
-  sni: 9e6b55bc-t9zts0-tighxj-12hj8.sj.oshuawei.com
-  tls: true
-  type: http
-  username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-- multiplexing: MULTIPLEXING_LOW
-  name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_148a190d
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- down: ''
-  fingerprint: ''
-  name: 🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_59f39e13
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-004.fastervpn.world
-  type: hysteria2
-  up: ''
-- name: 🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001_3ea3db9b
-  password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-  port: 443
-  server: c6132f4c-t9zts0-tm23vf-1jk6u.uk.oshuawei.com
-  sni: c6132f4c-t9zts0-tm23vf-1jk6u.uk.oshuawei.com
-  tls: true
-  type: http
-  username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-- down: ''
-  fingerprint: ''
-  name: 🟠🇫🇮[🤖📺🎭🎪]_github.com/Ruk1ng001_1f4bef3f
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.144
-  skip-cert-verify: false
-  sni: sni.fi-m247-02.com
-  type: hysteria2
-  up: ''
 - alterId: 0
   cipher: auto
   client-fingerprint: safari
@@ -679,58 +558,104 @@ proxies:
   tls: true
   type: vmess
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 🔴🇬🇧[🤖📺🎭📦]_github.com/Ruk1ng001_172e5b02
-  password: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_474c6ac2
+  password: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
   port: 443
-  server: 9ee9b070-t9zts0-te0v28-1mh67.uk.oshuawei.com
-  sni: 9ee9b070-t9zts0-te0v28-1mh67.uk.oshuawei.com
+  server: 4d32fdfa-t9zts0-tb08pe-luwe.sj.oshuawei.com
+  sni: 4d32fdfa-t9zts0-tb08pe-luwe.sj.oshuawei.com
   tls: true
   type: http
-  username: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_d6864b0e
+  username: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_7c8ebfa0
+  password: 4729b4c8-1790-11eb-8684-f23c913c8d2b
+  port: 443
+  server: e4d5368d-tegxs0-ts40sw-14g76.sj.hyhuawei.com
+  sni: e4d5368d-tegxs0-ts40sw-14g76.sj.hyhuawei.com
+  tls: true
+  type: http
+  username: 4729b4c8-1790-11eb-8684-f23c913c8d2b
+- name: 🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001_3d4ee814
+  password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: 9ddfd892-t9zts0-tnsc3a-1f0gu.uk.oshuawei.com
+  sni: 9ddfd892-t9zts0-tnsc3a-1f0gu.uk.oshuawei.com
+  tls: true
+  type: http
+  username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_c91883ca
   port: 9002
-  server: 84.239.49.242
+  server: 193.176.84.26
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_50511bed
+- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_770554ee
+  password: 520b9126-9870-11ef-81b0-f23c9164ca5d
+  port: 443
+  server: a73e118e-t9zts0-tipjoa-1slop.sj.oshuawei.com
+  sni: a73e118e-t9zts0-tipjoa-1slop.sj.oshuawei.com
+  tls: true
+  type: http
+  username: 520b9126-9870-11ef-81b0-f23c9164ca5d
+- name: 🔴🇬🇧[📺🎭🎪📦]_github.com/Ruk1ng001_921dbbdf
+  password: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
+  port: 443
+  server: 87b1270a-t9zts0-trg4wh-z65w.uk.oshuawei.com
+  sni: 87b1270a-t9zts0-trg4wh-z65w.uk.oshuawei.com
+  tls: true
+  type: http
+  username: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
+- multiplexing: MULTIPLEXING_LOW
+  name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_148a190d
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: 🔴🇷🇴[🤖📺🎭🎪]_github.com/Ruk1ng001_1af479e3
   port: 9002
-  server: 193.176.84.19
+  server: 193.176.84.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_4c4d893a
+  port: 9002
+  server: 193.176.84.37
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: 🟠🇫🇮[🎬🤖📺🎭]_github.com/Ruk1ng001_7c6fc094
-  network: ws
-  port: 443
-  server: 109.120.176.37
-  servername: sertraline.adaspoloandco.com
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_37c76867
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_6778395a
+  port: 9002
+  server: 193.176.84.39
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: ⚪🏳️[🎬🤖📺🎭]_github.com/Ruk1ng001_5299a956
+  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+  port: 443
+  server: 5689e2c4-t9zts0-tb592v-4lg6.se.oshuawei.com
+  sni: 5689e2c4-t9zts0-tb592v-4lg6.se.oshuawei.com
+  tls: true
+  type: http
+  username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+- name: 🟠🇸🇬[🤖📺🎭🎪]_github.com/Ruk1ng001_b81b5bbe
+  obfs: salamander
+  obfs-password: 0cb88c27d2d72a4fcb3fbe429cbdbdba
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: sg4-tnv2d7lw.skynode.me
+  skip-cert-verify: true
+  sni: sg4-tnv2d7lw.skynode.me
+  type: hysteria2
   udp: true
-  uuid: 10a6b923-e349-4594-92bb-d81a6245aaec
-  ws-opts:
-    headers:
-      Host: sertraline.adaspoloandco.com
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Slackware/Chrome/12.0.742.100 Safari/534.30
-    path: /download.php
-  xudp: true
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_4385d4f1
-  port: 9002
-  server: 193.176.84.31
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_9d1e9ccb
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_fb220a84
   password: 0b869f32-657e-11ee-a90c-f23c9313b177
   port: 3443
@@ -739,425 +664,48 @@ proxies:
   tls: true
   type: http
   username: 0b869f32-657e-11ee-a90c-f23c9313b177
-- name: 🔴🇷🇴[🤖📺🎭🎪]_github.com/Ruk1ng001_01ff4389
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_3b6bf33f
   port: 9002
-  server: 84.239.49.55
+  server: 193.176.84.32
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: ⚪🏳️_github.com/Ruk1ng001_79f3708c
-  network: ws
-  password: HutaoCloud
-  port: 11543
-  server: 185.220.238.77
+- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_678c1cb7
+  password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
+  port: 443
+  server: 3bcad594-tekn40-tnnrly-g43g.sj.hyhuawei.com
+  sni: 3bcad594-tekn40-tnnrly-g43g.sj.hyhuawei.com
+  tls: true
+  type: http
+  username: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
+- name: 🟢🇷🇺[🧠📺🎪✨]_github.com/Ruk1ng001_765c5076
+  obfs: salamander
+  obfs-password: 80947da2f2beb132a3e9a46493f246e3
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: ru1-c4f5a02s.skynode.me
   skip-cert-verify: true
-  sni: 185.220.238.77
-  type: trojan
+  sni: ru1-c4f5a02s.skynode.me
+  type: hysteria2
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /api
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_cc8f9182
-  port: 9002
-  server: 84.239.49.42
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_d10eacd8
-  port: 9002
-  server: 84.239.49.162
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_c91883ca
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🟠🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001_0f7922fa
-  password: d076280a-0d5f-11f0-8a7b-f23c913c8d2b
+- name: ⚪🏳️_github.com/Ruk1ng001_a3b6c1ba
+  password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
   port: 443
-  server: fde235f2-t9zts0-tcum62-se45.uk.oshuawei.com
-  sni: fde235f2-t9zts0-tcum62-se45.uk.oshuawei.com
+  server: 2d3fc8ae-t9zts0-tdh9w7-ahsb.se.oshuawei.com
+  sni: 2d3fc8ae-t9zts0-tdh9w7-ahsb.se.oshuawei.com
   tls: true
   type: http
-  username: d076280a-0d5f-11f0-8a7b-f23c913c8d2b
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_fd7b192d
-  port: 9002
-  server: 84.239.49.161
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_aac57d45
-  port: 9002
-  server: 84.239.49.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001_9b17ddd6
-  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-  port: 443
-  server: 5f4bce09-ta1og0-ta5i1s-1j61y.uk.oshuawei.com
-  sni: 5f4bce09-ta1og0-ta5i1s-1j61y.uk.oshuawei.com
-  tls: true
-  type: http
-  username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_cb3d27ed
-  port: 9002
-  server: 84.239.49.191
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_0f28691f
-  password: 8f99107c-f091-11ee-9935-f23c9164ca5d
-  port: 443
-  server: 4dd38eb4-t9zts0-ta64ri-1qzi1.sj.oshuawei.com
-  sni: 4dd38eb4-t9zts0-ta64ri-1qzi1.sj.oshuawei.com
-  tls: true
-  type: http
-  username: 8f99107c-f091-11ee-9935-f23c9164ca5d
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_58a3d31b
-  port: 9002
-  server: 84.239.49.233
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001_9e6cebef
-  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-  port: 443
-  server: 9035056e-t9zts0-tcmken-19les.uk.oshuawei.com
-  sni: 9035056e-t9zts0-tcmken-19les.uk.oshuawei.com
-  tls: true
-  type: http
-  username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_a0921b46
-  port: 9002
-  server: 84.239.49.253
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🟠🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001_cd386f1c
-  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
-  port: 443
-  server: 686ce217-t9zts0-ta5nd4-e06r.uk.oshuawei.com
-  sni: 686ce217-t9zts0-ta5nd4-e06r.uk.oshuawei.com
-  tls: true
-  type: http
-  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_85c29221
-  port: 9002
-  server: 84.239.49.155
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_d8e88830
-  port: 9002
-  server: 84.239.49.182
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_011d3b15
-  port: 9002
-  server: 84.239.49.224
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_450af56b
-  port: 9002
-  server: 84.239.14.159
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🤖📺🎭🎪]_github.com/Ruk1ng001_b7a25db2
-  port: 9002
-  server: 84.239.49.175
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_c5b61986
-  port: 9002
-  server: 84.239.49.163
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_46e9bf7d
-  port: 9002
-  server: 84.239.49.185
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_59f086ef
-  port: 9002
-  server: 84.239.49.239
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_961db747
-  port: 9002
-  server: 84.239.49.204
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_6e39a6cb
-  port: 9002
-  server: 84.239.14.148
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_d7d8d337
-  port: 9002
-  server: 84.239.49.234
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🟠🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001_017c8260
-  password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
-  port: 443
-  server: 650f31b8-t9zts0-tkka1f-1k25p.uk.oshuawei.com
-  sni: 650f31b8-t9zts0-tkka1f-1k25p.uk.oshuawei.com
-  tls: true
-  type: http
-  username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_e6c033a3
-  port: 9002
-  server: 84.239.49.227
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_f8d02395
-  port: 9002
-  server: 84.239.49.39
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🤖📺🎭🎪]_github.com/Ruk1ng001_aa105999
-  port: 9002
-  server: 84.239.49.166
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_edf4fc20
-  port: 9002
-  server: 84.239.49.57
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_48370336
-  port: 9002
-  server: 84.239.49.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_af52e797
+  username: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
+- name: 🔴🇷🇴[🤖📺🎭🎪]_github.com/Ruk1ng001_af52e797
   port: 9002
   server: 84.239.14.146
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_86d476ed
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_edf4fc20
   port: 9002
-  server: 84.239.49.207
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_85cf2f97
-  port: 9002
-  server: 84.239.49.240
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_6fd1af3e
-  port: 9002
-  server: 84.239.49.235
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_450d9f17
-  port: 9002
-  server: 84.239.49.202
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_7b5efeb3
-  port: 9002
-  server: 84.239.14.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_3adb38ee
-  port: 9002
-  server: 84.239.49.40
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[📺🎭🎪]_github.com/Ruk1ng001_7bdb2d5d
-  port: 9002
-  server: 84.239.49.223
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alterId: '0'
-  cipher: auto
-  name: 🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001_7f43f8b8
-  network: tcp
-  port: 49803
-  server: 153.121.73.175
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
-  xudp: true
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_786985ca
-  port: 9002
-  server: 84.239.49.157
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_1a1bd9fd
-  port: 9002
-  server: 84.239.49.249
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_01eb1362
-  port: 9002
-  server: 84.239.14.154
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_a0cc4c8a
-  port: 9002
-  server: 84.239.14.160
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_ca427c46
-  port: 9002
-  server: 84.239.49.183
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_45dd8b4b
-  port: 9002
-  server: 84.239.49.231
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🤖📺🎭🎪]_github.com/Ruk1ng001_ef690cc6
-  port: 9002
-  server: 84.239.49.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_6d4a7817
-  port: 9002
-  server: 84.239.49.178
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_e76e07f3
-  port: 9002
-  server: 84.239.49.37
-  skip-cert-verify: true
-  tls: true
-  type: http
-- encryption: none
-  name: 🟠🇫🇮[🎬🤖📺🎭]_github.com/Ruk1ng001_8955a39e
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  type: vless
-  udp: true
-  uuid: 0a4695e5-7e65-4f1d-906c-d1c0618ebae9
-  ws-opts:
-    headers:
-      Host: rb24.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
-  xudp: true
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_97352dbf
-  port: 9002
-  server: 84.239.49.38
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_0ae131d7
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_4a2952a3
-  port: 9002
-  server: 84.239.49.170
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_9f24578b
-  port: 9002
-  server: 84.239.49.215
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001_c5731f2c
-  password: 398e0d38-8649-11ef-959c-f23c9164ca5d
-  port: 443
-  server: 121a4c2e-t9zts0-thzbn1-1gxvd.fr.oshuawei.com
-  sni: 121a4c2e-t9zts0-thzbn1-1gxvd.fr.oshuawei.com
-  tls: true
-  type: http
-  username: 398e0d38-8649-11ef-959c-f23c9164ca5d
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_588489b3
-  port: 9002
-  server: 84.239.49.254
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🤖📺🎭🎪]_github.com/Ruk1ng001_390d92de
-  port: 9002
-  server: 84.239.49.245
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🤖📺🎭🎪]_github.com/Ruk1ng001_a89a852e
-  port: 9002
-  server: 84.239.49.164
+  server: 84.239.49.57
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
@@ -1169,50 +717,206 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_7f908228
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_c5b61986
   port: 9002
-  server: 84.239.49.199
+  server: 84.239.49.163
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🔴🇷🇴[📺]_github.com/Ruk1ng001_300e8e1c
+  port: 9002
+  server: 84.239.49.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🔴🇷🇴_github.com/Ruk1ng001_9f5445c9
+  port: 9002
+  server: 84.239.49.176
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 🔴🇷🇴[🤖📺🎭🎪]_github.com/Ruk1ng001_1af479e3
+- name: 🟠🇬🇧[📺🎭🎪📦]_github.com/Ruk1ng001_93dd3ec8
+  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+  port: 443
+  server: aa254e35-t9zts0-tb592v-4lg6.uk.oshuawei.com
+  sni: aa254e35-t9zts0-tb592v-4lg6.uk.oshuawei.com
+  tls: true
+  type: http
+  username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_58a3d31b
   port: 9002
-  server: 193.176.84.24
+  server: 84.239.49.233
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🟢🇺🇸[🤖📺🎭🎪]_github.com/Ruk1ng001_76ab33c4
-  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-  port: 8443
-  server: a96b7cc1-tegxs0-txfm0f-1qxa1.isp.cdnkuaishou.com
-  sni: a96b7cc1-tegxs0-txfm0f-1qxa1.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-- name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_d4d3f58d
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 5443
-  server: 09775d44-tea5c0-tee5aa-1glq.fmtdc1.sghuawei.com
-  tls: true
-  type: http
-  username: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_8ef844c9
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_50511bed
   port: 9002
-  server: 84.239.49.173
+  server: 193.176.84.19
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_07b2ee2b
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_a89a852e
   port: 9002
-  server: 84.239.49.156
+  server: 84.239.49.164
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴_github.com/Ruk1ng001_786985ca
+  port: 9002
+  server: 84.239.49.157
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[📺🎭]_github.com/Ruk1ng001_390d92de
+  port: 9002
+  server: 84.239.49.245
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴_github.com/Ruk1ng001_bc561dde
+  port: 9002
+  server: 84.239.49.198
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_1026877a
+- name: 🔴🇷🇴_github.com/Ruk1ng001_6b7dbcaf
   port: 9002
-  server: 84.239.49.159
+  server: 84.239.49.196
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: ⚪🏳️[🤖📺]_github.com/Ruk1ng001_cfc2bcfd
+  password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+  port: 443
+  server: 81292d8a-t9zts0-tm23vf-1jk6u.se.oshuawei.com
+  sni: 81292d8a-t9zts0-tm23vf-1jk6u.se.oshuawei.com
+  tls: true
+  type: http
+  username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_750809c5
+  port: 9002
+  server: 84.239.49.154
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_1a2fd66a
+  password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+  port: 443
+  server: ba99435c-ta1og0-tbnk1n-ueq.sj.oshuawei.com
+  sni: ba99435c-ta1og0-tbnk1n-ueq.sj.oshuawei.com
+  tls: true
+  type: http
+  username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+- name: 🔴🇷🇴_github.com/Ruk1ng001_cb3d27ed
+  port: 9002
+  server: 84.239.49.191
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_226fa120
+  port: 9002
+  server: 84.239.49.184
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🟠🇬🇧[🤖📺🎭🎪]_github.com/Ruk1ng001_afa1c6e4
+  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+  port: 443
+  server: b11c9f63-t9zts0-tsdg75-tlhh.uk.oshuawei.com
+  sni: b11c9f63-t9zts0-tsdg75-tlhh.uk.oshuawei.com
+  tls: true
+  type: http
+  username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+- name: 🔴🇷🇴_github.com/Ruk1ng001_d6864b0e
+  port: 9002
+  server: 84.239.49.242
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_4a2952a3
+  port: 9002
+  server: 84.239.49.170
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🟠🇺🇸[🤖📺🎭🎪]_github.com/Ruk1ng001_b9ee1b87
+  obfs: salamander
+  obfs-password: 0db78f1fac807bb9fb0a36f353a7c11f
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: au2-mtjt5a3o.skynode.me
+  skip-cert-verify: true
+  sni: au2-mtjt5a3o.skynode.me
+  type: hysteria2
+  udp: true
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_73809fb0
+  port: 9002
+  server: 84.239.49.225
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_5a03f828
+  port: 9002
+  server: 84.239.49.171
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  name: 🔴🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001_0f44b811
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
+    short-id: b8aa
+  server: 194.226.169.36
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
+  xudp: true
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_85c29221
+  port: 9002
+  server: 84.239.49.155
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_588489b3
+  port: 9002
+  server: 84.239.49.254
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_01eb1362
+  port: 9002
+  server: 84.239.14.154
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_48370336
+  port: 9002
+  server: 84.239.49.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_d7d8d337
+  port: 9002
+  server: 84.239.49.234
   skip-cert-verify: true
   tls: true
   type: http
@@ -1223,14 +927,64 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_37aa4ccd
-  password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-  port: 8443
-  server: b45e9721-te9j40-tfpmu9-1m0fq.isp.cdnkuaishou.com
-  sni: b45e9721-te9j40-tfpmu9-1m0fq.isp.cdnkuaishou.com
+- name: 🔴🇷🇴_github.com/Ruk1ng001_86d476ed
+  port: 9002
+  server: 84.239.49.207
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: true
   type: http
-  username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_01ff4389
+  port: 9002
+  server: 84.239.49.55
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_4385d4f1
+  port: 9002
+  server: 193.176.84.31
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_450af56b
+  port: 9002
+  server: 84.239.14.159
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_cc8f9182
+  port: 9002
+  server: 84.239.49.42
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_1026877a
+  port: 9002
+  server: 84.239.49.159
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_a0921b46
+  port: 9002
+  server: 84.239.49.253
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🤖📺🎭✨]_github.com/Ruk1ng001_7b5efeb3
+  port: 9002
+  server: 84.239.14.158
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🔴🇷🇴[🤖]_github.com/Ruk1ng001_e76e07f3
+  port: 9002
+  server: 84.239.49.37
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_223af90e
   port: 9002
   server: 84.239.14.149
@@ -1238,55 +992,123 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_a43c097b
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_9d1e9ccb
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🟠🇩🇪[🤖📺🎭🎪]_github.com/Ruk1ng001_6c3d94f6
+  obfs: salamander
+  obfs-password: 3f68c77e2abcdf148cf7c77f76859a35
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: de1-hsmekfff.skynode.me
+  skip-cert-verify: true
+  sni: de1-hsmekfff.skynode.me
+  type: hysteria2
+  udp: true
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_46e9bf7d
+  port: 9002
+  server: 84.239.49.185
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🟠🇳🇱[🤖📺🎭🎪]_github.com/Ruk1ng001_ecb43a7d
+  obfs: salamander
+  obfs-password: 30372931eb8a9cc7bfd690f0b179a045
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: nld-ikjbeqbv.skynode.me
+  skip-cert-verify: true
+  sni: nld-ikjbeqbv.skynode.me
+  type: hysteria2
+  udp: true
+- name: 🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001_0b6372b2
+  obfs: salamander
+  obfs-password: d8b4b156988650bb7b81bd2b00d47153
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: jp2-fz9xcy26.skynode.me
+  skip-cert-verify: true
+  sni: jp2-fz9xcy26.skynode.me
+  type: hysteria2
+  udp: true
+- name: 🔴🇷🇴_github.com/Ruk1ng001_e6c033a3
+  port: 9002
+  server: 84.239.49.227
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: ⚪🏳️[📺]_github.com/Ruk1ng001_97352dbf
+  port: 9002
+  server: 84.239.49.38
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_6f0b4d5b
+  port: 9002
+  server: 84.239.49.209
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🤖]_github.com/Ruk1ng001_8ef844c9
+  port: 9002
+  server: 84.239.49.173
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴_github.com/Ruk1ng001_d10eacd8
+  port: 9002
+  server: 84.239.49.162
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_7bdb2d5d
+  port: 9002
+  server: 84.239.49.223
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_0ae131d7
+  port: 9002
+  server: 193.176.84.27
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_450d9f17
+  port: 9002
+  server: 84.239.49.202
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴_github.com/Ruk1ng001_a43c097b
   port: 9002
   server: 84.239.49.160
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_9f5445c9
+- name: 🔴🇷🇴_github.com/Ruk1ng001_3adb38ee
   port: 9002
-  server: 84.239.49.176
+  server: 84.239.49.40
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_26763f04
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_07b2ee2b
   port: 9002
-  server: 193.176.84.36
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_fb5ab450
-  password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-  port: 8443
-  server: e386c44b-te5ts0-tflsjv-zn8y.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_5c5afcdb
-  port: 9002
-  server: 84.239.14.147
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_750809c5
-  port: 9002
-  server: 84.239.49.154
+  server: 84.239.49.156
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_0c49c5a0
-  password: de003c72-0157-11ef-86da-f23c91cfbbc9
-  port: 8443
-  server: e04313a6-tegxs0-tm3dx0-1r9dt.isp.cdnkuaishou.com
-  sni: e04313a6-tegxs0-tm3dx0-1r9dt.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: de003c72-0157-11ef-86da-f23c91cfbbc9
 - name: 🔴🇷🇴[🤖📺🎭🎪]_github.com/Ruk1ng001_26dd3d10
   port: 9002
   server: 84.239.49.238
@@ -1294,21 +1116,213 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_fc196041
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_5c5afcdb
+  port: 9002
+  server: 84.239.14.147
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_6d4a7817
+  port: 9002
+  server: 84.239.49.178
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🤖📺🎭🎪]_github.com/Ruk1ng001_aa105999
+  port: 9002
+  server: 84.239.49.166
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_6fd1af3e
+  port: 9002
+  server: 84.239.49.235
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[📺]_github.com/Ruk1ng001_85cf2f97
+  port: 9002
+  server: 84.239.49.240
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[📦✈️🔍]_github.com/Ruk1ng001_011d3b15
+  port: 9002
+  server: 84.239.49.224
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_45dd8b4b
+  port: 9002
+  server: 84.239.49.231
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_f8d02395
+  port: 9002
+  server: 84.239.49.39
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴_github.com/Ruk1ng001_9f24578b
+  port: 9002
+  server: 84.239.49.215
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴_github.com/Ruk1ng001_b7a25db2
+  port: 9002
+  server: 84.239.49.175
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🟠🇬🇧[🤖📺🎭🎪]_github.com/Ruk1ng001_068d1b00
+  obfs: salamander
+  obfs-password: b4323ada9e616f76404229318ac1a768
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: gb1-ry605wvc.skynode.me
+  skip-cert-verify: true
+  sni: gb1-ry605wvc.skynode.me
+  type: hysteria2
+  udp: true
+- name: 🔴🇷🇴[🤖📺🎭🎪]_github.com/Ruk1ng001_fc196041
   port: 9002
   server: 84.239.49.247
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_bc561dde
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_6e39a6cb
   port: 9002
-  server: 84.239.49.198
+  server: 84.239.14.148
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: ⚪🏳️[📺🎭🎪✨]_github.com/Ruk1ng001_7a1dd0ef
+  network: ws
+  port: 443
+  server: 78.41.111.87
+  servername: s10211.cdn.ngenix.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: dba50bb9-2456-4128-8632-f7ba1e6a7ab5
+  ws-opts:
+    headers:
+      Host: s10211.cdn.ngenix.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /api/user
+  xudp: true
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_ef690cc6
+  port: 9002
+  server: 84.239.49.201
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_6f0b4d5b
+- cipher: 2022-blake3-aes-128-gcm
+  name: 🔴🇺🇸_github.com/Ruk1ng001_1689b25e
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
+  plugin: gost-plugin
+  plugin-opts:
+    host: one.local
+    mode: websocket
+    mux: true
+    path: /ws
+    tls: false
+  port: 20090
+  server: 172.96.161.152
+  type: ss
+  udp: true
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_fd7b192d
   port: 9002
-  server: 84.239.49.209
+  server: 84.239.49.161
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: ⚪🏳️[🤖📺🎭🎪]_github.com/Ruk1ng001_36d8a8df
+  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+  port: 443
+  server: 81578c1d-tegxs0-tug19l-1go3q.se.oshuawei.com
+  sni: 81578c1d-tegxs0-tug19l-1go3q.se.oshuawei.com
+  tls: true
+  type: http
+  username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_59f086ef
+  port: 9002
+  server: 84.239.49.239
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_76a3b9ad
+  password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+  port: 443
+  server: b3adcad6-t9zts0-tkka1f-1k25p.se.oshuawei.com
+  sni: b3adcad6-t9zts0-tkka1f-1k25p.se.oshuawei.com
+  tls: true
+  type: http
+  username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+- name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_23c8fa6d
+  password: b02327ac-a49a-11ef-a673-f23c913c8d2b
+  port: 8443
+  server: 34f047db-tegxs0-tqruo0-1pqhp.isp.cdnkuaishou.com
+  sni: 34f047db-tegxs0-tqruo0-1pqhp.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: b02327ac-a49a-11ef-a673-f23c913c8d2b
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_d8e88830
+  port: 9002
+  server: 84.239.49.182
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_a0cc4c8a
+  port: 9002
+  server: 84.239.14.160
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🔴🇦🇺[🤖📺🎪✨]_github.com/Ruk1ng001_75a616e0
+  port: 443
+  server: 103.62.50.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- down: ''
+  fingerprint: ''
+  name: 🟢🇻🇳[🤖📺🎪✨]_github.com/Ruk1ng001_f818c1c9
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: vn2.yuntong.click
+  skip-cert-verify: false
+  sni: vn2.yuntong.click
+  type: hysteria2
+  up: ''
+- name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_fb5ab450
+  password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+  port: 8443
+  server: e386c44b-te5ts0-tflsjv-zn8y.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_1a1bd9fd
+  port: 9002
+  server: 84.239.49.249
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
@@ -1327,12 +1341,21 @@ proxies:
   tls: true
   type: http
   username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_6778395a
-  port: 9002
-  server: 193.176.84.39
+- client-fingerprint: chrome
+  name: ⚪🏳️_github.com/Ruk1ng001_79f3708c
+  network: ws
+  password: HutaoCloud
+  port: 11543
+  server: 185.220.238.77
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: 185.220.238.77
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /api
 - name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_013e8016
   port: 9002
   server: 84.239.14.157
@@ -1340,55 +1363,49 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: 🔴🇷🇴[🤖📺🎭]_github.com/Ruk1ng001_73809fb0
+- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_aac57d45
   port: 9002
-  server: 84.239.49.225
+  server: 84.239.49.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🔴🇭🇰_github.com/Ruk1ng001_26352955
+  obfs: salamander
+  obfs-password: e232b5481ad40ae67d20c4d953a346a8
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: hk4-72ug0p26.skynode.me
+  skip-cert-verify: true
+  sni: hk4-72ug0p26.skynode.me
+  type: hysteria2
+  udp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🔴🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001_27c1d28d
+  network: tcp
+  port: 25567
+  reality-opts:
+    public-key: tsxzBG6xHNl1Nu8XPpd3hWk_zPGrpFrv2Z-difc3nGY
+    short-id: a5bd715847213387
+  server: 217.19.122.188
+  servername: iv.kommersant.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72edcaa1-685e-4022-9576-273746529e1f
+  xudp: true
+- name: 🔴🇷🇴[🤖📦✈️🔍]_github.com/Ruk1ng001_961db747
+  port: 9002
+  server: 84.239.49.204
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_226fa120
-  port: 9002
-  server: 84.239.49.184
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_9e2a5f02
-  port: 9002
-  server: 84.239.14.152
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_6b7dbcaf
-  port: 9002
-  server: 84.239.49.196
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_5a03f828
-  port: 9002
-  server: 84.239.49.171
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_300e8e1c
-  port: 9002
-  server: 84.239.49.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_78594eda
-  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-  port: 8443
-  server: d1608817-te3z40-tip01z-1gevg.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-- name: 🟢🇺🇸[🎬📺🎭🎪]_github.com/Ruk1ng001_74aee6dc
+- name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_74aee6dc
   password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
   port: 8443
   server: 09fb7a75-teisg0-tvk1qn-19les.isp.cdnkuaishou.com
@@ -1396,22 +1413,48 @@ proxies:
   tls: true
   type: http
   username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-- name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_e7db25db
-  password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-  port: 8443
-  server: d3caec03-tegxs0-tifnix-1ro8s.isp.cdnkuaishou.com
-  sni: d3caec03-tegxs0-tifnix-1ro8s.isp.cdnkuaishou.com
+- name: 🟠🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001_0d4cea6e
+  password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
+  port: 31433
+  server: 4595054a-ta1og0-tdh9w7-ahsb.kr.oshuawei.com
+  sni: 4595054a-ta1og0-tdh9w7-ahsb.kr.oshuawei.com
   tls: true
   type: http
-  username: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-- name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_dd55b770
-  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+  username: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🔴🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001_a5fd61d6
+  network: tcp
+  port: 1111
+  reality-opts:
+    public-key: YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA
+    short-id: ''
+  server: 78.159.250.189
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72edcaa1-685e-4022-9576-273746529e1f
+  xudp: true
+- name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_d00fb1f7
+  password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
   port: 8443
-  server: 049efad1-teisg0-tw2fdz-1s824.isp.cdnkuaishou.com
-  sni: 049efad1-teisg0-tw2fdz-1s824.isp.cdnkuaishou.com
+  server: 29d3e631-tegxs0-thv9l4-1jbj0.isp.cdnkuaishou.com
+  sni: 29d3e631-tegxs0-thv9l4-1jbj0.isp.cdnkuaishou.com
   tls: true
   type: http
-  username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+  username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+- name: 🔴🇷🇴[🤖📺🎪✨]_github.com/Ruk1ng001_26763f04
+  port: 9002
+  server: 193.176.84.36
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
 - name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_5b5b975d
   password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
   port: 8443
@@ -1420,93 +1463,121 @@ proxies:
   tls: true
   type: http
   username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_37c76867
-  port: 9002
-  server: 193.176.84.34
-  skip-cert-verify: true
+- alpn:
+  - h3,h2,http/1.1
+  client-fingerprint: chrome
+  name: 🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001_e55d1acb
+  network: ws
+  port: 443
+  server: 188.114.97.6
+  servername: octopusss5.info
+  skip-cert-verify: false
+  tfo: false
   tls: true
-  type: http
-- name: 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1ng001_3b6bf33f
-  port: 9002
-  server: 193.176.84.32
-  skip-cert-verify: true
-  sni: www.bing.com
+  type: vless
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+    path: /udfyfws
+- client-fingerprint: chrome
+  encryption: none
+  name: 🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001_772952b3
+  network: ws
+  port: 443
+  server: 104.16.75.224
+  servername: server-ir-3.ariyuz.org
   tls: true
-  type: http
-- name: 🟠🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001_02272879
-  password: d076280a-0d5f-11f0-8a7b-f23c913c8d2b
-  port: 31433
-  server: 54564cde-t9zts0-tcum62-se45.kr.oshuawei.com
-  sni: 54564cde-t9zts0-tcum62-se45.kr.oshuawei.com
-  tls: true
-  type: http
-  username: d076280a-0d5f-11f0-8a7b-f23c913c8d2b
-- name: 🔴🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001_f74c5c39
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: vless
   udp: true
-  username: test
-- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_1f3c79f3
-  password: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+  uuid: b3bd8d0e-3cbe-4241-a4f1-e3dd0a9e432c
+  ws-opts:
+    headers:
+      Host: server-ir-3.ariyuz.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/39.0.2171.95 Safari/537.36
+    path: /page=2
+  xudp: true
+- name: 🔴🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001_29c96a83
+  obfs: salamander
+  obfs-password: e498536388dfdfa1c254550ec8cc2a50
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: kr1-cv0dclvp.skynode.me
+  skip-cert-verify: true
+  sni: kr1-cv0dclvp.skynode.me
+  type: hysteria2
+  udp: true
+- name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_76ab33c4
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
   port: 8443
-  server: 5cf83a8c-teisg0-tyt0e8-1mh67.isp.cdnkuaishou.com
+  server: a96b7cc1-tegxs0-txfm0f-1qxa1.isp.cdnkuaishou.com
+  sni: a96b7cc1-tegxs0-txfm0f-1qxa1.isp.cdnkuaishou.com
   tls: true
   type: http
-  username: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
-- name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_23c8fa6d
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- name: ⚪🏳️_github.com/Ruk1ng001_a488aeeb
   password: b02327ac-a49a-11ef-a673-f23c913c8d2b
-  port: 8443
-  server: 34f047db-tegxs0-tqruo0-1pqhp.isp.cdnkuaishou.com
-  sni: 34f047db-tegxs0-tqruo0-1pqhp.isp.cdnkuaishou.com
+  port: 443
+  server: bf208861-t9zts0-tqruo0-1pqhp.se.oshuawei.com
+  sni: bf208861-t9zts0-tqruo0-1pqhp.se.oshuawei.com
   tls: true
   type: http
   username: b02327ac-a49a-11ef-a673-f23c913c8d2b
-- name: 🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001_4c06dbb1
-  network: ws
-  port: 80
-  server: 188.114.97.6
-  type: vless
-  udp: true
-  uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
-  ws-opts:
-    headers:
-      Host: de.vpnbase.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /http
-  xudp: true
-- name: 🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_9faf5f6f
-  password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-  port: 8443
-  server: de5cfe05-tegxs0-tiv91g-1l0qa.isp.cdnkuaishou.com
-  sni: de5cfe05-tegxs0-tiv91g-1l0qa.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-- name: 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001_d67d9538
+- name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_5a9a66f7
   password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
   port: 443
-  server: 2af4e0ee-ta1og0-ta6lxc-jjv2.sg.oshuawei.com
-  sni: 2af4e0ee-ta1og0-ta6lxc-jjv2.sg.oshuawei.com
+  server: 8cbdd631-t9zts0-ta6lxc-jjv2.se.oshuawei.com
+  sni: 8cbdd631-t9zts0-ta6lxc-jjv2.se.oshuawei.com
   tls: true
   type: http
   username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-- name: 🟢🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001_9617d335
-  password: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+- name: 🟢🇹🇷[🎬🤖📺🎭]_github.com/Ruk1ng001_e74f67fa
+  obfs: salamander
+  obfs-password: a11f1a78a5f3d6dd08c9babe0becb8aa
+  password: Gda238Qr5GeEgGAM
   port: 443
-  server: 9a3bdce2-te3z40-tyt0e8-1mh67.hk2.hyhuawei.com
+  server: tur1-96oaeja1.skynode.me
   skip-cert-verify: true
-  sni: 9a3bdce2-te3z40-tyt0e8-1mh67.hk2.hyhuawei.com
-  type: anytls
+  sni: tur1-96oaeja1.skynode.me
+  type: hysteria2
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001_eb1d4025
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.6
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /assignment
+- name: 🟢🇭🇰_github.com/Ruk1ng001_c7564900
+  obfs: salamander
+  obfs-password: 871a028c7cd2b040f9cf545ca8674dc5
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: hk3-tn7c6mx5.skynode.me
+  skip-cert-verify: true
+  sni: hk3-tn7c6mx5.skynode.me
+  type: hysteria2
+  udp: true
+- name: 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001_e3051f22
+  port: 1080
+  server: 5.255.99.75
+  type: socks5
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   down: '1000'
-  name: 🟢🇩🇪[🤖📺🎭🎪]_github.com/Ruk1ng001_b650b93a
+  name: 🟢🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001_b650b93a
   port: 20088
   protocol: udp
   server: 5.83.129.153
@@ -1514,14 +1585,58 @@ proxies:
   sni: apple.com
   type: hysteria
   up: '500'
-- name: 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001_e3051f22
-  port: 1080
-  server: 5.255.99.75
-  type: socks5
+- name: 🟢🇺🇸[🎬📺🎭🎪]_github.com/Ruk1ng001_0c49c5a0
+  password: de003c72-0157-11ef-86da-f23c91cfbbc9
+  port: 8443
+  server: e04313a6-tegxs0-tm3dx0-1r9dt.isp.cdnkuaishou.com
+  sni: e04313a6-tegxs0-tm3dx0-1r9dt.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: de003c72-0157-11ef-86da-f23c91cfbbc9
+- name: 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001_27e8ab9d
+  obfs: salamander
+  obfs-password: d587683d376d55e90cacac43b768ae3f
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: sg6-wx1z8u3e.skynode.me
+  skip-cert-verify: true
+  sni: sg6-wx1z8u3e.skynode.me
+  type: hysteria2
+  udp: true
+- name: 🟢🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001_124296bc
+  obfs: salamander
+  obfs-password: 14fa6793f831705d8e1e4b85273b5833
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: kr2-27fy343e.skynode.me
+  skip-cert-verify: true
+  sni: kr2-27fy343e.skynode.me
+  type: hysteria2
+  udp: true
+- name: 🔴🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001_3d35dd7b
+  password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+  port: 443
+  server: 1ffe6f9f-ta1og0-tpftcp-13x18.fr.oshuawei.com
+  sni: 1ffe6f9f-ta1og0-tpftcp-13x18.fr.oshuawei.com
+  tls: true
+  type: http
+  username: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+- down: ''
+  fingerprint: ''
+  name: ⚪🏳️[🤖🔍]_github.com/Ruk1ng001_33b4f4f7
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: ff2.yuntong.click
+  skip-cert-verify: false
+  sni: ff2.yuntong.click
+  type: hysteria2
+  up: ''
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🟢🇳🇱[🎬📺🎭📦]_github.com/Ruk1ng001_c1e453c2
+  name: 🟢🇳🇱[🎬🤖📺✨]_github.com/Ruk1ng001_c1e453c2
   network: tcp
   port: 443
   reality-opts:
@@ -1534,53 +1649,3 @@ proxies:
   udp: true
   uuid: a2415a12-3f92-4636-9823-9828d3ceb818
   xudp: true
-- client-fingerprint: chrome
-  name: 🟢🇸🇬[📺🎪✈️]_github.com/Ruk1ng001_e7d77443
-  network: tcp
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: false
-  sni: yazhou10.dynu.net
-  type: trojan
-  udp: true
-- cipher: 2022-blake3-aes-128-gcm
-  name: 🔴🇺🇸_github.com/Ruk1ng001_1689b25e
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
-  plugin: gost-plugin
-  plugin-opts:
-    host: one.local
-    mode: websocket
-    mux: true
-    path: /ws
-    tls: false
-  port: 20090
-  server: 172.96.161.152
-  type: ss
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: 🟢🇩🇪_github.com/Ruk1ng001_33b4f4f7
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  port: 443
-  server: ff2.yuntong.click
-  skip-cert-verify: false
-  sni: ff2.yuntong.click
-  type: hysteria2
-  up: ''
-- cipher: 2022-blake3-aes-128-gcm
-  name: 🟠🇺🇸_github.com/Ruk1ng001_c96451d4
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
-  plugin: gost-plugin
-  plugin-opts:
-    host: one.local
-    mode: websocket
-    mux: true
-    path: /ws
-    tls: false
-  port: 80
-  server: 104.128.72.119
-  type: ss
-  udp: true
