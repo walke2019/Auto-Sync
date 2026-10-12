@@ -2,39 +2,39 @@
   "assets": [
     {
       "content_type": "application/octet-stream",
-      "download_url": "https://github.com/cubezhao/ai-tools-mng/releases/download/v2.1.7/ATM.exe",
+      "download_url": "https://github.com/cubezhao/ai-tools-mng/releases/download/v2.1.8/ATM.exe",
       "name": "ATM.exe",
-      "size": 42536960
+      "size": 42308608
     },
     {
       "content_type": "application/octet-stream",
-      "download_url": "https://github.com/cubezhao/ai-tools-mng/releases/download/v2.1.7/ATM_2.1.7_aarch64.dmg",
-      "name": "ATM_2.1.7_aarch64.dmg",
-      "size": 13747287
+      "download_url": "https://github.com/cubezhao/ai-tools-mng/releases/download/v2.1.8/ATM_2.1.8_aarch64.dmg",
+      "name": "ATM_2.1.8_aarch64.dmg",
+      "size": 13716237
     },
     {
       "content_type": "application/octet-stream",
-      "download_url": "https://github.com/cubezhao/ai-tools-mng/releases/download/v2.1.7/ATM_2.1.7_amd64.AppImage",
-      "name": "ATM_2.1.7_amd64.AppImage",
-      "size": 104245752
+      "download_url": "https://github.com/cubezhao/ai-tools-mng/releases/download/v2.1.8/ATM_2.1.8_amd64.AppImage",
+      "name": "ATM_2.1.8_amd64.AppImage",
+      "size": 104172024
     },
     {
       "content_type": "application/octet-stream",
-      "download_url": "https://github.com/cubezhao/ai-tools-mng/releases/download/v2.1.7/ATM_2.1.7_amd64.deb",
-      "name": "ATM_2.1.7_amd64.deb",
-      "size": 17255570
+      "download_url": "https://github.com/cubezhao/ai-tools-mng/releases/download/v2.1.8/ATM_2.1.8_amd64.deb",
+      "name": "ATM_2.1.8_amd64.deb",
+      "size": 17192136
     },
     {
       "content_type": "application/octet-stream",
-      "download_url": "https://github.com/cubezhao/ai-tools-mng/releases/download/v2.1.7/ATM_2.1.7_x64.dmg",
-      "name": "ATM_2.1.7_x64.dmg",
-      "size": 14283205
+      "download_url": "https://github.com/cubezhao/ai-tools-mng/releases/download/v2.1.8/ATM_2.1.8_x64.dmg",
+      "name": "ATM_2.1.8_x64.dmg",
+      "size": 14284890
     }
   ],
-  "fetched_at": "2026-09-10T18:17:27Z",
-  "html_url": "https://github.com/cubezhao/ai-tools-mng/releases/tag/v2.1.7",
-  "published_at": "2026-09-10T06:29:16Z",
-  "release_id": 386047081,
+  "fetched_at": "2026-10-12T22:28:01Z",
+  "html_url": "https://github.com/cubezhao/ai-tools-mng/releases/tag/v2.1.8",
+  "published_at": "2026-10-12T05:55:15Z",
+  "release_id": 410222738,
   "repository": "zhaochengcube/augment-token-mng",
-  "tag": "v2.1.7"
+  "tag": "v2.1.8"
 }
